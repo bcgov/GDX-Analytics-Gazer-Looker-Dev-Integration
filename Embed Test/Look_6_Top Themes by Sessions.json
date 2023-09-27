@@ -1,0 +1,249 @@
+{
+  "content_metadata_id": 67,
+  "id": 6,
+  "title": "Top Themes by Sessions",
+  "created_at": "2022-06-08 19:58:14 UTC",
+  "deleted_at": null,
+  "deleter_id": null,
+  "description": null,
+  "favorite_count": 0,
+  "is_run_on_load": true,
+  "last_accessed_at": null,
+  "last_updater_id": 8,
+  "query_id": 3950,
+  "short_url": "/looks/6",
+  "updated_at": "2022-06-08 19:58:14 UTC",
+  "user_id": 8,
+  "view_count": 0,
+  "user": {
+    "id": 8
+  },
+  "space_id": 11,
+  "space": {
+    "name": "Embed Test",
+    "parent_id": 1,
+    "id": 11,
+    "content_metadata_id": 15,
+    "created_at": "2019-02-06 02:59:45 UTC",
+    "creator_id": 2,
+    "external_id": null,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "child_count": 0,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": true,
+      "destroy": true,
+      "update": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "query": {
+    "id": 3950,
+    "view": "page_views",
+    "fields": [
+      "page_views.session_count",
+      "cmslite_themes.theme"
+    ],
+    "pivots": null,
+    "fill_fields": null,
+    "filters": {
+      "cmslite_themes.theme_id": "-EMPTY"
+    },
+    "filter_expression": null,
+    "sorts": [
+      "page_views.session_count desc"
+    ],
+    "limit": "20",
+    "column_limit": null,
+    "total": null,
+    "row_total": null,
+    "subtotals": null,
+    "vis_config": {
+      "stacking": "",
+      "color_application": {
+        "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+        "palette_id": "fb7bb53e-b77b-4ab6-8274-9d420d3d73f3",
+        "options": {
+          "steps": 5
+        },
+        "collection_default": true,
+        "collection_label": "Boardwalk",
+        "palette_label": "Mixed categorical",
+        "palette_type": "Categorical",
+        "palette_colors": [
+          "#3EB0D5",
+          "#B1399E",
+          "#C2DD67",
+          "#592EC2",
+          "#4276BE",
+          "#72D16D",
+          "#FFD95F",
+          "#B32F37",
+          "#9174F0",
+          "#E57947",
+          "#75E2E2",
+          "#FBB555"
+        ]
+      },
+      "show_value_labels": false,
+      "label_density": 25,
+      "legend_position": "center",
+      "x_axis_gridlines": false,
+      "y_axis_gridlines": true,
+      "show_view_names": false,
+      "point_style": "none",
+      "series_colors": {
+      },
+      "series_types": {
+      },
+      "limit_displayed_rows": false,
+      "y_axis_combined": true,
+      "show_y_axis_labels": true,
+      "show_y_axis_ticks": true,
+      "y_axis_tick_density": "default",
+      "y_axis_tick_density_custom": 5,
+      "show_x_axis_label": true,
+      "show_x_axis_ticks": true,
+      "x_axis_scale": "auto",
+      "y_axis_scale_mode": "linear",
+      "x_axis_reversed": false,
+      "y_axis_reversed": false,
+      "plot_size_by_field": false,
+      "ordering": "none",
+      "show_null_labels": false,
+      "show_totals_labels": false,
+      "show_silhouette": false,
+      "totals_color": "#808080",
+      "type": "looker_column",
+      "hidden_fields": [
+
+      ],
+      "y_axes": [
+
+      ]
+    },
+    "filter_config": {
+      "cmslite_themes.theme_id": [
+        {
+          "type": "!empty",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 2,
+          "error": false
+        }
+      ]
+    },
+    "visible_ui_sections": null,
+    "slug": "xK6rF4D",
+    "client_id": "W2vPbxQ1rTjyQTB4jER1ad",
+    "share_url": "https://dev.analytics.gov.bc.ca/x/W2vPbxQ1rTjyQTB4jER1ad",
+    "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.session_count,cmslite_themes.theme&f[cmslite_themes.theme_id]=-EMPTY&sorts=page_views.session_count+desc&limit=20&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%22fb7bb53e-b77b-4ab6-8274-9d420d3d73f3%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Boardwalk%22%2C%22palette_label%22%3A%22Primary%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%233EB0D5%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%7D&filter_config=%7B%22cmslite_themes.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+    "url": "/explore/snowplow_web_block/page_views?fields=page_views.session_count,cmslite_themes.theme&f[cmslite_themes.theme_id]=-EMPTY&sorts=page_views.session_count+desc&limit=20&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%22fb7bb53e-b77b-4ab6-8274-9d420d3d73f3%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Boardwalk%22%2C%22palette_label%22%3A%22Primary%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%233EB0D5%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%7D&filter_config=%7B%22cmslite_themes.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%7D",
+    "runtime": null,
+    "has_table_calculations": false,
+    "model": "snowplow_web_block",
+    "dynamic_fields": null,
+    "query_timezone": null,
+    "quick_calcs": null,
+    "analysis_config": null,
+    "can": {
+      "run": true,
+      "see_results": true,
+      "explore": true,
+      "create": true,
+      "show": true,
+      "cost_estimate": true,
+      "index": true,
+      "see_lookml": true,
+      "see_aggregate_table_lookml": true,
+      "see_derived_table_lookml": true,
+      "see_sql": true,
+      "save": true,
+      "generate_drill_links": true,
+      "download": true,
+      "download_unlimited": true,
+      "use_custom_fields": true,
+      "edit_custom_fields": true,
+      "edit_table_calculations": true,
+      "schedule": true,
+      "render": true
+    }
+  },
+  "url": "/explore/snowplow_web_block/page_views?fields=page_views.session_count,cmslite_themes.theme&f[cmslite_themes.theme_id]=-EMPTY&sorts=page_views.session_count+desc&limit=20&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%22fb7bb53e-b77b-4ab6-8274-9d420d3d73f3%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Boardwalk%22%2C%22palette_label%22%3A%22Primary%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%233EB0D5%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%7D&filter_config=%7B%22cmslite_themes.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%7D&title=Top+Themes+by+Sessions&look_id=6",
+  "folder": {
+    "name": "Embed Test",
+    "parent_id": 1,
+    "id": 11,
+    "content_metadata_id": 15,
+    "created_at": "2019-02-06 02:59:45 UTC",
+    "creator_id": 2,
+    "external_id": null,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "child_count": 0,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": true,
+      "destroy": true,
+      "update": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "content_favorite_id": null,
+  "deleted": false,
+  "embed_url": null,
+  "excel_file_url": null,
+  "google_spreadsheet_formula": null,
+  "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/y8b9KWvkQPGTq5Qj4bKcCPqJjdvHVx8J.png",
+  "last_viewed_at": null,
+  "model": {
+    "id": "snowplow_web_block",
+    "label": "Snowplow Web Block"
+  },
+  "public": false,
+  "public_slug": null,
+  "public_url": null,
+  "folder_id": 11,
+  "can": {
+    "download": true,
+    "download_unlimited": true,
+    "index": true,
+    "show": true,
+    "copy": true,
+    "run": true,
+    "create": true,
+    "explore": true,
+    "move": true,
+    "update": true,
+    "destroy": true,
+    "recover": true,
+    "show_errors": true,
+    "find_and_replace": true,
+    "schedule": true,
+    "render": true
+  }
+}
