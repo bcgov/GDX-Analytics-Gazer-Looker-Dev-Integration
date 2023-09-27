@@ -1,0 +1,296 @@
+{
+  "content_metadata_id": 83,
+  "id": 21,
+  "title": "Top Themes by Google.com Searches",
+  "created_at": "2022-06-08 20:13:02 UTC",
+  "deleted_at": null,
+  "deleter_id": null,
+  "description": null,
+  "favorite_count": 0,
+  "is_run_on_load": true,
+  "last_accessed_at": "2022-09-13 14:00:22 UTC",
+  "last_updater_id": 27,
+  "query_id": 4057,
+  "short_url": "/looks/21",
+  "updated_at": "2022-09-16 17:45:10 UTC",
+  "user_id": 8,
+  "view_count": 3,
+  "user": {
+    "id": 8
+  },
+  "space_id": 32,
+  "space": {
+    "name": "production dashboards",
+    "parent_id": 1,
+    "id": 32,
+    "content_metadata_id": 62,
+    "created_at": "2022-06-08 17:53:45 UTC",
+    "creator_id": 24,
+    "external_id": null,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "child_count": 0,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": true,
+      "destroy": true,
+      "update": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "query": {
+    "id": 4057,
+    "view": "google_search",
+    "fields": [
+      "google_search.theme",
+      "google_search.total_clicks",
+      "google_search.total_impressions"
+    ],
+    "pivots": null,
+    "fill_fields": null,
+    "filters": {
+      "google_search.theme_id": "-EMPTY"
+    },
+    "filter_expression": null,
+    "sorts": [
+      "google_search.total_clicks desc"
+    ],
+    "limit": "10",
+    "column_limit": null,
+    "total": null,
+    "row_total": null,
+    "subtotals": null,
+    "vis_config": {
+      "stacking": "",
+      "color_application": {
+        "collection_id": "d754397b-2c05-4470-bbbb-05eb4c2b15cd",
+        "palette_id": "b0768e0d-03b8-4c12-9e30-9ada6affc357",
+        "options": {
+          "steps": 5
+        },
+        "collection_default": false,
+        "collection_label": "Dalton",
+        "palette_label": "Mixed categorical",
+        "palette_type": "Categorical",
+        "palette_colors": [
+          "#215AC8",
+          "#FA7850",
+          "#8214A0",
+          "#2CA0FA",
+          "#0BB45B",
+          "#DCCAA6",
+          "#26D2DC",
+          "#126E82",
+          "#9FFA82",
+          "#AA0A3C",
+          "#F0F031",
+          "#FA78F9"
+        ]
+      },
+      "show_value_labels": false,
+      "label_density": 25,
+      "legend_position": "center",
+      "x_axis_gridlines": false,
+      "y_axis_gridlines": true,
+      "show_view_names": false,
+      "point_style": "none",
+      "series_colors": {
+      },
+      "series_types": {
+      },
+      "limit_displayed_rows": false,
+      "limit_displayed_rows_values": {
+        "show_hide": "hide",
+        "first_last": "first",
+        "num_rows": 0
+      },
+      "hidden_series": [
+        "Minimum Wage - google_search.total_clicks"
+      ],
+      "y_axes": [
+        {
+          "label": "",
+          "orientation": "left",
+          "series": [
+            {
+              "id": "google_search.total_clicks",
+              "name": "Total Clicks",
+              "axisId": "google_search.total_clicks"
+            }
+          ],
+          "showLabels": true,
+          "showValues": true,
+          "unpinAxis": false,
+          "tickDensity": "default",
+          "tickDensityCustom": 5,
+          "type": "linear"
+        },
+        {
+          "label": null,
+          "orientation": "right",
+          "series": [
+            {
+              "id": "google_search.total_impressions",
+              "name": "Total Impressions",
+              "axisId": "google_search.total_impressions"
+            }
+          ],
+          "showLabels": true,
+          "showValues": true,
+          "unpinAxis": false,
+          "tickDensity": "default",
+          "tickDensityCustom": 5,
+          "type": "linear"
+        }
+      ],
+      "y_axis_combined": true,
+      "show_y_axis_labels": true,
+      "show_y_axis_ticks": true,
+      "y_axis_tick_density": "default",
+      "y_axis_tick_density_custom": 5,
+      "show_x_axis_label": false,
+      "show_x_axis_ticks": true,
+      "x_axis_scale": "auto",
+      "y_axis_scale_mode": "linear",
+      "x_axis_reversed": false,
+      "y_axis_reversed": false,
+      "plot_size_by_field": false,
+      "ordering": "none",
+      "show_null_labels": false,
+      "show_totals_labels": false,
+      "show_silhouette": false,
+      "totals_color": "#808080",
+      "swap_axes": false,
+      "show_null_points": true,
+      "interpolation": "linear",
+      "type": "looker_column",
+      "hidden_fields": [
+
+      ]
+    },
+    "filter_config": {
+      "google_search.theme_id": [
+        {
+          "type": "!empty",
+          "values": [
+            {
+              "constant": ""
+            },
+            {
+            }
+          ],
+          "id": 127,
+          "error": false
+        }
+      ]
+    },
+    "visible_ui_sections": null,
+    "slug": "b7VKMyh",
+    "client_id": "k57pzlzebfQ11oCZlUSyPG",
+    "share_url": "https://dev.analytics.gov.bc.ca/x/k57pzlzebfQ11oCZlUSyPG",
+    "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
+    "url": "/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
+    "runtime": 10.803189039230347,
+    "has_table_calculations": false,
+    "model": "google_api",
+    "dynamic_fields": "[]",
+    "query_timezone": null,
+    "quick_calcs": [
+
+    ],
+    "analysis_config": null,
+    "can": {
+      "run": true,
+      "see_results": true,
+      "explore": true,
+      "create": true,
+      "show": true,
+      "cost_estimate": true,
+      "index": true,
+      "see_lookml": true,
+      "see_aggregate_table_lookml": true,
+      "see_derived_table_lookml": true,
+      "see_sql": true,
+      "save": true,
+      "generate_drill_links": true,
+      "download": true,
+      "download_unlimited": true,
+      "use_custom_fields": true,
+      "edit_custom_fields": true,
+      "edit_table_calculations": true,
+      "schedule": true,
+      "render": true
+    }
+  },
+  "url": "/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&title=Top+Themes+by+Google.com+Searches&look_id=21",
+  "folder": {
+    "name": "production dashboards",
+    "parent_id": 1,
+    "id": 32,
+    "content_metadata_id": 62,
+    "created_at": "2022-06-08 17:53:45 UTC",
+    "creator_id": 24,
+    "external_id": null,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "child_count": 0,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": true,
+      "destroy": true,
+      "update": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "content_favorite_id": null,
+  "deleted": false,
+  "embed_url": null,
+  "excel_file_url": null,
+  "google_spreadsheet_formula": null,
+  "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/gTKv9YgH74dRN7pPwqGXQ5Xg8P5V8wZN.png",
+  "last_viewed_at": null,
+  "model": {
+    "id": "google_api",
+    "label": "Google API"
+  },
+  "public": false,
+  "public_slug": null,
+  "public_url": null,
+  "folder_id": 32,
+  "can": {
+    "download": true,
+    "download_unlimited": true,
+    "index": true,
+    "show": true,
+    "copy": true,
+    "run": true,
+    "create": true,
+    "explore": true,
+    "move": true,
+    "update": true,
+    "destroy": true,
+    "recover": true,
+    "show_errors": true,
+    "find_and_replace": true,
+    "schedule": true,
+    "render": true
+  }
+}
