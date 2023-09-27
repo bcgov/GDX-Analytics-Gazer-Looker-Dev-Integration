@@ -1,0 +1,28 @@
+{
+  "name": "production dashboards",
+  "parent_id": 1,
+  "id": 32,
+  "content_metadata_id": 62,
+  "created_at": "2022-06-08 17:53:45 UTC",
+  "creator_id": 24,
+  "external_id": null,
+  "is_embed": false,
+  "is_embed_shared_root": false,
+  "is_embed_users_root": false,
+  "is_personal": false,
+  "is_personal_descendant": false,
+  "is_shared_root": false,
+  "is_users_root": false,
+  "child_count": 0,
+  "can": {
+    "index": true,
+    "show": true,
+    "create": true,
+    "see_admin_spaces": true,
+    "save_shared_space_as_embed_user": true,
+    "destroy": true,
+    "update": true,
+    "move_content": true,
+    "edit_content": true
+  }
+}
