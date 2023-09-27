@@ -1,0 +1,279 @@
+{
+  "content_metadata_id": 79,
+  "id": 17,
+  "title": "Top Referrer URL Hosts",
+  "created_at": "2022-06-08 19:59:45 UTC",
+  "deleted_at": null,
+  "deleter_id": null,
+  "description": "A clustered bar graph showing referrers with a session count dimension and a percent of referrals dimension, ordered by session count descending.\n\nNote: this version uses the Page Views table. For the sessions version see: https://analytics.gov.bc.ca/looks/290",
+  "favorite_count": 0,
+  "is_run_on_load": true,
+  "last_accessed_at": null,
+  "last_updater_id": 8,
+  "query_id": 3954,
+  "short_url": "/looks/17",
+  "updated_at": "2022-06-08 19:59:45 UTC",
+  "user_id": 8,
+  "view_count": 0,
+  "user": {
+    "id": 8
+  },
+  "space_id": 21,
+  "space": {
+    "name": "Rendering Test",
+    "parent_id": 1,
+    "id": 21,
+    "content_metadata_id": 29,
+    "created_at": "2020-02-18 19:40:53 UTC",
+    "creator_id": 5,
+    "external_id": null,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "child_count": 0,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": true,
+      "destroy": true,
+      "update": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "query": {
+    "id": 3954,
+    "view": "page_views",
+    "fields": [
+      "page_views.referrer_urlhost",
+      "page_views.row_count"
+    ],
+    "pivots": null,
+    "fill_fields": null,
+    "filters": null,
+    "filter_expression": null,
+    "sorts": [
+      "page_views.row_count desc"
+    ],
+    "limit": "20",
+    "column_limit": null,
+    "total": true,
+    "row_total": null,
+    "subtotals": null,
+    "vis_config": {
+      "show_view_names": false,
+      "show_row_numbers": true,
+      "transpose": false,
+      "truncate_text": false,
+      "hide_totals": false,
+      "hide_row_totals": false,
+      "size_to_fit": true,
+      "table_theme": "editable",
+      "limit_displayed_rows": false,
+      "enable_conditional_formatting": false,
+      "header_text_alignment": "left",
+      "header_font_size": "11",
+      "rows_font_size": "11",
+      "conditional_formatting_include_totals": false,
+      "conditional_formatting_include_nulls": false,
+      "show_sql_query_menu_options": false,
+      "show_totals": true,
+      "show_row_totals": true,
+      "series_labels": {
+        "page_views.session_count": "Referral Count",
+        "page_views.row_count": "Referral Count"
+      },
+      "series_column_widths": {
+        "page_views.row_count": 149,
+        "of_referrals": 122
+      },
+      "series_cell_visualizations": {
+        "page_views.row_count": {
+          "is_active": false
+        }
+      },
+      "series_text_format": {
+        "of_referrals": {
+          "align": "right"
+        }
+      },
+      "truncate_column_names": false,
+      "subtotals_at_bottom": false,
+      "stacking": "",
+      "show_value_labels": false,
+      "label_density": 25,
+      "legend_position": "center",
+      "x_axis_gridlines": false,
+      "y_axis_gridlines": true,
+      "point_style": "none",
+      "series_types": {
+      },
+      "y_axes": [
+        {
+          "label": "",
+          "orientation": "left",
+          "series": [
+            {
+              "id": "page_views.session_count",
+              "name": "Session Count",
+              "axisId": "page_views.session_count"
+            }
+          ],
+          "showLabels": true,
+          "showValues": true,
+          "unpinAxis": false,
+          "tickDensity": "default",
+          "tickDensityCustom": 5,
+          "type": "linear"
+        },
+        {
+          "label": null,
+          "orientation": "right",
+          "series": [
+            {
+              "id": "of_all_referrals",
+              "name": "% of all referrals",
+              "axisId": "of_all_referrals"
+            }
+          ],
+          "showLabels": true,
+          "showValues": true,
+          "maxValue": 1,
+          "unpinAxis": false,
+          "tickDensity": "default",
+          "tickDensityCustom": 5,
+          "type": "linear"
+        }
+      ],
+      "y_axis_combined": true,
+      "show_y_axis_labels": true,
+      "show_y_axis_ticks": true,
+      "y_axis_tick_density": "default",
+      "y_axis_tick_density_custom": 5,
+      "show_x_axis_label": false,
+      "show_x_axis_ticks": true,
+      "x_axis_scale": "auto",
+      "y_axis_scale_mode": "linear",
+      "x_axis_reversed": false,
+      "y_axis_reversed": false,
+      "plot_size_by_field": false,
+      "ordering": "none",
+      "show_null_labels": false,
+      "show_totals_labels": false,
+      "show_silhouette": false,
+      "totals_color": "#808080",
+      "type": "looker_grid",
+      "hidden_fields": [
+
+      ],
+      "defaults_version": 1
+    },
+    "filter_config": {
+    },
+    "visible_ui_sections": null,
+    "slug": "2Q7QrYb",
+    "client_id": "9X8taWpj9oQPKIrmpw5bQ3",
+    "share_url": "https://dev.analytics.gov.bc.ca/x/9X8taWpj9oQPKIrmpw5bQ3",
+    "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.referrer_urlhost,page_views.row_count&sorts=page_views.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.session_count%22%3A%22Referral+Count%22%2C%22page_views.row_count%22%3A%22Referral+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A149%2C%22of_referrals%22%3A122%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_referrals%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22point_style%22%3A%22none%22%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22page_views.session_count%22%2C%22name%22%3A%22Session+Count%22%2C%22axisId%22%3A%22page_views.session_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22of_all_referrals%22%2C%22name%22%3A%22%25+of+all+referrals%22%2C%22axisId%22%3A%22of_all_referrals%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22maxValue%22%3A1%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_referrals%22%2C%22label%22%3A%22%25+of+Referrals%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D+%2F+sum%28%24%7Bpage_views.row_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+    "url": "/explore/snowplow_web_block/page_views?fields=page_views.referrer_urlhost,page_views.row_count&sorts=page_views.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.session_count%22%3A%22Referral+Count%22%2C%22page_views.row_count%22%3A%22Referral+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A149%2C%22of_referrals%22%3A122%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_referrals%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22point_style%22%3A%22none%22%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22page_views.session_count%22%2C%22name%22%3A%22Session+Count%22%2C%22axisId%22%3A%22page_views.session_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22of_all_referrals%22%2C%22name%22%3A%22%25+of+all+referrals%22%2C%22axisId%22%3A%22of_all_referrals%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22maxValue%22%3A1%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_referrals%22%2C%22label%22%3A%22%25+of+Referrals%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D+%2F+sum%28%24%7Bpage_views.row_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+    "runtime": null,
+    "has_table_calculations": true,
+    "model": "snowplow_web_block",
+    "dynamic_fields": "[{\"table_calculation\":\"of_referrals\",\"label\":\"% of Referrals\",\"expression\":\"${page_views.row_count} / sum(${page_views.row_count})\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+    "query_timezone": null,
+    "quick_calcs": [
+
+    ],
+    "analysis_config": null,
+    "can": {
+      "run": true,
+      "see_results": true,
+      "explore": true,
+      "create": true,
+      "show": true,
+      "cost_estimate": true,
+      "index": true,
+      "see_lookml": true,
+      "see_aggregate_table_lookml": true,
+      "see_derived_table_lookml": true,
+      "see_sql": true,
+      "save": true,
+      "generate_drill_links": true,
+      "download": true,
+      "download_unlimited": true,
+      "use_custom_fields": true,
+      "edit_custom_fields": true,
+      "edit_table_calculations": true,
+      "schedule": true,
+      "render": true
+    }
+  },
+  "url": "/explore/snowplow_web_block/page_views?fields=page_views.referrer_urlhost,page_views.row_count&sorts=page_views.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.session_count%22%3A%22Referral+Count%22%2C%22page_views.row_count%22%3A%22Referral+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A149%2C%22of_referrals%22%3A122%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_referrals%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22point_style%22%3A%22none%22%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22page_views.session_count%22%2C%22name%22%3A%22Session+Count%22%2C%22axisId%22%3A%22page_views.session_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22of_all_referrals%22%2C%22name%22%3A%22%25+of+all+referrals%22%2C%22axisId%22%3A%22of_all_referrals%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22maxValue%22%3A1%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_referrals%22%2C%22label%22%3A%22%25+of+Referrals%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D+%2F+sum%28%24%7Bpage_views.row_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=Top+Referrer+URL+Hosts&look_id=17",
+  "folder": {
+    "name": "Rendering Test",
+    "parent_id": 1,
+    "id": 21,
+    "content_metadata_id": 29,
+    "created_at": "2020-02-18 19:40:53 UTC",
+    "creator_id": 5,
+    "external_id": null,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "child_count": 0,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": true,
+      "destroy": true,
+      "update": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "content_favorite_id": null,
+  "deleted": false,
+  "embed_url": null,
+  "excel_file_url": null,
+  "google_spreadsheet_formula": null,
+  "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/Vf5YDzsMhsBDrSGbMd5s4z7PxYNtNgrY.png",
+  "last_viewed_at": null,
+  "model": {
+    "id": "snowplow_web_block",
+    "label": "Snowplow Web Block"
+  },
+  "public": false,
+  "public_slug": null,
+  "public_url": null,
+  "folder_id": 21,
+  "can": {
+    "download": true,
+    "download_unlimited": true,
+    "index": true,
+    "show": true,
+    "copy": true,
+    "run": true,
+    "create": true,
+    "explore": true,
+    "move": true,
+    "update": true,
+    "destroy": true,
+    "recover": true,
+    "show_errors": true,
+    "find_and_replace": true,
+    "schedule": true,
+    "render": true
+  }
+}

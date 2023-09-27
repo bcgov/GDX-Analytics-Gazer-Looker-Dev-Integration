@@ -1,0 +1,273 @@
+{
+  "content_metadata_id": 53,
+  "id": 3,
+  "title": "Unique Visits this Period and Percent Change Since Last Period",
+  "created_at": "2021-07-14 18:21:44 UTC",
+  "deleted_at": null,
+  "deleter_id": null,
+  "description": "A key performance indicator showing the count of unique visits tracked in this period, with the percent difference as compared to the previous period. Requires a date range filter to return non-null values.",
+  "favorite_count": 0,
+  "is_run_on_load": true,
+  "last_accessed_at": "2023-09-20 23:40:24 UTC",
+  "last_updater_id": 24,
+  "query_id": 4653,
+  "short_url": "/looks/3",
+  "updated_at": "2023-09-20 23:40:37 UTC",
+  "user_id": 5,
+  "view_count": 5,
+  "user": {
+    "id": 5
+  },
+  "space_id": 21,
+  "space": {
+    "name": "Rendering Test",
+    "parent_id": 1,
+    "id": 21,
+    "content_metadata_id": 29,
+    "created_at": "2020-02-18 19:40:53 UTC",
+    "creator_id": 5,
+    "external_id": null,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "child_count": 0,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": true,
+      "destroy": true,
+      "update": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "query": {
+    "id": 4653,
+    "view": "page_views",
+    "fields": [
+      "page_views.date_window",
+      "page_views.session_count"
+    ],
+    "pivots": null,
+    "fill_fields": null,
+    "filters": {
+      "page_views.is_in_current_period_or_last_period": "Yes",
+      "page_views.page_urlhost": "www2.gov.bc.ca",
+      "page_views.page_view_start_date": "2 days"
+    },
+    "filter_expression": null,
+    "sorts": [
+      "page_views.session_count desc"
+    ],
+    "limit": "500",
+    "column_limit": "50",
+    "total": null,
+    "row_total": null,
+    "subtotals": null,
+    "vis_config": {
+      "custom_color_enabled": true,
+      "show_single_value_title": true,
+      "show_comparison": true,
+      "comparison_type": "change",
+      "comparison_reverse_colors": false,
+      "show_comparison_label": true,
+      "enable_conditional_formatting": false,
+      "conditional_formatting_include_totals": false,
+      "conditional_formatting_include_nulls": false,
+      "color_application": {
+        "collection_id": "legacy",
+        "palette_id": "looker_classic",
+        "collection_default": false,
+        "collection_label": "Legacy",
+        "palette_label": "Looker classic, mixed categorical",
+        "palette_type": "Categorical",
+        "palette_colors": [
+          "#62bad4",
+          "#a9c574",
+          "#929292",
+          "#9fdee0",
+          "#1f3e5a",
+          "#90c8ae",
+          "#92818d",
+          "#c5c6a6",
+          "#82c2ca",
+          "#cee0a0",
+          "#928fb4",
+          "#9fc190"
+        ]
+      },
+      "custom_color": "forestgreen",
+      "single_value_title": "Sessions",
+      "comparison_label": "from last period",
+      "show_sql_query_menu_options": false,
+      "show_totals": true,
+      "show_row_totals": true,
+      "show_view_names": false,
+      "show_row_numbers": true,
+      "transpose": false,
+      "truncate_text": true,
+      "size_to_fit": true,
+      "table_theme": "editable",
+      "limit_displayed_rows": false,
+      "header_text_alignment": "left",
+      "header_font_size": "12",
+      "rows_font_size": "12",
+      "hide_totals": false,
+      "hide_row_totals": false,
+      "type": "single_value",
+      "defaults_version": 1,
+      "series_types": {
+      }
+    },
+    "filter_config": {
+      "page_views.is_in_current_period_or_last_period": [
+        {
+          "type": "is",
+          "values": [
+            {
+              "constant": "Yes"
+            },
+            {
+            }
+          ],
+          "id": 0,
+          "error": false
+        }
+      ],
+      "page_views.page_urlhost": [
+        {
+          "type": "=",
+          "values": [
+            {
+              "constant": "www2.gov.bc.ca"
+            },
+            {
+            }
+          ],
+          "id": 11,
+          "error": false
+        }
+      ],
+      "page_views.page_view_start_date": [
+        {
+          "type": "past",
+          "values": [
+            {
+              "constant": "2",
+              "unit": "day"
+            },
+            {
+            }
+          ],
+          "id": 12,
+          "error": false
+        }
+      ]
+    },
+    "visible_ui_sections": null,
+    "slug": "7S3BJPn",
+    "client_id": "Kdn2s7Uwez5ZsU91GmJ3Fn",
+    "share_url": "https://dev.analytics.gov.bc.ca/x/Kdn2s7Uwez5ZsU91GmJ3Fn",
+    "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.date_window,page_views.session_count&f[page_views.is_in_current_period_or_last_period]=Yes&f[page_views.page_urlhost]=www2.gov.bc.ca&f[page_views.page_view_start_date]=2+days&sorts=page_views.session_count+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22color_application%22%3A%7B%22collection_id%22%3A%22legacy%22%2C%22palette_id%22%3A%22looker_classic%22%7D%2C%22custom_color%22%3A%22forestgreen%22%2C%22single_value_title%22%3A%22Sessions%22%2C%22comparison_label%22%3A%22from+last+period%22%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22page_views.is_in_current_period_or_last_period%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22page_views.page_urlhost%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22www2.gov.bc.ca%22%7D%2C%7B%7D%5D%2C%22id%22%3A11%2C%22error%22%3Afalse%7D%5D%2C%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A12%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22last_period%22%2C%22label%22%3A%22last+period%22%2C%22expression%22%3A%22%28%24%7Bpage_views.session_count%7D+%2F+offset%28%24%7Bpage_views.session_count%7D%2C+1%29%29+-+1%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+    "url": "/explore/snowplow_web_block/page_views?fields=page_views.date_window,page_views.session_count&f[page_views.is_in_current_period_or_last_period]=Yes&f[page_views.page_urlhost]=www2.gov.bc.ca&f[page_views.page_view_start_date]=2+days&sorts=page_views.session_count+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22color_application%22%3A%7B%22collection_id%22%3A%22legacy%22%2C%22palette_id%22%3A%22looker_classic%22%7D%2C%22custom_color%22%3A%22forestgreen%22%2C%22single_value_title%22%3A%22Sessions%22%2C%22comparison_label%22%3A%22from+last+period%22%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22page_views.is_in_current_period_or_last_period%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22page_views.page_urlhost%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22www2.gov.bc.ca%22%7D%2C%7B%7D%5D%2C%22id%22%3A11%2C%22error%22%3Afalse%7D%5D%2C%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A12%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22last_period%22%2C%22label%22%3A%22last+period%22%2C%22expression%22%3A%22%28%24%7Bpage_views.session_count%7D+%2F+offset%28%24%7Bpage_views.session_count%7D%2C+1%29%29+-+1%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+    "runtime": null,
+    "has_table_calculations": true,
+    "model": "snowplow_web_block",
+    "dynamic_fields": "[{\"table_calculation\":\"last_period\",\"label\":\"last period\",\"expression\":\"(${page_views.session_count} / offset(${page_views.session_count}, 1)) - 1\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+    "query_timezone": null,
+    "quick_calcs": [
+
+    ],
+    "analysis_config": null,
+    "can": {
+      "run": true,
+      "see_results": true,
+      "explore": true,
+      "create": true,
+      "show": true,
+      "cost_estimate": true,
+      "index": true,
+      "see_lookml": true,
+      "see_aggregate_table_lookml": true,
+      "see_derived_table_lookml": true,
+      "see_sql": true,
+      "save": true,
+      "generate_drill_links": true,
+      "download": true,
+      "download_unlimited": true,
+      "use_custom_fields": true,
+      "edit_custom_fields": true,
+      "edit_table_calculations": true,
+      "schedule": true,
+      "render": true
+    }
+  },
+  "url": "/explore/snowplow_web_block/page_views?fields=page_views.date_window,page_views.session_count&f[page_views.is_in_current_period_or_last_period]=Yes&f[page_views.page_urlhost]=www2.gov.bc.ca&f[page_views.page_view_start_date]=2+days&sorts=page_views.session_count+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22color_application%22%3A%7B%22collection_id%22%3A%22legacy%22%2C%22palette_id%22%3A%22looker_classic%22%7D%2C%22custom_color%22%3A%22forestgreen%22%2C%22single_value_title%22%3A%22Sessions%22%2C%22comparison_label%22%3A%22from+last+period%22%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22page_views.is_in_current_period_or_last_period%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22page_views.page_urlhost%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22www2.gov.bc.ca%22%7D%2C%7B%7D%5D%2C%22id%22%3A11%2C%22error%22%3Afalse%7D%5D%2C%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A12%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22last_period%22%2C%22label%22%3A%22last+period%22%2C%22expression%22%3A%22%28%24%7Bpage_views.session_count%7D+%2F+offset%28%24%7Bpage_views.session_count%7D%2C+1%29%29+-+1%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=Unique+Visits+this+Period+and+Percent+Change+Since+Last+Period&look_id=3",
+  "folder": {
+    "name": "Rendering Test",
+    "parent_id": 1,
+    "id": 21,
+    "content_metadata_id": 29,
+    "created_at": "2020-02-18 19:40:53 UTC",
+    "creator_id": 5,
+    "external_id": null,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "is_personal": false,
+    "is_personal_descendant": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "child_count": 0,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "save_shared_space_as_embed_user": true,
+      "destroy": true,
+      "update": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "content_favorite_id": null,
+  "deleted": false,
+  "embed_url": null,
+  "excel_file_url": null,
+  "google_spreadsheet_formula": null,
+  "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/fBQ5xpmsXPhmky2nmyftJs5Q86sQgkRT.png",
+  "last_viewed_at": null,
+  "model": {
+    "id": "snowplow_web_block",
+    "label": "Snowplow Web Block"
+  },
+  "public": false,
+  "public_slug": null,
+  "public_url": null,
+  "folder_id": 21,
+  "can": {
+    "download": true,
+    "download_unlimited": true,
+    "index": true,
+    "show": true,
+    "copy": true,
+    "run": true,
+    "create": true,
+    "explore": true,
+    "move": true,
+    "update": true,
+    "destroy": true,
+    "recover": true,
+    "show_errors": true,
+    "find_and_replace": true,
+    "schedule": true,
+    "render": true
+  }
+}
