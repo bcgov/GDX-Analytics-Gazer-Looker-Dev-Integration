@@ -48,7 +48,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 231,
+      "id": 251,
       "look": {
         "content_metadata_id": 80,
         "id": 18,
@@ -60,10 +60,10 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": "2023-02-08 23:25:05 UTC",
-        "last_updater_id": 27,
+        "last_updater_id": 36,
         "query_id": 3948,
         "short_url": "/looks/18",
-        "updated_at": "2022-09-16 17:45:07 UTC",
+        "updated_at": "2023-10-04 18:27:38 UTC",
         "user_id": 8,
         "view_count": 3,
         "user": {
@@ -645,7 +645,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 232,
+      "id": 252,
       "look": {
         "content_metadata_id": 81,
         "id": 19,
@@ -657,10 +657,10 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": null,
-        "last_updater_id": 27,
+        "last_updater_id": 36,
         "query_id": 3949,
         "short_url": "/looks/19",
-        "updated_at": "2022-09-16 17:45:08 UTC",
+        "updated_at": "2023-10-04 18:27:40 UTC",
         "user_id": 8,
         "view_count": 0,
         "user": {
@@ -1258,7 +1258,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 233,
+      "id": 253,
       "look": {
         "content_metadata_id": 82,
         "id": 20,
@@ -1270,10 +1270,10 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": "2022-08-25 06:49:44 UTC",
-        "last_updater_id": 27,
+        "last_updater_id": 36,
         "query_id": 4056,
         "short_url": "/looks/20",
-        "updated_at": "2022-09-16 17:45:09 UTC",
+        "updated_at": "2023-10-04 18:27:42 UTC",
         "user_id": 8,
         "view_count": 1,
         "user": {
@@ -1812,7 +1812,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 234,
+      "id": 254,
       "look": {
         "content_metadata_id": 83,
         "id": 21,
@@ -1824,10 +1824,10 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": "2022-09-13 14:00:22 UTC",
-        "last_updater_id": 27,
+        "last_updater_id": 36,
         "query_id": 4057,
         "short_url": "/looks/21",
-        "updated_at": "2022-09-16 17:45:10 UTC",
+        "updated_at": "2023-10-04 18:27:44 UTC",
         "user_id": 8,
         "view_count": 3,
         "user": {
@@ -2488,7 +2488,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 235,
+      "id": 255,
       "look": {
         "content_metadata_id": 84,
         "id": 22,
@@ -2500,10 +2500,10 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": null,
-        "last_updater_id": 27,
+        "last_updater_id": 36,
         "query_id": 3952,
         "short_url": "/looks/22",
-        "updated_at": "2022-09-16 17:45:11 UTC",
+        "updated_at": "2023-10-04 18:27:46 UTC",
         "user_id": 8,
         "view_count": 0,
         "user": {
@@ -3091,7 +3091,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 236,
+      "id": 256,
       "look": {
         "content_metadata_id": 85,
         "id": 23,
@@ -3103,10 +3103,10 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": "2022-08-25 06:50:09 UTC",
-        "last_updater_id": 27,
+        "last_updater_id": 36,
         "query_id": 4073,
         "short_url": "/looks/23",
-        "updated_at": "2022-11-03 22:51:27 UTC",
+        "updated_at": "2023-10-04 18:27:47 UTC",
         "user_id": 8,
         "view_count": 2,
         "user": {
@@ -3772,7 +3772,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 237,
+      "id": 257,
       "look": {
         "content_metadata_id": 86,
         "id": 24,
@@ -3784,10 +3784,10 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": null,
-        "last_updater_id": 27,
+        "last_updater_id": 36,
         "query_id": 4074,
         "short_url": "/looks/24",
-        "updated_at": "2022-11-03 22:51:28 UTC",
+        "updated_at": "2023-10-04 18:27:49 UTC",
         "user_id": 8,
         "view_count": 0,
         "user": {
@@ -4428,7 +4428,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 238,
+      "id": 258,
       "look": null,
       "look_id": null,
       "lookml_link_id": null,
@@ -4915,7 +4915,7 @@
       "body_text_as_html": null,
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 239,
+      "id": 259,
       "look": null,
       "look_id": null,
       "lookml_link_id": null,
@@ -5368,7 +5368,7 @@
       "body_text_as_html": "<p style=\"background-color:#d9eaf7;border:1px solid transparent;border-radius:4px;color:#313132;font-size:16px;padding:15px;\">\n<b>Help Resources</b>:\n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Office Hours</b></a><b> | \n<a href=\"https://learningcentre.gww.gov.bc.ca/learninghub/course/intro-to-web-analytics-dashboards-training-by-gdx-analytics/\"> <b>Intro Training Webinar</b></a>  |  \n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Yammer Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\"><b>Web Analytics Guide &amp; Glossary</b></a>\n</b></b></p>\n",
       "dashboard_id": 20,
       "edit_uri": null,
-      "id": 240,
+      "id": 260,
       "look": null,
       "look_id": null,
       "lookml_link_id": null,
@@ -5408,7 +5408,7 @@
   ],
   "dashboard_filters": [
     {
-      "id": 202,
+      "id": 224,
       "dashboard_id": 20,
       "name": "Date Range",
       "title": "Date Range",
@@ -5502,7 +5502,7 @@
       }
     },
     {
-      "id": 203,
+      "id": 225,
       "dashboard_id": 20,
       "name": "City",
       "title": "City",
@@ -5593,7 +5593,7 @@
       }
     },
     {
-      "id": 204,
+      "id": 226,
       "dashboard_id": 20,
       "name": "Internal Gov Traffic",
       "title": "Internal Gov Traffic",
@@ -5693,7 +5693,7 @@
       }
     },
     {
-      "id": 205,
+      "id": 227,
       "dashboard_id": 20,
       "name": "ISP",
       "title": "ISP",
@@ -5784,7 +5784,7 @@
       }
     },
     {
-      "id": 206,
+      "id": 228,
       "dashboard_id": 20,
       "name": "Is Mobile",
       "title": "Is Mobile",
@@ -5884,7 +5884,7 @@
       }
     },
     {
-      "id": 207,
+      "id": 229,
       "dashboard_id": 20,
       "name": "Theme",
       "title": "Theme",
@@ -5975,7 +5975,7 @@
       }
     },
     {
-      "id": 208,
+      "id": 230,
       "dashboard_id": 20,
       "name": "Sub Theme",
       "title": "Sub Theme",
@@ -6066,7 +6066,7 @@
       }
     },
     {
-      "id": 209,
+      "id": 231,
       "dashboard_id": 20,
       "name": "Title",
       "title": "Title",
@@ -6157,7 +6157,7 @@
       }
     },
     {
-      "id": 210,
+      "id": 232,
       "dashboard_id": 20,
       "name": "URL",
       "title": "URL",
@@ -6248,7 +6248,7 @@
       }
     },
     {
-      "id": 211,
+      "id": 233,
       "dashboard_id": 20,
       "name": "Site",
       "title": "Site",
@@ -6339,7 +6339,7 @@
       }
     },
     {
-      "id": 212,
+      "id": 234,
       "dashboard_id": 20,
       "name": "Topic",
       "title": "Topic",
@@ -6442,9 +6442,9 @@
       "dashboard_title": "BC Gov Analytics - Content",
       "dashboard_layout_components": [
         {
-          "id": 231,
+          "id": 251,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 231,
+          "dashboard_element_id": 251,
           "row": 23,
           "column": 12,
           "width": 12,
@@ -6462,9 +6462,9 @@
           }
         },
         {
-          "id": 232,
+          "id": 252,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 232,
+          "dashboard_element_id": 252,
           "row": 35,
           "column": 12,
           "width": 12,
@@ -6482,9 +6482,9 @@
           }
         },
         {
-          "id": 233,
+          "id": 253,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 233,
+          "dashboard_element_id": 253,
           "row": 2,
           "column": 0,
           "width": 12,
@@ -6502,9 +6502,9 @@
           }
         },
         {
-          "id": 234,
+          "id": 254,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 234,
+          "dashboard_element_id": 254,
           "row": 2,
           "column": 12,
           "width": 12,
@@ -6522,9 +6522,9 @@
           }
         },
         {
-          "id": 235,
+          "id": 255,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 235,
+          "dashboard_element_id": 255,
           "row": 35,
           "column": 0,
           "width": 12,
@@ -6542,9 +6542,9 @@
           }
         },
         {
-          "id": 236,
+          "id": 256,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 236,
+          "dashboard_element_id": 256,
           "row": 12,
           "column": 12,
           "width": 12,
@@ -6562,9 +6562,9 @@
           }
         },
         {
-          "id": 237,
+          "id": 257,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 237,
+          "dashboard_element_id": 257,
           "row": 46,
           "column": 12,
           "width": 12,
@@ -6582,9 +6582,9 @@
           }
         },
         {
-          "id": 238,
+          "id": 258,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 238,
+          "dashboard_element_id": 258,
           "row": 23,
           "column": 0,
           "width": 12,
@@ -6602,9 +6602,9 @@
           }
         },
         {
-          "id": 239,
+          "id": 259,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 239,
+          "dashboard_element_id": 259,
           "row": 12,
           "column": 0,
           "width": 12,
@@ -6622,9 +6622,9 @@
           }
         },
         {
-          "id": 240,
+          "id": 260,
           "dashboard_layout_id": 20,
-          "dashboard_element_id": 240,
+          "dashboard_element_id": 260,
           "row": 0,
           "column": 0,
           "width": 24,
@@ -6658,10 +6658,10 @@
   "favorite_count": 0,
   "filters_bar_collapsed": false,
   "filters_location_top": true,
-  "last_accessed_at": "2023-09-12 20:53:46 UTC",
-  "updated_at": "2023-09-12 20:38:08 UTC",
-  "last_updater_id": 27,
-  "last_updater_name": "Taylor Friesen",
+  "last_accessed_at": "2023-10-04 18:36:31 UTC",
+  "updated_at": "2023-10-04 18:27:23 UTC",
+  "last_updater_id": 36,
+  "last_updater_name": "Looker Tile Performance",
   "user_name": "Veenu Veenu",
   "load_configuration": "cache_run",
   "lookml_link_id": null,
@@ -6672,7 +6672,7 @@
   "tile_background_color": null,
   "tile_text_color": null,
   "title_color": null,
-  "view_count": 148,
+  "view_count": 152,
   "folder": {
     "name": "production dashboards",
     "parent_id": 1,
