@@ -6658,7 +6658,7 @@
   "favorite_count": 0,
   "filters_bar_collapsed": false,
   "filters_location_top": true,
-  "last_accessed_at": "2023-10-04 18:36:31 UTC",
+  "last_accessed_at": "2024-01-22 23:26:46 UTC",
   "updated_at": "2023-10-04 18:27:23 UTC",
   "last_updater_id": 36,
   "last_updater_name": "Looker Tile Performance",
@@ -6672,7 +6672,7 @@
   "tile_background_color": null,
   "tile_text_color": null,
   "title_color": null,
-  "view_count": 152,
+  "view_count": 153,
   "folder": {
     "name": "production dashboards",
     "parent_id": 1,
