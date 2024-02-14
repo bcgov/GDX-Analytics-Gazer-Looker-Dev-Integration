@@ -1,5 +1,5 @@
 {
-  "content_metadata_id": 46,
+  "content_metadata_id": "46",
   "description": "",
   "hidden": false,
   "query_timezone": null,
@@ -7,37 +7,9 @@
   "refresh_interval": null,
   "refresh_interval_to_i": null,
   "title": "Test Dashboard",
-  "user_id": 19,
+  "user_id": "19",
   "slug": "BvPOTjvwUG10dmO0VrH9CD",
   "preferred_viewer": null,
-  "space": {
-    "name": "Embed Test",
-    "parent_id": 1,
-    "id": 11,
-    "content_metadata_id": 15,
-    "created_at": "2019-02-06 02:59:45 UTC",
-    "creator_id": 2,
-    "external_id": null,
-    "is_embed": false,
-    "is_embed_shared_root": false,
-    "is_embed_users_root": false,
-    "is_personal": false,
-    "is_personal_descendant": false,
-    "is_shared_root": false,
-    "is_users_root": false,
-    "child_count": 0,
-    "can": {
-      "index": true,
-      "show": true,
-      "create": true,
-      "see_admin_spaces": true,
-      "save_shared_space_as_embed_user": true,
-      "destroy": true,
-      "update": true,
-      "move_content": true,
-      "edit_content": true
-    }
-  },
   "alert_sync_with_dashboard_filter_enabled": false,
   "background_color": null,
   "created_at": "2021-01-14 22:32:07 UTC",
@@ -46,19 +18,19 @@
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 17,
+      "dashboard_id": "17",
       "edit_uri": null,
-      "id": 50,
+      "id": "50",
       "look": null,
       "look_id": null,
-      "lookml_link_id": null,
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": null,
       "note_state": null,
       "note_text": null,
       "note_text_as_html": null,
       "query": {
-        "id": 3452,
+        "id": "3452",
         "view": "page_views",
         "fields": [
           "page_views.page_title",
@@ -115,7 +87,6 @@
         "share_url": "https://dev.analytics.gov.bc.ca/x/K6VONTt0fgxjnZcMyDOzL4",
         "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.page_title,page_views.page_url,page_views.page_view_count&f[page_views.page_view_start_date]=7+days&sorts=page_views.page_view_count+desc&limit=20&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22table%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%227%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%7D%5D%7D&origin=share-expanded",
         "url": "/explore/snowplow_web_block/page_views?fields=page_views.page_title,page_views.page_url,page_views.page_view_count&f[page_views.page_view_start_date]=7+days&sorts=page_views.page_view_count+desc&limit=20&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22table%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%227%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%7D%5D%7D",
-        "runtime": 0.03611397743225098,
         "has_table_calculations": false,
         "model": "snowplow_web_block",
         "dynamic_fields": null,
@@ -145,10 +116,10 @@
           "render": true
         }
       },
-      "query_id": 3452,
+      "query_id": "3452",
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 823,
+      "result_maker_id": "823",
       "subtitle_text": null,
       "title": "Page Views",
       "title_hidden": false,
@@ -158,14 +129,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 823,
+        "id": "823",
         "dynamic_fields": null,
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "page_views",
-            "name": null,
+            "name": "",
             "listen": [
 
             ]
@@ -175,11 +147,11 @@
           "page_views.page_view_count desc"
         ],
         "merge_result_id": null,
-        "total": null,
-        "query_id": 3452,
-        "sql_query_id": null,
+        "total": false,
+        "query_id": "3452",
+        "sql_query_id": "",
         "query": {
-          "id": 3452,
+          "id": "3452",
           "view": "page_views",
           "fields": [
             "page_views.page_title",
@@ -236,7 +208,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/K6VONTt0fgxjnZcMyDOzL4",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.page_title,page_views.page_url,page_views.page_view_count&f[page_views.page_view_start_date]=7+days&sorts=page_views.page_view_count+desc&limit=20&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22table%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%227%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%7D%5D%7D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=page_views.page_title,page_views.page_url,page_views.page_view_count&f[page_views.page_view_start_date]=7+days&sorts=page_views.page_view_count+desc&limit=20&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22table%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%227%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%7D%5D%7D",
-          "runtime": 0.03611397743225098,
           "has_table_calculations": false,
           "model": "snowplow_web_block",
           "dynamic_fields": null,
@@ -292,24 +263,27 @@
         "run": false,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 17,
+      "dashboard_id": "17",
       "edit_uri": null,
-      "id": 51,
+      "id": "51",
       "look": null,
       "look_id": null,
-      "lookml_link_id": null,
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": null,
       "note_state": null,
       "note_text": null,
       "note_text_as_html": null,
       "query": {
-        "id": 3894,
+        "id": "3894",
         "view": "cfms_poc",
         "fields": [
           "cfms_poc.transactions_count"
@@ -320,7 +294,9 @@
           "cfms_poc.transaction_name": "Vaccine - Ad Hoc Call Back,Vaccine - Booking,Vaccine - Information,Vaccine - Registration,Vaccine – Federal Vaccination Card,Vaccine- Print immunization record"
         },
         "filter_expression": "${cfms_poc.date} = add_days(-1,trunc_days(now( ))) ",
-        "sorts": null,
+        "sorts": [
+
+        ],
         "limit": "500",
         "column_limit": null,
         "total": null,
@@ -361,7 +337,6 @@
         "share_url": "https://dev.analytics.gov.bc.ca/x/9iP62Dv05qwE1BVYXWtM89",
         "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/cfms_poc/cfms_poc?fields=cfms_poc.transactions_count&f[cfms_poc.transaction_name]=Vaccine+-+Ad+Hoc+Call+Back%2CVaccine+-+Booking%2CVaccine+-+Information%2CVaccine+-+Registration%2CVaccine+%E2%80%93+Federal+Vaccination+Card%2CVaccine-+Print+immunization+record&filter_expression=%24%7Bcfms_poc.date%7D+%3D+add_days%28-1%2Ctrunc_days%28now%28+%29%29%29+&limit=500&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22cfms_poc.transaction_name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Vaccine+-+Ad+Hoc+Call+Back%2CVaccine+-+Booking%2CVaccine+-+Information%2CVaccine+-+Registration%2CVaccine+%E2%80%93+Federal+Vaccination+Card%2CVaccine-+Print+immunization+record%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
         "url": "/explore/cfms_poc/cfms_poc?fields=cfms_poc.transactions_count&f[cfms_poc.transaction_name]=Vaccine+-+Ad+Hoc+Call+Back%2CVaccine+-+Booking%2CVaccine+-+Information%2CVaccine+-+Registration%2CVaccine+%E2%80%93+Federal+Vaccination+Card%2CVaccine-+Print+immunization+record&filter_expression=%24%7Bcfms_poc.date%7D+%3D+add_days%28-1%2Ctrunc_days%28now%28+%29%29%29+&limit=500&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22cfms_poc.transaction_name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Vaccine+-+Ad+Hoc+Call+Back%2CVaccine+-+Booking%2CVaccine+-+Information%2CVaccine+-+Registration%2CVaccine+%E2%80%93+Federal+Vaccination+Card%2CVaccine-+Print+immunization+record%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D",
-        "runtime": null,
         "has_table_calculations": false,
         "model": "cfms_poc",
         "dynamic_fields": null,
@@ -391,10 +366,10 @@
           "render": true
         }
       },
-      "query_id": 3894,
+      "query_id": "3894",
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 818,
+      "result_maker_id": "818",
       "subtitle_text": null,
       "title": "CFMS Previous Day Transactions",
       "title_hidden": false,
@@ -404,26 +379,29 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 818,
+        "id": "818",
         "dynamic_fields": null,
         "filterables": [
           {
             "model": "cfms_poc",
             "view": "cfms_poc",
-            "name": null,
+            "name": "",
             "listen": [
 
             ]
           }
         ],
-        "sorts": null,
+        "sorts": [
+
+        ],
         "merge_result_id": null,
-        "total": null,
-        "query_id": 3894,
-        "sql_query_id": null,
+        "total": false,
+        "query_id": "3894",
+        "sql_query_id": "",
         "query": {
-          "id": 3894,
+          "id": "3894",
           "view": "cfms_poc",
           "fields": [
             "cfms_poc.transactions_count"
@@ -434,7 +412,9 @@
             "cfms_poc.transaction_name": "Vaccine - Ad Hoc Call Back,Vaccine - Booking,Vaccine - Information,Vaccine - Registration,Vaccine – Federal Vaccination Card,Vaccine- Print immunization record"
           },
           "filter_expression": "${cfms_poc.date} = add_days(-1,trunc_days(now( ))) ",
-          "sorts": null,
+          "sorts": [
+
+          ],
           "limit": "500",
           "column_limit": null,
           "total": null,
@@ -475,7 +455,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/9iP62Dv05qwE1BVYXWtM89",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/cfms_poc/cfms_poc?fields=cfms_poc.transactions_count&f[cfms_poc.transaction_name]=Vaccine+-+Ad+Hoc+Call+Back%2CVaccine+-+Booking%2CVaccine+-+Information%2CVaccine+-+Registration%2CVaccine+%E2%80%93+Federal+Vaccination+Card%2CVaccine-+Print+immunization+record&filter_expression=%24%7Bcfms_poc.date%7D+%3D+add_days%28-1%2Ctrunc_days%28now%28+%29%29%29+&limit=500&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22cfms_poc.transaction_name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Vaccine+-+Ad+Hoc+Call+Back%2CVaccine+-+Booking%2CVaccine+-+Information%2CVaccine+-+Registration%2CVaccine+%E2%80%93+Federal+Vaccination+Card%2CVaccine-+Print+immunization+record%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
           "url": "/explore/cfms_poc/cfms_poc?fields=cfms_poc.transactions_count&f[cfms_poc.transaction_name]=Vaccine+-+Ad+Hoc+Call+Back%2CVaccine+-+Booking%2CVaccine+-+Information%2CVaccine+-+Registration%2CVaccine+%E2%80%93+Federal+Vaccination+Card%2CVaccine-+Print+immunization+record&filter_expression=%24%7Bcfms_poc.date%7D+%3D+add_days%28-1%2Ctrunc_days%28now%28+%29%29%29+&limit=500&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22show_single_value_title%22%3Atrue%2C%22show_comparison%22%3Afalse%2C%22comparison_type%22%3A%22value%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22single_value%22%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22cfms_poc.transaction_name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Vaccine+-+Ad+Hoc+Call+Back%2CVaccine+-+Booking%2CVaccine+-+Information%2CVaccine+-+Registration%2CVaccine+%E2%80%93+Federal+Vaccination+Card%2CVaccine-+Print+immunization+record%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D",
-          "runtime": null,
           "has_table_calculations": false,
           "model": "cfms_poc",
           "dynamic_fields": null,
@@ -530,7 +509,10 @@
         "run": false,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     }
   ],
   "dashboard_filters": [
@@ -538,8 +520,8 @@
   ],
   "dashboard_layouts": [
     {
-      "id": 17,
-      "dashboard_id": 17,
+      "id": "17",
+      "dashboard_id": "17",
       "type": "newspaper",
       "active": true,
       "column_width": null,
@@ -548,9 +530,9 @@
       "dashboard_title": "Test Dashboard",
       "dashboard_layout_components": [
         {
-          "id": 50,
-          "dashboard_layout_id": 17,
-          "dashboard_element_id": 50,
+          "id": "50",
+          "dashboard_layout_id": "17",
+          "dashboard_element_id": "50",
           "row": 0,
           "column": 0,
           "width": 13,
@@ -568,9 +550,9 @@
           }
         },
         {
-          "id": 51,
-          "dashboard_layout_id": 17,
-          "dashboard_element_id": 51,
+          "id": "51",
+          "dashboard_layout_id": "17",
+          "dashboard_element_id": "51",
           "row": 0,
           "column": 13,
           "width": 8,
@@ -606,27 +588,27 @@
   "filters_location_top": true,
   "last_accessed_at": "2024-01-03 23:33:17 UTC",
   "updated_at": "2022-06-08 18:26:19 UTC",
-  "last_updater_id": 8,
+  "last_updater_id": "8",
   "last_updater_name": "Brendan Jennings",
   "user_name": "",
   "load_configuration": "cache_run",
   "lookml_link_id": null,
   "show_filters_bar": null,
   "show_title": null,
-  "space_id": 11,
   "text_tile_text_color": null,
   "tile_background_color": null,
   "tile_text_color": null,
   "title_color": null,
   "view_count": 59,
+  "url": "/dashboards/17",
   "folder": {
     "name": "Embed Test",
-    "parent_id": 1,
-    "id": 11,
-    "content_metadata_id": 15,
+    "parent_id": "1",
+    "id": "11",
+    "content_metadata_id": "15",
     "created_at": "2019-02-06 02:59:45 UTC",
-    "creator_id": 2,
-    "external_id": null,
+    "creator_id": "2",
+    "external_id": "",
     "is_embed": false,
     "is_embed_shared_root": false,
     "is_embed_users_root": false,
@@ -647,12 +629,12 @@
       "edit_content": true
     }
   },
+  "folder_id": "11",
   "content_favorite_id": null,
-  "id": 17,
+  "id": "17",
   "model": null,
   "deleted": false,
   "last_viewed_at": null,
-  "folder_id": 11,
   "appearance": null,
   "can": {
     "download": true,

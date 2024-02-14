@@ -1,5 +1,5 @@
 {
-  "content_metadata_id": 63,
+  "content_metadata_id": "63",
   "description": "",
   "hidden": false,
   "query_timezone": null,
@@ -7,37 +7,9 @@
   "refresh_interval": null,
   "refresh_interval_to_i": null,
   "title": "BC Gov Analytics - Content",
-  "user_id": 24,
+  "user_id": "24",
   "slug": "bgCRAuCM90VigxhL5PhEVt",
   "preferred_viewer": "dashboards-next",
-  "space": {
-    "name": "production dashboards",
-    "parent_id": 1,
-    "id": 32,
-    "content_metadata_id": 62,
-    "created_at": "2022-06-08 17:53:45 UTC",
-    "creator_id": 24,
-    "external_id": null,
-    "is_embed": false,
-    "is_embed_shared_root": false,
-    "is_embed_users_root": false,
-    "is_personal": false,
-    "is_personal_descendant": false,
-    "is_shared_root": false,
-    "is_users_root": false,
-    "child_count": 0,
-    "can": {
-      "index": true,
-      "show": true,
-      "create": true,
-      "see_admin_spaces": true,
-      "save_shared_space_as_embed_user": true,
-      "destroy": true,
-      "update": true,
-      "move_content": true,
-      "edit_content": true
-    }
-  },
   "alert_sync_with_dashboard_filter_enabled": false,
   "background_color": null,
   "created_at": "2022-06-08 19:45:23 UTC",
@@ -46,13 +18,14 @@
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 251,
+      "id": "263",
       "look": {
-        "content_metadata_id": 80,
-        "id": 18,
+        "content_metadata_id": "80",
+        "id": "18",
         "title": "Top Downloaded Clicks",
+        "user_id": "8",
         "created_at": "2022-06-08 20:13:00 UTC",
         "deleted_at": null,
         "deleter_id": null,
@@ -60,46 +33,13 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": "2023-02-08 23:25:05 UTC",
-        "last_updater_id": 36,
-        "query_id": 3948,
+        "last_updater_id": "36",
+        "query_id": "3948",
         "short_url": "/looks/18",
-        "updated_at": "2023-10-04 18:27:38 UTC",
-        "user_id": 8,
+        "updated_at": "2024-02-14 00:29:05 UTC",
         "view_count": 3,
-        "user": {
-          "id": 8
-        },
-        "space_id": 32,
-        "space": {
-          "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
-          "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
-          "is_embed": false,
-          "is_embed_shared_root": false,
-          "is_embed_users_root": false,
-          "is_personal": false,
-          "is_personal_descendant": false,
-          "is_shared_root": false,
-          "is_users_root": false,
-          "child_count": 0,
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "see_admin_spaces": true,
-            "save_shared_space_as_embed_user": true,
-            "destroy": true,
-            "update": true,
-            "move_content": true,
-            "edit_content": true
-          }
-        },
         "query": {
-          "id": 3948,
+          "id": "3948",
           "view": "clicks",
           "fields": [
             "clicks.target_url",
@@ -218,7 +158,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/MrKbdx5poNpEbuICVJxLsC",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=download&sorts=clicks.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.download_click_count%22%3A%22Download+Count%22%2C%22clicks.target_url%22%3A%22Downloaded+File%22%2C%22clicks.session_count%22%3A%22Sessions%22%2C%22clicks.row_count%22%3A%22Download+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A147%2C%22of_downloads%22%3A121%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_downloads%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22download%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_downloads%22%2C%22label%22%3A%22%25+of+Downloads%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=download&sorts=clicks.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.download_click_count%22%3A%22Download+Count%22%2C%22clicks.target_url%22%3A%22Downloaded+File%22%2C%22clicks.session_count%22%3A%22Sessions%22%2C%22clicks.row_count%22%3A%22Download+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A147%2C%22of_downloads%22%3A121%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_downloads%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22download%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_downloads%22%2C%22label%22%3A%22%25+of+Downloads%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_downloads\",\"label\":\"% of Downloads\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -253,12 +192,12 @@
         "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=download&sorts=clicks.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.download_click_count%22%3A%22Download+Count%22%2C%22clicks.target_url%22%3A%22Downloaded+File%22%2C%22clicks.session_count%22%3A%22Sessions%22%2C%22clicks.row_count%22%3A%22Download+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A147%2C%22of_downloads%22%3A121%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_downloads%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22download%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_downloads%22%2C%22label%22%3A%22%25+of+Downloads%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=Top+Downloaded+Clicks&look_id=18",
         "folder": {
           "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
+          "parent_id": "1",
+          "id": "32",
+          "content_metadata_id": "62",
           "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
+          "creator_id": "24",
+          "external_id": "",
           "is_embed": false,
           "is_embed_shared_root": false,
           "is_embed_users_root": false,
@@ -279,11 +218,12 @@
             "edit_content": true
           }
         },
+        "folder_id": "32",
         "content_favorite_id": null,
         "deleted": false,
-        "embed_url": null,
-        "excel_file_url": null,
-        "google_spreadsheet_formula": null,
+        "embed_url": "",
+        "excel_file_url": "",
+        "google_spreadsheet_formula": "",
         "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/bk87ftChjxXtFVgbRk8kB97hkm5zcQgR.png",
         "last_viewed_at": null,
         "model": {
@@ -293,7 +233,6 @@
         "public": false,
         "public_slug": null,
         "public_url": null,
-        "folder_id": 32,
         "can": {
           "download": true,
           "download_unlimited": true,
@@ -313,18 +252,18 @@
           "render": true
         }
       },
-      "look_id": 18,
-      "lookml_link_id": null,
+      "look_id": "18",
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
-      "note_text": "A Download click shows the count that users have clicked to download an asset linked to on your page.",
-      "note_text_as_html": "A Download click shows the count that users have clicked to download an asset linked to on your page.",
+      "note_text": "A Download click shows the count that users have clicked to download an asset linked to on your page. \nThe asset is a file type that is likely to be downloaded versus being viewed in a browser. Example assets include: .pdf, .xls, .xlsx, .doc, .docx, .ppt, etc.",
+      "note_text_as_html": "A Download click shows the count that users have clicked to download an asset linked to on your page. \nThe asset is a file type that is likely to be downloaded versus being viewed in a browser. Example assets include: .pdf, .xls, .xlsx, .doc, .docx, .ppt, etc.",
       "query": null,
       "query_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 824,
+      "result_maker_id": "824",
       "subtitle_text": null,
       "title": null,
       "title_hidden": false,
@@ -334,14 +273,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 824,
+        "id": "824",
         "dynamic_fields": "[{\"table_calculation\":\"of_downloads\",\"label\":\"% of Downloads\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "clicks",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -395,10 +335,10 @@
         ],
         "merge_result_id": null,
         "total": true,
-        "query_id": 3948,
-        "sql_query_id": null,
+        "query_id": "3948",
+        "sql_query_id": "",
         "query": {
-          "id": 3948,
+          "id": "3948",
           "view": "clicks",
           "fields": [
             "clicks.target_url",
@@ -517,7 +457,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/MrKbdx5poNpEbuICVJxLsC",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=download&sorts=clicks.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.download_click_count%22%3A%22Download+Count%22%2C%22clicks.target_url%22%3A%22Downloaded+File%22%2C%22clicks.session_count%22%3A%22Sessions%22%2C%22clicks.row_count%22%3A%22Download+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A147%2C%22of_downloads%22%3A121%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_downloads%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22download%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_downloads%22%2C%22label%22%3A%22%25+of+Downloads%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=download&sorts=clicks.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Atrue%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.download_click_count%22%3A%22Download+Count%22%2C%22clicks.target_url%22%3A%22Downloaded+File%22%2C%22clicks.session_count%22%3A%22Sessions%22%2C%22clicks.row_count%22%3A%22Download+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A147%2C%22of_downloads%22%3A121%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_downloads%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22download%22%7D%2C%7B%7D%5D%2C%22id%22%3A4%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_downloads%22%2C%22label%22%3A%22%25+of+Downloads%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_downloads\",\"label\":\"% of Downloads\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -638,18 +577,22 @@
         "run": true,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 252,
+      "id": "264",
       "look": {
-        "content_metadata_id": 81,
-        "id": 19,
+        "content_metadata_id": "81",
+        "id": "19",
         "title": "Top Offsite Links",
+        "user_id": "8",
         "created_at": "2022-06-08 20:13:00 UTC",
         "deleted_at": null,
         "deleter_id": null,
@@ -657,46 +600,13 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": null,
-        "last_updater_id": 36,
-        "query_id": 3949,
+        "last_updater_id": "36",
+        "query_id": "3949",
         "short_url": "/looks/19",
-        "updated_at": "2023-10-04 18:27:40 UTC",
-        "user_id": 8,
+        "updated_at": "2024-02-14 00:29:06 UTC",
         "view_count": 0,
-        "user": {
-          "id": 8
-        },
-        "space_id": 32,
-        "space": {
-          "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
-          "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
-          "is_embed": false,
-          "is_embed_shared_root": false,
-          "is_embed_users_root": false,
-          "is_personal": false,
-          "is_personal_descendant": false,
-          "is_shared_root": false,
-          "is_users_root": false,
-          "child_count": 0,
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "see_admin_spaces": true,
-            "save_shared_space_as_embed_user": true,
-            "destroy": true,
-            "update": true,
-            "move_content": true,
-            "edit_content": true
-          }
-        },
         "query": {
-          "id": 3949,
+          "id": "3949",
           "view": "clicks",
           "fields": [
             "clicks.target_url",
@@ -825,7 +735,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/v5OKocoH2y6NgODyaVmYwH",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -860,12 +769,12 @@
         "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=Top+Offsite+Links&look_id=19",
         "folder": {
           "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
+          "parent_id": "1",
+          "id": "32",
+          "content_metadata_id": "62",
           "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
+          "creator_id": "24",
+          "external_id": "",
           "is_embed": false,
           "is_embed_shared_root": false,
           "is_embed_users_root": false,
@@ -886,11 +795,12 @@
             "edit_content": true
           }
         },
+        "folder_id": "32",
         "content_favorite_id": null,
         "deleted": false,
-        "embed_url": null,
-        "excel_file_url": null,
-        "google_spreadsheet_formula": null,
+        "embed_url": "",
+        "excel_file_url": "",
+        "google_spreadsheet_formula": "",
         "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/f7nBSv9zq7WwZ3HJ4PPD6nWNCKMnsK2Q.png",
         "last_viewed_at": null,
         "model": {
@@ -900,7 +810,6 @@
         "public": false,
         "public_slug": null,
         "public_url": null,
-        "folder_id": 32,
         "can": {
           "download": true,
           "download_unlimited": true,
@@ -920,8 +829,8 @@
           "render": true
         }
       },
-      "look_id": 19,
-      "lookml_link_id": null,
+      "look_id": "19",
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
@@ -931,7 +840,7 @@
       "query_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 825,
+      "result_maker_id": "825",
       "subtitle_text": null,
       "title": null,
       "title_hidden": false,
@@ -941,14 +850,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 825,
+        "id": "825",
         "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "clicks",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -1002,10 +912,10 @@
         ],
         "merge_result_id": null,
         "total": true,
-        "query_id": 3949,
-        "sql_query_id": null,
+        "query_id": "3949",
+        "sql_query_id": "",
         "query": {
-          "id": 3949,
+          "id": "3949",
           "view": "clicks",
           "fields": [
             "clicks.target_url",
@@ -1134,7 +1044,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/v5OKocoH2y6NgODyaVmYwH",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -1251,65 +1160,36 @@
         "run": true,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 253,
+      "id": "265",
       "look": {
-        "content_metadata_id": 82,
-        "id": 20,
+        "content_metadata_id": "82",
+        "id": "20",
         "title": "Top Themes by Sessions",
+        "user_id": "8",
         "created_at": "2022-06-08 20:13:01 UTC",
         "deleted_at": null,
         "deleter_id": null,
-        "description": null,
+        "description": "",
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": "2022-08-25 06:49:44 UTC",
-        "last_updater_id": 36,
-        "query_id": 4056,
+        "last_updater_id": "36",
+        "query_id": "4056",
         "short_url": "/looks/20",
-        "updated_at": "2023-10-04 18:27:42 UTC",
-        "user_id": 8,
+        "updated_at": "2024-02-14 00:29:07 UTC",
         "view_count": 1,
-        "user": {
-          "id": 8
-        },
-        "space_id": 32,
-        "space": {
-          "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
-          "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
-          "is_embed": false,
-          "is_embed_shared_root": false,
-          "is_embed_users_root": false,
-          "is_personal": false,
-          "is_personal_descendant": false,
-          "is_shared_root": false,
-          "is_users_root": false,
-          "child_count": 0,
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "see_admin_spaces": true,
-            "save_shared_space_as_embed_user": true,
-            "destroy": true,
-            "update": true,
-            "move_content": true,
-            "edit_content": true
-          }
-        },
         "query": {
-          "id": 4056,
+          "id": "4056",
           "view": "page_views",
           "fields": [
             "page_views.session_count",
@@ -1415,7 +1295,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/x1QAC8DVbNX1EjyYzR1eXG",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.session_count,cmslite_themes.theme&f[cmslite_themes.theme_id]=-EMPTY&sorts=page_views.session_count+desc&limit=20&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%22fb7bb53e-b77b-4ab6-8274-9d420d3d73f3%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Boardwalk%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%233EB0D5%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%7D&filter_config=%7B%22cmslite_themes.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=page_views.session_count,cmslite_themes.theme&f[cmslite_themes.theme_id]=-EMPTY&sorts=page_views.session_count+desc&limit=20&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%22fb7bb53e-b77b-4ab6-8274-9d420d3d73f3%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Boardwalk%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%233EB0D5%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%7D&filter_config=%7B%22cmslite_themes.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%7D",
-          "runtime": null,
           "has_table_calculations": false,
           "model": "snowplow_web_block",
           "dynamic_fields": null,
@@ -1448,12 +1327,12 @@
         "url": "/explore/snowplow_web_block/page_views?fields=page_views.session_count,cmslite_themes.theme&f[cmslite_themes.theme_id]=-EMPTY&sorts=page_views.session_count+desc&limit=20&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%22fb7bb53e-b77b-4ab6-8274-9d420d3d73f3%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Boardwalk%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%233EB0D5%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%7D&filter_config=%7B%22cmslite_themes.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%7D&title=Top+Themes+by+Sessions&look_id=20",
         "folder": {
           "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
+          "parent_id": "1",
+          "id": "32",
+          "content_metadata_id": "62",
           "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
+          "creator_id": "24",
+          "external_id": "",
           "is_embed": false,
           "is_embed_shared_root": false,
           "is_embed_users_root": false,
@@ -1474,11 +1353,12 @@
             "edit_content": true
           }
         },
+        "folder_id": "32",
         "content_favorite_id": null,
         "deleted": false,
-        "embed_url": null,
-        "excel_file_url": null,
-        "google_spreadsheet_formula": null,
+        "embed_url": "",
+        "excel_file_url": "",
+        "google_spreadsheet_formula": "",
         "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/6NsWq6x9RcbNfWBrfGVBYj8tp9n5H6Xf.png",
         "last_viewed_at": null,
         "model": {
@@ -1488,7 +1368,6 @@
         "public": false,
         "public_slug": null,
         "public_url": null,
-        "folder_id": 32,
         "can": {
           "download": true,
           "download_unlimited": true,
@@ -1508,8 +1387,8 @@
           "render": true
         }
       },
-      "look_id": 20,
-      "lookml_link_id": null,
+      "look_id": "20",
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
@@ -1519,7 +1398,7 @@
       "query_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 873,
+      "result_maker_id": "873",
       "subtitle_text": null,
       "title": null,
       "title_hidden": false,
@@ -1529,14 +1408,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 873,
+        "id": "873",
         "dynamic_fields": null,
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "page_views",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -1589,11 +1469,11 @@
           "page_views.session_count desc"
         ],
         "merge_result_id": null,
-        "total": null,
-        "query_id": 4056,
-        "sql_query_id": null,
+        "total": false,
+        "query_id": "4056",
+        "sql_query_id": "",
         "query": {
-          "id": 4056,
+          "id": "4056",
           "view": "page_views",
           "fields": [
             "page_views.session_count",
@@ -1699,7 +1579,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/x1QAC8DVbNX1EjyYzR1eXG",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.session_count,cmslite_themes.theme&f[cmslite_themes.theme_id]=-EMPTY&sorts=page_views.session_count+desc&limit=20&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%22fb7bb53e-b77b-4ab6-8274-9d420d3d73f3%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Boardwalk%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%233EB0D5%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%7D&filter_config=%7B%22cmslite_themes.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=page_views.session_count,cmslite_themes.theme&f[cmslite_themes.theme_id]=-EMPTY&sorts=page_views.session_count+desc&limit=20&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%22fb7bb53e-b77b-4ab6-8274-9d420d3d73f3%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Boardwalk%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%233EB0D5%22%2C%22%23B1399E%22%2C%22%23C2DD67%22%2C%22%23592EC2%22%2C%22%234276BE%22%2C%22%2372D16D%22%2C%22%23FFD95F%22%2C%22%23B32F37%22%2C%22%239174F0%22%2C%22%23E57947%22%2C%22%2375E2E2%22%2C%22%23FBB555%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%7D&filter_config=%7B%22cmslite_themes.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A2%2C%22error%22%3Afalse%7D%5D%7D",
-          "runtime": null,
           "has_table_calculations": false,
           "model": "snowplow_web_block",
           "dynamic_fields": null,
@@ -1805,65 +1684,36 @@
         "run": true,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 254,
+      "id": "266",
       "look": {
-        "content_metadata_id": 83,
-        "id": 21,
+        "content_metadata_id": "83",
+        "id": "21",
         "title": "Top Themes by Google.com Searches",
+        "user_id": "8",
         "created_at": "2022-06-08 20:13:02 UTC",
         "deleted_at": null,
         "deleter_id": null,
-        "description": null,
+        "description": "",
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": "2022-09-13 14:00:22 UTC",
-        "last_updater_id": 36,
-        "query_id": 4057,
+        "last_updater_id": "36",
+        "query_id": "4057",
         "short_url": "/looks/21",
-        "updated_at": "2023-10-04 18:27:44 UTC",
-        "user_id": 8,
+        "updated_at": "2024-02-14 00:29:08 UTC",
         "view_count": 3,
-        "user": {
-          "id": 8
-        },
-        "space_id": 32,
-        "space": {
-          "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
-          "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
-          "is_embed": false,
-          "is_embed_shared_root": false,
-          "is_embed_users_root": false,
-          "is_personal": false,
-          "is_personal_descendant": false,
-          "is_shared_root": false,
-          "is_users_root": false,
-          "child_count": 0,
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "see_admin_spaces": true,
-            "save_shared_space_as_embed_user": true,
-            "destroy": true,
-            "update": true,
-            "move_content": true,
-            "edit_content": true
-          }
-        },
         "query": {
-          "id": 4057,
+          "id": "4057",
           "view": "google_search",
           "fields": [
             "google_search.theme",
@@ -2014,7 +1864,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/k57pzlzebfQ11oCZlUSyPG",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
           "url": "/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
-          "runtime": 10.803189039230347,
           "has_table_calculations": false,
           "model": "google_api",
           "dynamic_fields": "[]",
@@ -2049,12 +1898,12 @@
         "url": "/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&title=Top+Themes+by+Google.com+Searches&look_id=21",
         "folder": {
           "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
+          "parent_id": "1",
+          "id": "32",
+          "content_metadata_id": "62",
           "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
+          "creator_id": "24",
+          "external_id": "",
           "is_embed": false,
           "is_embed_shared_root": false,
           "is_embed_users_root": false,
@@ -2075,11 +1924,12 @@
             "edit_content": true
           }
         },
+        "folder_id": "32",
         "content_favorite_id": null,
         "deleted": false,
-        "embed_url": null,
-        "excel_file_url": null,
-        "google_spreadsheet_formula": null,
+        "embed_url": "",
+        "excel_file_url": "",
+        "google_spreadsheet_formula": "",
         "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/gTKv9YgH74dRN7pPwqGXQ5Xg8P5V8wZN.png",
         "last_viewed_at": null,
         "model": {
@@ -2089,7 +1939,6 @@
         "public": false,
         "public_slug": null,
         "public_url": null,
-        "folder_id": 32,
         "can": {
           "download": true,
           "download_unlimited": true,
@@ -2109,8 +1958,8 @@
           "render": true
         }
       },
-      "look_id": 21,
-      "lookml_link_id": null,
+      "look_id": "21",
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
@@ -2120,7 +1969,7 @@
       "query_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 874,
+      "result_maker_id": "874",
       "subtitle_text": null,
       "title": null,
       "title_hidden": false,
@@ -2130,14 +1979,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 874,
+        "id": "874",
         "dynamic_fields": "[]",
         "filterables": [
           {
             "model": "google_api",
             "view": "google_search",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -2174,11 +2024,11 @@
           "google_search.total_clicks desc"
         ],
         "merge_result_id": null,
-        "total": null,
-        "query_id": 4057,
-        "sql_query_id": null,
+        "total": false,
+        "query_id": "4057",
+        "sql_query_id": "",
         "query": {
-          "id": 4057,
+          "id": "4057",
           "view": "google_search",
           "fields": [
             "google_search.theme",
@@ -2329,7 +2179,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/k57pzlzebfQ11oCZlUSyPG",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
           "url": "/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
-          "runtime": 10.803189039230347,
           "has_table_calculations": false,
           "model": "google_api",
           "dynamic_fields": "[]",
@@ -2481,18 +2330,22 @@
         "run": true,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 255,
+      "id": "267",
       "look": {
-        "content_metadata_id": 84,
-        "id": 22,
+        "content_metadata_id": "84",
+        "id": "22",
         "title": "Top Gov Search Terms",
+        "user_id": "8",
         "created_at": "2022-06-08 20:13:03 UTC",
         "deleted_at": null,
         "deleter_id": null,
@@ -2500,46 +2353,13 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": null,
-        "last_updater_id": 36,
-        "query_id": 3952,
+        "last_updater_id": "36",
+        "query_id": "3952",
         "short_url": "/looks/22",
-        "updated_at": "2023-10-04 18:27:46 UTC",
-        "user_id": 8,
+        "updated_at": "2024-02-14 00:29:08 UTC",
         "view_count": 0,
-        "user": {
-          "id": 8
-        },
-        "space_id": 32,
-        "space": {
-          "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
-          "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
-          "is_embed": false,
-          "is_embed_shared_root": false,
-          "is_embed_users_root": false,
-          "is_personal": false,
-          "is_personal_descendant": false,
-          "is_shared_root": false,
-          "is_users_root": false,
-          "child_count": 0,
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "see_admin_spaces": true,
-            "save_shared_space_as_embed_user": true,
-            "destroy": true,
-            "update": true,
-            "move_content": true,
-            "edit_content": true
-          }
-        },
         "query": {
-          "id": 3952,
+          "id": "3952",
           "view": "searches",
           "fields": [
             "searches.search_terms_gov",
@@ -2660,7 +2480,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/Ms8Oh92huejfOCzw5vebIs",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/searches?fields=searches.search_terms_gov,searches.row_count&f[searches.search_terms_gov]=-EMPTY&sorts=searches.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22searches.terms%22%3A%22Search+Term%22%2C%22searches.search_terms%22%3A%22Search+Term%22%2C%22searches.row_count%22%3A%22Search+Count%22%7D%2C%22series_column_widths%22%3A%7B%22searches.row_count%22%3A146%2C%22of_searches%22%3A120%7D%2C%22series_cell_visualizations%22%3A%7B%22searches.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22searches.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_searches%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22show%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A%2220%22%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Atrue%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22searches.search_terms_gov%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A93%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_searches%22%2C%22label%22%3A%22%25+of+Searches%22%2C%22expression%22%3A%22%24%7Bsearches.row_count%7D%2F%24%7Bsearches.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/searches?fields=searches.search_terms_gov,searches.row_count&f[searches.search_terms_gov]=-EMPTY&sorts=searches.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22searches.terms%22%3A%22Search+Term%22%2C%22searches.search_terms%22%3A%22Search+Term%22%2C%22searches.row_count%22%3A%22Search+Count%22%7D%2C%22series_column_widths%22%3A%7B%22searches.row_count%22%3A146%2C%22of_searches%22%3A120%7D%2C%22series_cell_visualizations%22%3A%7B%22searches.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22searches.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_searches%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22show%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A%2220%22%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Atrue%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22searches.search_terms_gov%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A93%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_searches%22%2C%22label%22%3A%22%25+of+Searches%22%2C%22expression%22%3A%22%24%7Bsearches.row_count%7D%2F%24%7Bsearches.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_searches\",\"label\":\"% of Searches\",\"expression\":\"${searches.row_count}/${searches.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -2695,12 +2514,12 @@
         "url": "/explore/snowplow_web_block/searches?fields=searches.search_terms_gov,searches.row_count&f[searches.search_terms_gov]=-EMPTY&sorts=searches.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22searches.terms%22%3A%22Search+Term%22%2C%22searches.search_terms%22%3A%22Search+Term%22%2C%22searches.row_count%22%3A%22Search+Count%22%7D%2C%22series_column_widths%22%3A%7B%22searches.row_count%22%3A146%2C%22of_searches%22%3A120%7D%2C%22series_cell_visualizations%22%3A%7B%22searches.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22searches.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_searches%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22show%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A%2220%22%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Atrue%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22searches.search_terms_gov%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A93%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_searches%22%2C%22label%22%3A%22%25+of+Searches%22%2C%22expression%22%3A%22%24%7Bsearches.row_count%7D%2F%24%7Bsearches.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=Top+Gov+Search+Terms&look_id=22",
         "folder": {
           "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
+          "parent_id": "1",
+          "id": "32",
+          "content_metadata_id": "62",
           "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
+          "creator_id": "24",
+          "external_id": "",
           "is_embed": false,
           "is_embed_shared_root": false,
           "is_embed_users_root": false,
@@ -2721,11 +2540,12 @@
             "edit_content": true
           }
         },
+        "folder_id": "32",
         "content_favorite_id": null,
         "deleted": false,
-        "embed_url": null,
-        "excel_file_url": null,
-        "google_spreadsheet_formula": null,
+        "embed_url": "",
+        "excel_file_url": "",
+        "google_spreadsheet_formula": "",
         "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/89xDmjqwYMPVGGZ22DtttRrygq5Gb8b5.png",
         "last_viewed_at": null,
         "model": {
@@ -2735,7 +2555,6 @@
         "public": false,
         "public_slug": null,
         "public_url": null,
-        "folder_id": 32,
         "can": {
           "download": true,
           "download_unlimited": true,
@@ -2755,8 +2574,8 @@
           "render": true
         }
       },
-      "look_id": 22,
-      "lookml_link_id": null,
+      "look_id": "22",
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
@@ -2766,7 +2585,7 @@
       "query_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 828,
+      "result_maker_id": "828",
       "subtitle_text": null,
       "title": null,
       "title_hidden": false,
@@ -2776,14 +2595,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 828,
+        "id": "828",
         "dynamic_fields": "[{\"table_calculation\":\"of_searches\",\"label\":\"% of Searches\",\"expression\":\"${searches.row_count}/${searches.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "searches",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -2837,10 +2657,10 @@
         ],
         "merge_result_id": null,
         "total": true,
-        "query_id": 3952,
-        "sql_query_id": null,
+        "query_id": "3952",
+        "sql_query_id": "",
         "query": {
-          "id": 3952,
+          "id": "3952",
           "view": "searches",
           "fields": [
             "searches.search_terms_gov",
@@ -2961,7 +2781,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/Ms8Oh92huejfOCzw5vebIs",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/searches?fields=searches.search_terms_gov,searches.row_count&f[searches.search_terms_gov]=-EMPTY&sorts=searches.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22searches.terms%22%3A%22Search+Term%22%2C%22searches.search_terms%22%3A%22Search+Term%22%2C%22searches.row_count%22%3A%22Search+Count%22%7D%2C%22series_column_widths%22%3A%7B%22searches.row_count%22%3A146%2C%22of_searches%22%3A120%7D%2C%22series_cell_visualizations%22%3A%7B%22searches.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22searches.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_searches%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22show%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A%2220%22%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Atrue%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22searches.search_terms_gov%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A93%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_searches%22%2C%22label%22%3A%22%25+of+Searches%22%2C%22expression%22%3A%22%24%7Bsearches.row_count%7D%2F%24%7Bsearches.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/searches?fields=searches.search_terms_gov,searches.row_count&f[searches.search_terms_gov]=-EMPTY&sorts=searches.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Atrue%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2212%22%2C%22rows_font_size%22%3A%2212%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22searches.terms%22%3A%22Search+Term%22%2C%22searches.search_terms%22%3A%22Search+Term%22%2C%22searches.row_count%22%3A%22Search+Count%22%7D%2C%22series_column_widths%22%3A%7B%22searches.row_count%22%3A146%2C%22of_searches%22%3A120%7D%2C%22series_cell_visualizations%22%3A%7B%22searches.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22searches.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_searches%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22show%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A%2220%22%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Atrue%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22searches.search_terms_gov%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A93%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_searches%22%2C%22label%22%3A%22%25+of+Searches%22%2C%22expression%22%3A%22%24%7Bsearches.row_count%7D%2F%24%7Bsearches.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_searches\",\"label\":\"% of Searches\",\"expression\":\"${searches.row_count}/${searches.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -3084,18 +2903,22 @@
         "run": true,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 256,
+      "id": "268",
       "look": {
-        "content_metadata_id": 85,
-        "id": 23,
+        "content_metadata_id": "85",
+        "id": "23",
         "title": "Page Views by Traffic Channel",
+        "user_id": "8",
         "created_at": "2022-06-08 20:13:04 UTC",
         "deleted_at": null,
         "deleter_id": null,
@@ -3103,46 +2926,13 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": "2022-08-25 06:50:09 UTC",
-        "last_updater_id": 36,
-        "query_id": 4073,
+        "last_updater_id": "36",
+        "query_id": "4073",
         "short_url": "/looks/23",
-        "updated_at": "2023-10-04 18:27:47 UTC",
-        "user_id": 8,
+        "updated_at": "2024-02-14 00:29:09 UTC",
         "view_count": 2,
-        "user": {
-          "id": 8
-        },
-        "space_id": 32,
-        "space": {
-          "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
-          "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
-          "is_embed": false,
-          "is_embed_shared_root": false,
-          "is_embed_users_root": false,
-          "is_personal": false,
-          "is_personal_descendant": false,
-          "is_shared_root": false,
-          "is_users_root": false,
-          "child_count": 0,
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "see_admin_spaces": true,
-            "save_shared_space_as_embed_user": true,
-            "destroy": true,
-            "update": true,
-            "move_content": true,
-            "edit_content": true
-          }
-        },
         "query": {
-          "id": 4073,
+          "id": "4073",
           "view": "page_views",
           "fields": [
             "page_views.referrer_medium",
@@ -3285,7 +3075,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/w66vCLSWTaZLOZ4a2eyy1n",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.referrer_medium,page_views.row_count,page_views.page_view_start_date&pivots=page_views.referrer_medium&fill_fields=page_views.page_view_start_date&sorts=page_views.page_view_start_date+desc,page_views.referrer_medium&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22Page+View+Count%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22direct+-+page_views.row_count%22%2C%22id%22%3A%22direct+-+page_views.row_count%22%2C%22name%22%3A%22direct%22%7D%2C%7B%22axisId%22%3A%22email+-+page_views.row_count%22%2C%22id%22%3A%22email+-+page_views.row_count%22%2C%22name%22%3A%22email%22%7D%2C%7B%22axisId%22%3A%22internal+-+page_views.row_count%22%2C%22id%22%3A%22internal+-+page_views.row_count%22%2C%22name%22%3A%22internal%22%7D%2C%7B%22axisId%22%3A%22other+-+page_views.row_count%22%2C%22id%22%3A%22other+-+page_views.row_count%22%2C%22name%22%3A%22other%22%7D%2C%7B%22axisId%22%3A%22paid+-+page_views.row_count%22%2C%22id%22%3A%22paid+-+page_views.row_count%22%2C%22name%22%3A%22paid%22%7D%2C%7B%22axisId%22%3A%22search+-+page_views.row_count%22%2C%22id%22%3A%22search+-+page_views.row_count%22%2C%22name%22%3A%22search%22%7D%2C%7B%22axisId%22%3A%22social+-+page_views.row_count%22%2C%22id%22%3A%22social+-+page_views.row_count%22%2C%22name%22%3A%22social%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_label%22%3A%22Date%22%2C%22colors%22%3A%5B%22%235245ed%22%2C%22%23ed6168%22%2C%22%231ea8df%22%2C%22%23353b49%22%2C%22%2349cec1%22%2C%22%23b3a0dd%22%2C%22%23db7f2a%22%2C%22%23706080%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%23e9b404%22%2C%22%23635189%22%5D%2C%22font_size%22%3A%2212%22%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22direct+-+page_views.row_count%22%3A%22%23bae6ff%22%2C%22email+-+page_views.row_count%22%3A%22%2382cfff%22%2C%22internal+-+page_views.row_count%22%3A%22%2333b1ff%22%2C%22other+-+page_views.row_count%22%3A%22%231192e8%22%2C%22paid+-+page_views.row_count%22%3A%22%230072c3%22%2C%22search+-+page_views.row_count%22%3A%22%2300539a%22%2C%22social+-+page_views.row_count%22%3A%22%23003a6d%22%7D%2C%22series_labels%22%3A%7B%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=page_views.referrer_medium,page_views.row_count,page_views.page_view_start_date&pivots=page_views.referrer_medium&fill_fields=page_views.page_view_start_date&sorts=page_views.page_view_start_date+desc,page_views.referrer_medium&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22Page+View+Count%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22direct+-+page_views.row_count%22%2C%22id%22%3A%22direct+-+page_views.row_count%22%2C%22name%22%3A%22direct%22%7D%2C%7B%22axisId%22%3A%22email+-+page_views.row_count%22%2C%22id%22%3A%22email+-+page_views.row_count%22%2C%22name%22%3A%22email%22%7D%2C%7B%22axisId%22%3A%22internal+-+page_views.row_count%22%2C%22id%22%3A%22internal+-+page_views.row_count%22%2C%22name%22%3A%22internal%22%7D%2C%7B%22axisId%22%3A%22other+-+page_views.row_count%22%2C%22id%22%3A%22other+-+page_views.row_count%22%2C%22name%22%3A%22other%22%7D%2C%7B%22axisId%22%3A%22paid+-+page_views.row_count%22%2C%22id%22%3A%22paid+-+page_views.row_count%22%2C%22name%22%3A%22paid%22%7D%2C%7B%22axisId%22%3A%22search+-+page_views.row_count%22%2C%22id%22%3A%22search+-+page_views.row_count%22%2C%22name%22%3A%22search%22%7D%2C%7B%22axisId%22%3A%22social+-+page_views.row_count%22%2C%22id%22%3A%22social+-+page_views.row_count%22%2C%22name%22%3A%22social%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_label%22%3A%22Date%22%2C%22colors%22%3A%5B%22%235245ed%22%2C%22%23ed6168%22%2C%22%231ea8df%22%2C%22%23353b49%22%2C%22%2349cec1%22%2C%22%23b3a0dd%22%2C%22%23db7f2a%22%2C%22%23706080%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%23e9b404%22%2C%22%23635189%22%5D%2C%22font_size%22%3A%2212%22%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22direct+-+page_views.row_count%22%3A%22%23bae6ff%22%2C%22email+-+page_views.row_count%22%3A%22%2382cfff%22%2C%22internal+-+page_views.row_count%22%3A%22%2333b1ff%22%2C%22other+-+page_views.row_count%22%3A%22%231192e8%22%2C%22paid+-+page_views.row_count%22%3A%22%230072c3%22%2C%22search+-+page_views.row_count%22%3A%22%2300539a%22%2C%22social+-+page_views.row_count%22%3A%22%23003a6d%22%7D%2C%22series_labels%22%3A%7B%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%5D",
-          "runtime": null,
           "has_table_calculations": false,
           "model": "snowplow_web_block",
           "dynamic_fields": "[]",
@@ -3320,12 +3109,12 @@
         "url": "/explore/snowplow_web_block/page_views?fields=page_views.referrer_medium,page_views.row_count,page_views.page_view_start_date&pivots=page_views.referrer_medium&fill_fields=page_views.page_view_start_date&sorts=page_views.page_view_start_date+desc,page_views.referrer_medium&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22Page+View+Count%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22direct+-+page_views.row_count%22%2C%22id%22%3A%22direct+-+page_views.row_count%22%2C%22name%22%3A%22direct%22%7D%2C%7B%22axisId%22%3A%22email+-+page_views.row_count%22%2C%22id%22%3A%22email+-+page_views.row_count%22%2C%22name%22%3A%22email%22%7D%2C%7B%22axisId%22%3A%22internal+-+page_views.row_count%22%2C%22id%22%3A%22internal+-+page_views.row_count%22%2C%22name%22%3A%22internal%22%7D%2C%7B%22axisId%22%3A%22other+-+page_views.row_count%22%2C%22id%22%3A%22other+-+page_views.row_count%22%2C%22name%22%3A%22other%22%7D%2C%7B%22axisId%22%3A%22paid+-+page_views.row_count%22%2C%22id%22%3A%22paid+-+page_views.row_count%22%2C%22name%22%3A%22paid%22%7D%2C%7B%22axisId%22%3A%22search+-+page_views.row_count%22%2C%22id%22%3A%22search+-+page_views.row_count%22%2C%22name%22%3A%22search%22%7D%2C%7B%22axisId%22%3A%22social+-+page_views.row_count%22%2C%22id%22%3A%22social+-+page_views.row_count%22%2C%22name%22%3A%22social%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_label%22%3A%22Date%22%2C%22colors%22%3A%5B%22%235245ed%22%2C%22%23ed6168%22%2C%22%231ea8df%22%2C%22%23353b49%22%2C%22%2349cec1%22%2C%22%23b3a0dd%22%2C%22%23db7f2a%22%2C%22%23706080%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%23e9b404%22%2C%22%23635189%22%5D%2C%22font_size%22%3A%2212%22%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22direct+-+page_views.row_count%22%3A%22%23bae6ff%22%2C%22email+-+page_views.row_count%22%3A%22%2382cfff%22%2C%22internal+-+page_views.row_count%22%3A%22%2333b1ff%22%2C%22other+-+page_views.row_count%22%3A%22%231192e8%22%2C%22paid+-+page_views.row_count%22%3A%22%230072c3%22%2C%22search+-+page_views.row_count%22%3A%22%2300539a%22%2C%22social+-+page_views.row_count%22%3A%22%23003a6d%22%7D%2C%22series_labels%22%3A%7B%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%5D&title=Page+Views+by+Traffic+Channel&look_id=23",
         "folder": {
           "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
+          "parent_id": "1",
+          "id": "32",
+          "content_metadata_id": "62",
           "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
+          "creator_id": "24",
+          "external_id": "",
           "is_embed": false,
           "is_embed_shared_root": false,
           "is_embed_users_root": false,
@@ -3346,11 +3135,12 @@
             "edit_content": true
           }
         },
+        "folder_id": "32",
         "content_favorite_id": null,
         "deleted": false,
-        "embed_url": null,
-        "excel_file_url": null,
-        "google_spreadsheet_formula": null,
+        "embed_url": "",
+        "excel_file_url": "",
+        "google_spreadsheet_formula": "",
         "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/BTycMHNm7hDmZWsvkj4MZZ5SCv7zgTFJ.png",
         "last_viewed_at": null,
         "model": {
@@ -3360,7 +3150,6 @@
         "public": false,
         "public_slug": null,
         "public_url": null,
-        "folder_id": 32,
         "can": {
           "download": true,
           "download_unlimited": true,
@@ -3380,8 +3169,8 @@
           "render": true
         }
       },
-      "look_id": 23,
-      "lookml_link_id": null,
+      "look_id": "23",
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
@@ -3391,7 +3180,7 @@
       "query_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 875,
+      "result_maker_id": "875",
       "subtitle_text": null,
       "title": null,
       "title_hidden": false,
@@ -3401,14 +3190,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 875,
+        "id": "875",
         "dynamic_fields": "[]",
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "page_views",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -3462,11 +3252,11 @@
           "page_views.referrer_medium"
         ],
         "merge_result_id": null,
-        "total": null,
-        "query_id": 4073,
-        "sql_query_id": null,
+        "total": false,
+        "query_id": "4073",
+        "sql_query_id": "",
         "query": {
-          "id": 4073,
+          "id": "4073",
           "view": "page_views",
           "fields": [
             "page_views.referrer_medium",
@@ -3609,7 +3399,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/w66vCLSWTaZLOZ4a2eyy1n",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.referrer_medium,page_views.row_count,page_views.page_view_start_date&pivots=page_views.referrer_medium&fill_fields=page_views.page_view_start_date&sorts=page_views.page_view_start_date+desc,page_views.referrer_medium&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22Page+View+Count%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22direct+-+page_views.row_count%22%2C%22id%22%3A%22direct+-+page_views.row_count%22%2C%22name%22%3A%22direct%22%7D%2C%7B%22axisId%22%3A%22email+-+page_views.row_count%22%2C%22id%22%3A%22email+-+page_views.row_count%22%2C%22name%22%3A%22email%22%7D%2C%7B%22axisId%22%3A%22internal+-+page_views.row_count%22%2C%22id%22%3A%22internal+-+page_views.row_count%22%2C%22name%22%3A%22internal%22%7D%2C%7B%22axisId%22%3A%22other+-+page_views.row_count%22%2C%22id%22%3A%22other+-+page_views.row_count%22%2C%22name%22%3A%22other%22%7D%2C%7B%22axisId%22%3A%22paid+-+page_views.row_count%22%2C%22id%22%3A%22paid+-+page_views.row_count%22%2C%22name%22%3A%22paid%22%7D%2C%7B%22axisId%22%3A%22search+-+page_views.row_count%22%2C%22id%22%3A%22search+-+page_views.row_count%22%2C%22name%22%3A%22search%22%7D%2C%7B%22axisId%22%3A%22social+-+page_views.row_count%22%2C%22id%22%3A%22social+-+page_views.row_count%22%2C%22name%22%3A%22social%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_label%22%3A%22Date%22%2C%22colors%22%3A%5B%22%235245ed%22%2C%22%23ed6168%22%2C%22%231ea8df%22%2C%22%23353b49%22%2C%22%2349cec1%22%2C%22%23b3a0dd%22%2C%22%23db7f2a%22%2C%22%23706080%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%23e9b404%22%2C%22%23635189%22%5D%2C%22font_size%22%3A%2212%22%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22direct+-+page_views.row_count%22%3A%22%23bae6ff%22%2C%22email+-+page_views.row_count%22%3A%22%2382cfff%22%2C%22internal+-+page_views.row_count%22%3A%22%2333b1ff%22%2C%22other+-+page_views.row_count%22%3A%22%231192e8%22%2C%22paid+-+page_views.row_count%22%3A%22%230072c3%22%2C%22search+-+page_views.row_count%22%3A%22%2300539a%22%2C%22social+-+page_views.row_count%22%3A%22%23003a6d%22%7D%2C%22series_labels%22%3A%7B%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=page_views.referrer_medium,page_views.row_count,page_views.page_view_start_date&pivots=page_views.referrer_medium&fill_fields=page_views.page_view_start_date&sorts=page_views.page_view_start_date+desc,page_views.referrer_medium&limit=500&column_limit=50&vis=%7B%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22trellis%22%3A%22%22%2C%22stacking%22%3A%22normal%22%2C%22limit_displayed_rows%22%3Afalse%2C%22legend_position%22%3A%22center%22%2C%22point_style%22%3A%22none%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_combined%22%3Atrue%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Atrue%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22Page+View+Count%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22axisId%22%3A%22direct+-+page_views.row_count%22%2C%22id%22%3A%22direct+-+page_views.row_count%22%2C%22name%22%3A%22direct%22%7D%2C%7B%22axisId%22%3A%22email+-+page_views.row_count%22%2C%22id%22%3A%22email+-+page_views.row_count%22%2C%22name%22%3A%22email%22%7D%2C%7B%22axisId%22%3A%22internal+-+page_views.row_count%22%2C%22id%22%3A%22internal+-+page_views.row_count%22%2C%22name%22%3A%22internal%22%7D%2C%7B%22axisId%22%3A%22other+-+page_views.row_count%22%2C%22id%22%3A%22other+-+page_views.row_count%22%2C%22name%22%3A%22other%22%7D%2C%7B%22axisId%22%3A%22paid+-+page_views.row_count%22%2C%22id%22%3A%22paid+-+page_views.row_count%22%2C%22name%22%3A%22paid%22%7D%2C%7B%22axisId%22%3A%22search+-+page_views.row_count%22%2C%22id%22%3A%22search+-+page_views.row_count%22%2C%22name%22%3A%22search%22%7D%2C%7B%22axisId%22%3A%22social+-+page_views.row_count%22%2C%22id%22%3A%22social+-+page_views.row_count%22%2C%22name%22%3A%22social%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22x_axis_label%22%3A%22Date%22%2C%22colors%22%3A%5B%22%235245ed%22%2C%22%23ed6168%22%2C%22%231ea8df%22%2C%22%23353b49%22%2C%22%2349cec1%22%2C%22%23b3a0dd%22%2C%22%23db7f2a%22%2C%22%23706080%22%2C%22%23a2dcf3%22%2C%22%23776fdf%22%2C%22%23e9b404%22%2C%22%23635189%22%5D%2C%22font_size%22%3A%2212%22%2C%22series_types%22%3A%7B%7D%2C%22series_colors%22%3A%7B%22direct+-+page_views.row_count%22%3A%22%23bae6ff%22%2C%22email+-+page_views.row_count%22%3A%22%2382cfff%22%2C%22internal+-+page_views.row_count%22%3A%22%2333b1ff%22%2C%22other+-+page_views.row_count%22%3A%22%231192e8%22%2C%22paid+-+page_views.row_count%22%3A%22%230072c3%22%2C%22search+-+page_views.row_count%22%3A%22%2300539a%22%2C%22social+-+page_views.row_count%22%3A%22%23003a6d%22%7D%2C%22series_labels%22%3A%7B%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%5D",
-          "runtime": null,
           "has_table_calculations": false,
           "model": "snowplow_web_block",
           "dynamic_fields": "[]",
@@ -3765,18 +3554,22 @@
         "run": true,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 257,
+      "id": "269",
       "look": {
-        "content_metadata_id": 86,
-        "id": 24,
+        "content_metadata_id": "86",
+        "id": "24",
         "title": "Top Referrer URL Hosts",
+        "user_id": "8",
         "created_at": "2022-06-08 20:13:04 UTC",
         "deleted_at": null,
         "deleter_id": null,
@@ -3784,46 +3577,13 @@
         "favorite_count": 0,
         "is_run_on_load": true,
         "last_accessed_at": null,
-        "last_updater_id": 36,
-        "query_id": 4074,
+        "last_updater_id": "36",
+        "query_id": "4074",
         "short_url": "/looks/24",
-        "updated_at": "2023-10-04 18:27:49 UTC",
-        "user_id": 8,
+        "updated_at": "2024-02-14 00:29:10 UTC",
         "view_count": 0,
-        "user": {
-          "id": 8
-        },
-        "space_id": 32,
-        "space": {
-          "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
-          "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
-          "is_embed": false,
-          "is_embed_shared_root": false,
-          "is_embed_users_root": false,
-          "is_personal": false,
-          "is_personal_descendant": false,
-          "is_shared_root": false,
-          "is_users_root": false,
-          "child_count": 0,
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "see_admin_spaces": true,
-            "save_shared_space_as_embed_user": true,
-            "destroy": true,
-            "update": true,
-            "move_content": true,
-            "edit_content": true
-          }
-        },
         "query": {
-          "id": 4074,
+          "id": "4074",
           "view": "page_views",
           "fields": [
             "page_views.referrer_urlhost",
@@ -3956,7 +3716,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/EX6eYq4h1S2sDbNWljud0u",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.referrer_urlhost,page_views.row_count&sorts=page_views.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.session_count%22%3A%22Referral+Count%22%2C%22page_views.row_count%22%3A%22Referral+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A149%2C%22of_referrals%22%3A122%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_referrals%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22point_style%22%3A%22none%22%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22page_views.session_count%22%2C%22name%22%3A%22Session+Count%22%2C%22axisId%22%3A%22page_views.session_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22of_all_referrals%22%2C%22name%22%3A%22%25+of+all+referrals%22%2C%22axisId%22%3A%22of_all_referrals%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22maxValue%22%3A1%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_referrals%22%2C%22label%22%3A%22%25+of+Referrals%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D+%2F+sum%28%24%7Bpage_views.row_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=page_views.referrer_urlhost,page_views.row_count&sorts=page_views.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.session_count%22%3A%22Referral+Count%22%2C%22page_views.row_count%22%3A%22Referral+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A149%2C%22of_referrals%22%3A122%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_referrals%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22point_style%22%3A%22none%22%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22page_views.session_count%22%2C%22name%22%3A%22Session+Count%22%2C%22axisId%22%3A%22page_views.session_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22of_all_referrals%22%2C%22name%22%3A%22%25+of+all+referrals%22%2C%22axisId%22%3A%22of_all_referrals%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22maxValue%22%3A1%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_referrals%22%2C%22label%22%3A%22%25+of+Referrals%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D+%2F+sum%28%24%7Bpage_views.row_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_referrals\",\"label\":\"% of Referrals\",\"expression\":\"${page_views.row_count} / sum(${page_views.row_count})\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -3991,12 +3750,12 @@
         "url": "/explore/snowplow_web_block/page_views?fields=page_views.referrer_urlhost,page_views.row_count&sorts=page_views.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.session_count%22%3A%22Referral+Count%22%2C%22page_views.row_count%22%3A%22Referral+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A149%2C%22of_referrals%22%3A122%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_referrals%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22point_style%22%3A%22none%22%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22page_views.session_count%22%2C%22name%22%3A%22Session+Count%22%2C%22axisId%22%3A%22page_views.session_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22of_all_referrals%22%2C%22name%22%3A%22%25+of+all+referrals%22%2C%22axisId%22%3A%22of_all_referrals%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22maxValue%22%3A1%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_referrals%22%2C%22label%22%3A%22%25+of+Referrals%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D+%2F+sum%28%24%7Bpage_views.row_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=Top+Referrer+URL+Hosts&look_id=24",
         "folder": {
           "name": "production dashboards",
-          "parent_id": 1,
-          "id": 32,
-          "content_metadata_id": 62,
+          "parent_id": "1",
+          "id": "32",
+          "content_metadata_id": "62",
           "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": 24,
-          "external_id": null,
+          "creator_id": "24",
+          "external_id": "",
           "is_embed": false,
           "is_embed_shared_root": false,
           "is_embed_users_root": false,
@@ -4017,11 +3776,12 @@
             "edit_content": true
           }
         },
+        "folder_id": "32",
         "content_favorite_id": null,
         "deleted": false,
-        "embed_url": null,
-        "excel_file_url": null,
-        "google_spreadsheet_formula": null,
+        "embed_url": "",
+        "excel_file_url": "",
+        "google_spreadsheet_formula": "",
         "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/ZvmnjmPxp4h73n3mzjVfHx9TMbfbjfVs.png",
         "last_viewed_at": null,
         "model": {
@@ -4031,7 +3791,6 @@
         "public": false,
         "public_slug": null,
         "public_url": null,
-        "folder_id": 32,
         "can": {
           "download": true,
           "download_unlimited": true,
@@ -4051,8 +3810,8 @@
           "render": true
         }
       },
-      "look_id": 24,
-      "lookml_link_id": null,
+      "look_id": "24",
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
@@ -4062,7 +3821,7 @@
       "query_id": null,
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 876,
+      "result_maker_id": "876",
       "subtitle_text": null,
       "title": null,
       "title_hidden": false,
@@ -4072,14 +3831,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 876,
+        "id": "876",
         "dynamic_fields": "[{\"table_calculation\":\"of_referrals\",\"label\":\"% of Referrals\",\"expression\":\"${page_views.row_count} / sum(${page_views.row_count})\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "page_views",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -4133,10 +3893,10 @@
         ],
         "merge_result_id": null,
         "total": true,
-        "query_id": 4074,
-        "sql_query_id": null,
+        "query_id": "4074",
+        "sql_query_id": "",
         "query": {
-          "id": 4074,
+          "id": "4074",
           "view": "page_views",
           "fields": [
             "page_views.referrer_urlhost",
@@ -4269,7 +4029,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/EX6eYq4h1S2sDbNWljud0u",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.referrer_urlhost,page_views.row_count&sorts=page_views.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.session_count%22%3A%22Referral+Count%22%2C%22page_views.row_count%22%3A%22Referral+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A149%2C%22of_referrals%22%3A122%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_referrals%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22point_style%22%3A%22none%22%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22page_views.session_count%22%2C%22name%22%3A%22Session+Count%22%2C%22axisId%22%3A%22page_views.session_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22of_all_referrals%22%2C%22name%22%3A%22%25+of+all+referrals%22%2C%22axisId%22%3A%22of_all_referrals%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22maxValue%22%3A1%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_referrals%22%2C%22label%22%3A%22%25+of+Referrals%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D+%2F+sum%28%24%7Bpage_views.row_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=page_views.referrer_urlhost,page_views.row_count&sorts=page_views.row_count+desc&limit=20&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.session_count%22%3A%22Referral+Count%22%2C%22page_views.row_count%22%3A%22Referral+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A149%2C%22of_referrals%22%3A122%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_referrals%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22point_style%22%3A%22none%22%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22page_views.session_count%22%2C%22name%22%3A%22Session+Count%22%2C%22axisId%22%3A%22page_views.session_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22of_all_referrals%22%2C%22name%22%3A%22%25+of+all+referrals%22%2C%22axisId%22%3A%22of_all_referrals%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22maxValue%22%3A1%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_referrals%22%2C%22label%22%3A%22%25+of+Referrals%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D+%2F+sum%28%24%7Bpage_views.row_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_referrals\",\"label\":\"% of Referrals\",\"expression\":\"${page_views.row_count} / sum(${page_views.row_count})\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -4421,24 +4180,27 @@
         "run": true,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 258,
+      "id": "270",
       "look": null,
       "look_id": null,
-      "lookml_link_id": null,
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
       "note_text": "The web page on the website that a user first visits during a session.",
       "note_text_as_html": "The web page on the website that a user first visits during a session.",
       "query": {
-        "id": 3955,
+        "id": "3955",
         "view": "page_views",
         "fields": [
           "cmslite_metadata.title",
@@ -4558,7 +4320,6 @@
         "share_url": "https://dev.analytics.gov.bc.ca/x/lkrw2iFQtcJlU9nX1e7KZY",
         "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=cmslite_metadata.title,page_views.row_count,page_views.page_display_url&f[page_views.page_view_in_session_index]=1&sorts=page_views.row_count+desc&limit=15&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.landing_page_count%22%3A%22Landing+Page+View+Count%22%2C%22page_views.page_display_url%22%3A%22URL%22%2C%22page_views.row_count%22%3A%22Landing+Page+View+Count%22%2C%22page_views.page_title%22%3A%22Page+Title%22%2C%22cmslite_metadata.title%22%3A%22Page+Title%22%2C%22cmslite_metadata.hr_url%22%3A%22URL%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A113%2C%22of_landing_page_views%22%3A95%2C%22page_views.page_title%22%3A122.5%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_landing_page_views%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22series_types%22%3A%7B%7D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22page_views.page_view_in_session_index%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_landing_page_views%22%2C%22label%22%3A%22%25+of+Landing+Page+Views%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D%2F%24%7Bpage_views.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
         "url": "/explore/snowplow_web_block/page_views?fields=cmslite_metadata.title,page_views.row_count,page_views.page_display_url&f[page_views.page_view_in_session_index]=1&sorts=page_views.row_count+desc&limit=15&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.landing_page_count%22%3A%22Landing+Page+View+Count%22%2C%22page_views.page_display_url%22%3A%22URL%22%2C%22page_views.row_count%22%3A%22Landing+Page+View+Count%22%2C%22page_views.page_title%22%3A%22Page+Title%22%2C%22cmslite_metadata.title%22%3A%22Page+Title%22%2C%22cmslite_metadata.hr_url%22%3A%22URL%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A113%2C%22of_landing_page_views%22%3A95%2C%22page_views.page_title%22%3A122.5%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_landing_page_views%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22series_types%22%3A%7B%7D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22page_views.page_view_in_session_index%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_landing_page_views%22%2C%22label%22%3A%22%25+of+Landing+Page+Views%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D%2F%24%7Bpage_views.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-        "runtime": null,
         "has_table_calculations": true,
         "model": "snowplow_web_block",
         "dynamic_fields": "[{\"table_calculation\":\"of_landing_page_views\",\"label\":\"% of Landing Page Views\",\"expression\":\"${page_views.row_count}/${page_views.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -4590,10 +4351,10 @@
           "render": true
         }
       },
-      "query_id": 3955,
+      "query_id": "3955",
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 831,
+      "result_maker_id": "831",
       "subtitle_text": null,
       "title": "Top Landing Pages",
       "title_hidden": false,
@@ -4603,14 +4364,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 831,
+        "id": "831",
         "dynamic_fields": "[{\"table_calculation\":\"of_landing_page_views\",\"label\":\"% of Landing Page Views\",\"expression\":\"${page_views.row_count}/${page_views.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "page_views",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -4664,10 +4426,10 @@
         ],
         "merge_result_id": null,
         "total": true,
-        "query_id": 3955,
-        "sql_query_id": null,
+        "query_id": "3955",
+        "sql_query_id": "",
         "query": {
-          "id": 3955,
+          "id": "3955",
           "view": "page_views",
           "fields": [
             "cmslite_metadata.title",
@@ -4787,7 +4549,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/lkrw2iFQtcJlU9nX1e7KZY",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=cmslite_metadata.title,page_views.row_count,page_views.page_display_url&f[page_views.page_view_in_session_index]=1&sorts=page_views.row_count+desc&limit=15&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.landing_page_count%22%3A%22Landing+Page+View+Count%22%2C%22page_views.page_display_url%22%3A%22URL%22%2C%22page_views.row_count%22%3A%22Landing+Page+View+Count%22%2C%22page_views.page_title%22%3A%22Page+Title%22%2C%22cmslite_metadata.title%22%3A%22Page+Title%22%2C%22cmslite_metadata.hr_url%22%3A%22URL%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A113%2C%22of_landing_page_views%22%3A95%2C%22page_views.page_title%22%3A122.5%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_landing_page_views%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22series_types%22%3A%7B%7D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22page_views.page_view_in_session_index%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_landing_page_views%22%2C%22label%22%3A%22%25+of+Landing+Page+Views%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D%2F%24%7Bpage_views.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=cmslite_metadata.title,page_views.row_count,page_views.page_display_url&f[page_views.page_view_in_session_index]=1&sorts=page_views.row_count+desc&limit=15&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.landing_page_count%22%3A%22Landing+Page+View+Count%22%2C%22page_views.page_display_url%22%3A%22URL%22%2C%22page_views.row_count%22%3A%22Landing+Page+View+Count%22%2C%22page_views.page_title%22%3A%22Page+Title%22%2C%22cmslite_metadata.title%22%3A%22Page+Title%22%2C%22cmslite_metadata.hr_url%22%3A%22URL%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.row_count%22%3A113%2C%22of_landing_page_views%22%3A95%2C%22page_views.page_title%22%3A122.5%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_landing_page_views%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22series_types%22%3A%7B%7D%2C%22defaults_version%22%3A1%7D&filter_config=%7B%22page_views.page_view_in_session_index%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_landing_page_views%22%2C%22label%22%3A%22%25+of+Landing+Page+Views%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D%2F%24%7Bpage_views.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_landing_page_views\",\"label\":\"% of Landing Page Views\",\"expression\":\"${page_views.row_count}/${page_views.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -4908,24 +4669,27 @@
         "run": false,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 20,
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 259,
+      "id": "271",
       "look": null,
       "look_id": null,
-      "lookml_link_id": null,
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": "hover",
       "note_state": "collapsed",
       "note_text": "Displays the top performing pages based on page view count.",
       "note_text_as_html": "Displays the top performing pages based on page view count.",
       "query": {
-        "id": 4075,
+        "id": "4075",
         "view": "page_views",
         "fields": [
           "cmslite_metadata.title",
@@ -5028,7 +4792,6 @@
         "share_url": "https://dev.analytics.gov.bc.ca/x/MOvRMS9ojxaQ7pOYCQTsVi",
         "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=cmslite_metadata.title,page_views.page_display_url,page_views.row_count&sorts=page_views.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.page_display_url%22%3A%22URL%22%2C%22page_views.page_title%22%3A%22Title%22%2C%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.page_title%22%3A140.5%2C%22page_views.row_count%22%3A97%2C%22of_page_views%22%3A104%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22page_views.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_page_views%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22hidden_fields%22%3A%5B%5D%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_page_views%22%2C%22label%22%3A%22%25+of+Page+Views%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D%2F%24%7Bpage_views.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
         "url": "/explore/snowplow_web_block/page_views?fields=cmslite_metadata.title,page_views.page_display_url,page_views.row_count&sorts=page_views.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.page_display_url%22%3A%22URL%22%2C%22page_views.page_title%22%3A%22Title%22%2C%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.page_title%22%3A140.5%2C%22page_views.row_count%22%3A97%2C%22of_page_views%22%3A104%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22page_views.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_page_views%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22hidden_fields%22%3A%5B%5D%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_page_views%22%2C%22label%22%3A%22%25+of+Page+Views%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D%2F%24%7Bpage_views.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-        "runtime": null,
         "has_table_calculations": true,
         "model": "snowplow_web_block",
         "dynamic_fields": "[{\"table_calculation\":\"of_page_views\",\"label\":\"% of Page Views\",\"expression\":\"${page_views.row_count}/${page_views.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -5060,10 +4823,10 @@
           "render": true
         }
       },
-      "query_id": 4075,
+      "query_id": "4075",
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 877,
+      "result_maker_id": "877",
       "subtitle_text": null,
       "title": "Top Pages",
       "title_hidden": false,
@@ -5073,14 +4836,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 877,
+        "id": "877",
         "dynamic_fields": "[{\"table_calculation\":\"of_page_views\",\"label\":\"% of Page Views\",\"expression\":\"${page_views.row_count}/${page_views.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "page_views",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Date Range",
@@ -5134,10 +4898,10 @@
         ],
         "merge_result_id": null,
         "total": true,
-        "query_id": 4075,
-        "sql_query_id": null,
+        "query_id": "4075",
+        "sql_query_id": "",
         "query": {
-          "id": 4075,
+          "id": "4075",
           "view": "page_views",
           "fields": [
             "cmslite_metadata.title",
@@ -5240,7 +5004,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/MOvRMS9ojxaQ7pOYCQTsVi",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=cmslite_metadata.title,page_views.page_display_url,page_views.row_count&sorts=page_views.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.page_display_url%22%3A%22URL%22%2C%22page_views.page_title%22%3A%22Title%22%2C%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.page_title%22%3A140.5%2C%22page_views.row_count%22%3A97%2C%22of_page_views%22%3A104%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22page_views.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_page_views%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22hidden_fields%22%3A%5B%5D%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_page_views%22%2C%22label%22%3A%22%25+of+Page+Views%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D%2F%24%7Bpage_views.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=cmslite_metadata.title,page_views.page_display_url,page_views.row_count&sorts=page_views.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Afalse%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22page_views.page_display_url%22%3A%22URL%22%2C%22page_views.page_title%22%3A%22Title%22%2C%22page_views.row_count%22%3A%22Page+View+Count%22%7D%2C%22series_column_widths%22%3A%7B%22page_views.page_title%22%3A140.5%2C%22page_views.row_count%22%3A97%2C%22of_page_views%22%3A104%7D%2C%22series_cell_visualizations%22%3A%7B%22page_views.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22page_views.row_count%22%3A%7B%22align%22%3A%22right%22%7D%2C%22of_page_views%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22stacking%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22hidden_fields%22%3A%5B%5D%2C%22series_types%22%3A%7B%7D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_page_views%22%2C%22label%22%3A%22%25+of+Page+Views%22%2C%22expression%22%3A%22%24%7Bpage_views.row_count%7D%2F%24%7Bpage_views.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_1%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "runtime": null,
           "has_table_calculations": true,
           "model": "snowplow_web_block",
           "dynamic_fields": "[{\"table_calculation\":\"of_page_views\",\"label\":\"% of Page Views\",\"expression\":\"${page_views.row_count}/${page_views.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_1\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
@@ -5361,17 +5124,20 @@
         "run": false,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     },
     {
-      "body_text": "<p style=\"background-color:#d9eaf7; border: 1px solid transparent; border-radius: 4px; color:#313132; font-size: 16px; padding: 15px;\">\n<b>Help Resources</b>:\n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Office Hours</b></a><b> | \n<a href=\"https://learningcentre.gww.gov.bc.ca/learninghub/course/intro-to-web-analytics-dashboards-training-by-gdx-analytics/\"> <b>Intro Training Webinar</b></a>  |  \n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Yammer Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\"><b>Web Analytics Guide & Glossary</b></a>\n",
-      "body_text_as_html": "<p style=\"background-color:#d9eaf7;border:1px solid transparent;border-radius:4px;color:#313132;font-size:16px;padding:15px;\">\n<b>Help Resources</b>:\n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Office Hours</b></a><b> | \n<a href=\"https://learningcentre.gww.gov.bc.ca/learninghub/course/intro-to-web-analytics-dashboards-training-by-gdx-analytics/\"> <b>Intro Training Webinar</b></a>  |  \n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Yammer Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\"><b>Web Analytics Guide &amp; Glossary</b></a>\n</b></b></p>\n",
-      "dashboard_id": 20,
+      "body_text": "<p style=\"background-color:#d9eaf7; border: 1px solid transparent; border-radius: 4px; color:#313132; font-size: 16px; padding: 15px;\">\n<b>Help Resources</b>:\n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Office Hours</b></a><b> | \n<a href=\"https://learningcentre.gww.gov.bc.ca/learninghub/course/intro-to-web-analytics-dashboards-training-by-gdx-analytics/\"> <b>Intro Training Webinar</b></a>  |  \n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Viva Engage Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\"><b>Web Analytics Guide & Glossary</b></a>\n",
+      "body_text_as_html": "<p style=\"background-color:#d9eaf7;border:1px solid transparent;border-radius:4px;color:#313132;font-size:16px;padding:15px;\">\n<b>Help Resources</b>:\n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Office Hours</b></a><b> | \n<a href=\"https://learningcentre.gww.gov.bc.ca/learninghub/course/intro-to-web-analytics-dashboards-training-by-gdx-analytics/\"> <b>Intro Training Webinar</b></a>  |  \n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Viva Engage Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\"><b>Web Analytics Guide &amp; Glossary</b></a>\n</b></b></p>\n",
+      "dashboard_id": "20",
       "edit_uri": null,
-      "id": 260,
+      "id": "272",
       "look": null,
       "look_id": null,
-      "lookml_link_id": null,
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": null,
       "note_state": null,
@@ -5391,6 +5157,7 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": null,
       "can": {
         "create": true,
@@ -5403,13 +5170,16 @@
         "run": false,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     }
   ],
   "dashboard_filters": [
     {
-      "id": 224,
-      "dashboard_id": 20,
+      "id": "235",
+      "dashboard_id": "20",
       "name": "Date Range",
       "title": "Date Range",
       "type": "field_filter",
@@ -5502,8 +5272,8 @@
       }
     },
     {
-      "id": 225,
-      "dashboard_id": 20,
+      "id": "236",
+      "dashboard_id": "20",
       "name": "City",
       "title": "City",
       "type": "field_filter",
@@ -5593,8 +5363,8 @@
       }
     },
     {
-      "id": 226,
-      "dashboard_id": 20,
+      "id": "237",
+      "dashboard_id": "20",
       "name": "Internal Gov Traffic",
       "title": "Internal Gov Traffic",
       "type": "field_filter",
@@ -5693,8 +5463,8 @@
       }
     },
     {
-      "id": 227,
-      "dashboard_id": 20,
+      "id": "238",
+      "dashboard_id": "20",
       "name": "ISP",
       "title": "ISP",
       "type": "field_filter",
@@ -5784,8 +5554,8 @@
       }
     },
     {
-      "id": 228,
-      "dashboard_id": 20,
+      "id": "239",
+      "dashboard_id": "20",
       "name": "Is Mobile",
       "title": "Is Mobile",
       "type": "field_filter",
@@ -5884,8 +5654,8 @@
       }
     },
     {
-      "id": 229,
-      "dashboard_id": 20,
+      "id": "240",
+      "dashboard_id": "20",
       "name": "Theme",
       "title": "Theme",
       "type": "field_filter",
@@ -5975,8 +5745,8 @@
       }
     },
     {
-      "id": 230,
-      "dashboard_id": 20,
+      "id": "241",
+      "dashboard_id": "20",
       "name": "Sub Theme",
       "title": "Sub Theme",
       "type": "field_filter",
@@ -6066,8 +5836,8 @@
       }
     },
     {
-      "id": 231,
-      "dashboard_id": 20,
+      "id": "242",
+      "dashboard_id": "20",
       "name": "Title",
       "title": "Title",
       "type": "field_filter",
@@ -6157,8 +5927,8 @@
       }
     },
     {
-      "id": 232,
-      "dashboard_id": 20,
+      "id": "243",
+      "dashboard_id": "20",
       "name": "URL",
       "title": "URL",
       "type": "field_filter",
@@ -6248,8 +6018,8 @@
       }
     },
     {
-      "id": 233,
-      "dashboard_id": 20,
+      "id": "244",
+      "dashboard_id": "20",
       "name": "Site",
       "title": "Site",
       "type": "field_filter",
@@ -6339,8 +6109,8 @@
       }
     },
     {
-      "id": 234,
-      "dashboard_id": 20,
+      "id": "245",
+      "dashboard_id": "20",
       "name": "Topic",
       "title": "Topic",
       "type": "field_filter",
@@ -6432,8 +6202,8 @@
   ],
   "dashboard_layouts": [
     {
-      "id": 20,
-      "dashboard_id": 20,
+      "id": "20",
+      "dashboard_id": "20",
       "type": "newspaper",
       "active": true,
       "column_width": null,
@@ -6442,15 +6212,15 @@
       "dashboard_title": "BC Gov Analytics - Content",
       "dashboard_layout_components": [
         {
-          "id": 251,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 251,
+          "id": "263",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "263",
           "row": 23,
           "column": 12,
           "width": 12,
           "height": 12,
           "deleted": false,
-          "element_title": null,
+          "element_title": "",
           "element_title_hidden": false,
           "vis_type": "looker_grid",
           "can": {
@@ -6462,15 +6232,15 @@
           }
         },
         {
-          "id": 252,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 252,
+          "id": "264",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "264",
           "row": 35,
           "column": 12,
           "width": 12,
           "height": 11,
           "deleted": false,
-          "element_title": null,
+          "element_title": "",
           "element_title_hidden": false,
           "vis_type": "looker_grid",
           "can": {
@@ -6482,15 +6252,15 @@
           }
         },
         {
-          "id": 253,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 253,
+          "id": "265",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "265",
           "row": 2,
           "column": 0,
           "width": 12,
           "height": 10,
           "deleted": false,
-          "element_title": null,
+          "element_title": "",
           "element_title_hidden": false,
           "vis_type": "looker_column",
           "can": {
@@ -6502,15 +6272,15 @@
           }
         },
         {
-          "id": 254,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 254,
+          "id": "266",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "266",
           "row": 2,
           "column": 12,
           "width": 12,
           "height": 10,
           "deleted": false,
-          "element_title": null,
+          "element_title": "",
           "element_title_hidden": false,
           "vis_type": "looker_column",
           "can": {
@@ -6522,15 +6292,15 @@
           }
         },
         {
-          "id": 255,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 255,
+          "id": "267",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "267",
           "row": 35,
           "column": 0,
           "width": 12,
           "height": 11,
           "deleted": false,
-          "element_title": null,
+          "element_title": "",
           "element_title_hidden": false,
           "vis_type": "looker_grid",
           "can": {
@@ -6542,15 +6312,15 @@
           }
         },
         {
-          "id": 256,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 256,
+          "id": "268",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "268",
           "row": 12,
           "column": 12,
           "width": 12,
           "height": 11,
           "deleted": false,
-          "element_title": null,
+          "element_title": "",
           "element_title_hidden": false,
           "vis_type": "looker_column",
           "can": {
@@ -6562,15 +6332,15 @@
           }
         },
         {
-          "id": 257,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 257,
+          "id": "269",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "269",
           "row": 46,
           "column": 12,
           "width": 12,
           "height": 9,
           "deleted": false,
-          "element_title": null,
+          "element_title": "",
           "element_title_hidden": false,
           "vis_type": "looker_grid",
           "can": {
@@ -6582,9 +6352,9 @@
           }
         },
         {
-          "id": 258,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 258,
+          "id": "270",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "270",
           "row": 23,
           "column": 0,
           "width": 12,
@@ -6602,9 +6372,9 @@
           }
         },
         {
-          "id": 259,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 259,
+          "id": "271",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "271",
           "row": 12,
           "column": 0,
           "width": 12,
@@ -6622,9 +6392,9 @@
           }
         },
         {
-          "id": 260,
-          "dashboard_layout_id": 20,
-          "dashboard_element_id": 260,
+          "id": "272",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "272",
           "row": 0,
           "column": 0,
           "width": 24,
@@ -6658,29 +6428,29 @@
   "favorite_count": 0,
   "filters_bar_collapsed": false,
   "filters_location_top": true,
-  "last_accessed_at": "2024-01-22 23:26:46 UTC",
-  "updated_at": "2023-10-04 18:27:23 UTC",
-  "last_updater_id": 36,
+  "last_accessed_at": "2024-02-14 00:29:49 UTC",
+  "updated_at": "2024-02-14 00:28:58 UTC",
+  "last_updater_id": "36",
   "last_updater_name": "Looker Tile Performance",
   "user_name": "Veenu Veenu",
   "load_configuration": "cache_run",
   "lookml_link_id": null,
   "show_filters_bar": null,
   "show_title": null,
-  "space_id": 32,
   "text_tile_text_color": null,
   "tile_background_color": null,
   "tile_text_color": null,
   "title_color": null,
-  "view_count": 153,
+  "view_count": 154,
+  "url": "/dashboards/20",
   "folder": {
     "name": "production dashboards",
-    "parent_id": 1,
-    "id": 32,
-    "content_metadata_id": 62,
+    "parent_id": "1",
+    "id": "32",
+    "content_metadata_id": "62",
     "created_at": "2022-06-08 17:53:45 UTC",
-    "creator_id": 24,
-    "external_id": null,
+    "creator_id": "24",
+    "external_id": "",
     "is_embed": false,
     "is_embed_shared_root": false,
     "is_embed_users_root": false,
@@ -6701,12 +6471,12 @@
       "edit_content": true
     }
   },
+  "folder_id": "32",
   "content_favorite_id": null,
-  "id": 20,
+  "id": "20",
   "model": null,
   "deleted": false,
   "last_viewed_at": null,
-  "folder_id": 32,
   "appearance": null,
   "can": {
     "download": true,

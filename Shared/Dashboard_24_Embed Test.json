@@ -1,5 +1,5 @@
 {
-  "content_metadata_id": 96,
+  "content_metadata_id": "96",
   "description": "",
   "hidden": false,
   "query_timezone": null,
@@ -7,37 +7,9 @@
   "refresh_interval": null,
   "refresh_interval_to_i": null,
   "title": "Embed Test",
-  "user_id": 2,
+  "user_id": "2",
   "slug": "egT8itLJ9NGsmLqpRSV7un",
   "preferred_viewer": "dashboards-next",
-  "space": {
-    "name": "Shared",
-    "parent_id": null,
-    "id": 1,
-    "content_metadata_id": 1,
-    "created_at": "2018-04-13 18:10:27 UTC",
-    "creator_id": null,
-    "external_id": null,
-    "is_embed": false,
-    "is_embed_shared_root": false,
-    "is_embed_users_root": false,
-    "is_personal": false,
-    "is_personal_descendant": false,
-    "is_shared_root": true,
-    "is_users_root": false,
-    "child_count": 4,
-    "can": {
-      "index": true,
-      "show": true,
-      "create": true,
-      "see_admin_spaces": true,
-      "save_shared_space_as_embed_user": true,
-      "destroy": false,
-      "update": false,
-      "move_content": true,
-      "edit_content": true
-    }
-  },
   "alert_sync_with_dashboard_filter_enabled": false,
   "background_color": null,
   "created_at": "2022-11-18 19:45:46 UTC",
@@ -46,19 +18,19 @@
     {
       "body_text": null,
       "body_text_as_html": null,
-      "dashboard_id": 24,
+      "dashboard_id": "24",
       "edit_uri": null,
-      "id": 132,
+      "id": "132",
       "look": null,
       "look_id": null,
-      "lookml_link_id": null,
+      "lookml_link_id": "",
       "merge_result_id": null,
       "note_display": null,
       "note_state": null,
       "note_text": null,
       "note_text_as_html": null,
       "query": {
-        "id": 4098,
+        "id": "4098",
         "view": "page_views",
         "fields": [
           "page_views.page_display_url",
@@ -72,7 +44,9 @@
           "page_views.page_view_start_date": "1 days"
         },
         "filter_expression": null,
-        "sorts": null,
+        "sorts": [
+
+        ],
         "limit": "500",
         "column_limit": null,
         "total": null,
@@ -103,7 +77,6 @@
         "share_url": "https://dev.analytics.gov.bc.ca/x/fApnXMNpRwi3OH66LxQiHK",
         "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.page_display_url,page_views.page_urlhost,page_views.page_view_count,page_views.session_count&f[page_views.page_view_start_date]=1+days&limit=500&vis=%7B%7D&filter_config=%7B%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
         "url": "/explore/snowplow_web_block/page_views?fields=page_views.page_display_url,page_views.page_urlhost,page_views.page_view_count,page_views.session_count&f[page_views.page_view_start_date]=1+days&limit=500&vis=%7B%7D&filter_config=%7B%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D",
-        "runtime": null,
         "has_table_calculations": false,
         "model": "snowplow_web_block",
         "dynamic_fields": null,
@@ -133,10 +106,10 @@
           "render": true
         }
       },
-      "query_id": 4098,
+      "query_id": "4098",
       "refresh_interval": null,
       "refresh_interval_to_i": null,
-      "result_maker_id": 883,
+      "result_maker_id": "883",
       "subtitle_text": null,
       "title": "Untitled",
       "title_hidden": false,
@@ -146,14 +119,15 @@
       "rich_content_json": null,
       "title_text_as_html": null,
       "subtitle_text_as_html": null,
+      "extension_id": null,
       "result_maker": {
-        "id": 883,
+        "id": "883",
         "dynamic_fields": null,
         "filterables": [
           {
             "model": "snowplow_web_block",
             "view": "page_views",
-            "name": null,
+            "name": "",
             "listen": [
               {
                 "dashboard_filter_name": "Page Urlhost",
@@ -166,13 +140,15 @@
             ]
           }
         ],
-        "sorts": null,
+        "sorts": [
+
+        ],
         "merge_result_id": null,
-        "total": null,
-        "query_id": 4098,
-        "sql_query_id": null,
+        "total": false,
+        "query_id": "4098",
+        "sql_query_id": "",
         "query": {
-          "id": 4098,
+          "id": "4098",
           "view": "page_views",
           "fields": [
             "page_views.page_display_url",
@@ -186,7 +162,9 @@
             "page_views.page_view_start_date": "1 days"
           },
           "filter_expression": null,
-          "sorts": null,
+          "sorts": [
+
+          ],
           "limit": "500",
           "column_limit": null,
           "total": null,
@@ -217,7 +195,6 @@
           "share_url": "https://dev.analytics.gov.bc.ca/x/fApnXMNpRwi3OH66LxQiHK",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/page_views?fields=page_views.page_display_url,page_views.page_urlhost,page_views.page_view_count,page_views.session_count&f[page_views.page_view_start_date]=1+days&limit=500&vis=%7B%7D&filter_config=%7B%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
           "url": "/explore/snowplow_web_block/page_views?fields=page_views.page_display_url,page_views.page_urlhost,page_views.page_view_count,page_views.session_count&f[page_views.page_view_start_date]=1+days&limit=500&vis=%7B%7D&filter_config=%7B%22page_views.page_view_start_date%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22day%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D",
-          "runtime": null,
           "has_table_calculations": false,
           "model": "snowplow_web_block",
           "dynamic_fields": null,
@@ -261,13 +238,16 @@
         "run": false,
         "show_errors": true,
         "find_and_replace": true
-      }
+      },
+      "alerts": [
+
+      ]
     }
   ],
   "dashboard_filters": [
     {
-      "id": 100,
-      "dashboard_id": 24,
+      "id": "100",
+      "dashboard_id": "24",
       "name": "Page Urlhost",
       "title": "Page Urlhost",
       "type": "field_filter",
@@ -360,8 +340,8 @@
       }
     },
     {
-      "id": 101,
-      "dashboard_id": 24,
+      "id": "101",
+      "dashboard_id": "24",
       "name": "Page View Start Date",
       "title": "Page View Start Date",
       "type": "field_filter",
@@ -459,8 +439,8 @@
   ],
   "dashboard_layouts": [
     {
-      "id": 24,
-      "dashboard_id": 24,
+      "id": "24",
+      "dashboard_id": "24",
       "type": "newspaper",
       "active": true,
       "column_width": null,
@@ -469,9 +449,9 @@
       "dashboard_title": "Embed Test",
       "dashboard_layout_components": [
         {
-          "id": 132,
-          "dashboard_layout_id": 24,
-          "dashboard_element_id": 132,
+          "id": "132",
+          "dashboard_layout_id": "24",
+          "dashboard_element_id": "132",
           "row": 0,
           "column": 0,
           "width": 20,
@@ -507,27 +487,27 @@
   "filters_location_top": true,
   "last_accessed_at": "2023-10-05 18:24:24 UTC",
   "updated_at": "2022-11-18 19:47:22 UTC",
-  "last_updater_id": 2,
+  "last_updater_id": "2",
   "last_updater_name": "Dan Pollock",
   "user_name": "Dan Pollock",
   "load_configuration": "cache_run",
   "lookml_link_id": null,
   "show_filters_bar": null,
   "show_title": null,
-  "space_id": 1,
   "text_tile_text_color": null,
   "tile_background_color": null,
   "tile_text_color": null,
   "title_color": null,
   "view_count": 13,
+  "url": "/dashboards/24",
   "folder": {
     "name": "Shared",
     "parent_id": null,
-    "id": 1,
-    "content_metadata_id": 1,
+    "id": "1",
+    "content_metadata_id": "1",
     "created_at": "2018-04-13 18:10:27 UTC",
     "creator_id": null,
-    "external_id": null,
+    "external_id": "",
     "is_embed": false,
     "is_embed_shared_root": false,
     "is_embed_users_root": false,
@@ -548,12 +528,12 @@
       "edit_content": true
     }
   },
+  "folder_id": "1",
   "content_favorite_id": null,
-  "id": 24,
+  "id": "24",
   "model": null,
   "deleted": false,
   "last_viewed_at": null,
-  "folder_id": 1,
   "appearance": null,
   "can": {
     "download": true,
