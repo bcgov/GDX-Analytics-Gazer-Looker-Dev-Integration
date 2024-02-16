@@ -20,7 +20,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "263",
+      "id": "273",
       "look": {
         "content_metadata_id": "80",
         "id": "18",
@@ -36,7 +36,7 @@
         "last_updater_id": "36",
         "query_id": "3948",
         "short_url": "/looks/18",
-        "updated_at": "2024-02-14 00:29:05 UTC",
+        "updated_at": "2024-02-15 18:19:00 UTC",
         "view_count": 3,
         "query": {
           "id": "3948",
@@ -587,7 +587,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "264",
+      "id": "274",
       "look": {
         "content_metadata_id": "81",
         "id": "19",
@@ -603,7 +603,7 @@
         "last_updater_id": "36",
         "query_id": "3949",
         "short_url": "/looks/19",
-        "updated_at": "2024-02-14 00:29:06 UTC",
+        "updated_at": "2024-02-15 18:19:00 UTC",
         "view_count": 0,
         "query": {
           "id": "3949",
@@ -1170,7 +1170,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "265",
+      "id": "275",
       "look": {
         "content_metadata_id": "82",
         "id": "20",
@@ -1186,7 +1186,7 @@
         "last_updater_id": "36",
         "query_id": "4056",
         "short_url": "/looks/20",
-        "updated_at": "2024-02-14 00:29:07 UTC",
+        "updated_at": "2024-02-15 18:19:01 UTC",
         "view_count": 1,
         "query": {
           "id": "4056",
@@ -1694,7 +1694,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "266",
+      "id": "276",
       "look": {
         "content_metadata_id": "83",
         "id": "21",
@@ -1710,7 +1710,7 @@
         "last_updater_id": "36",
         "query_id": "4057",
         "short_url": "/looks/21",
-        "updated_at": "2024-02-14 00:29:08 UTC",
+        "updated_at": "2024-02-15 18:19:02 UTC",
         "view_count": 3,
         "query": {
           "id": "4057",
@@ -1860,8 +1860,8 @@
           },
           "visible_ui_sections": null,
           "slug": "b7VKMyh",
-          "client_id": "k57pzlzebfQ11oCZlUSyPG",
-          "share_url": "https://dev.analytics.gov.bc.ca/x/k57pzlzebfQ11oCZlUSyPG",
+          "client_id": "rkOlV2QvZsIRlNAPSZbbJB",
+          "share_url": "https://dev.analytics.gov.bc.ca/x/rkOlV2QvZsIRlNAPSZbbJB",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
           "url": "/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
           "has_table_calculations": false,
@@ -2175,8 +2175,8 @@
           },
           "visible_ui_sections": null,
           "slug": "b7VKMyh",
-          "client_id": "k57pzlzebfQ11oCZlUSyPG",
-          "share_url": "https://dev.analytics.gov.bc.ca/x/k57pzlzebfQ11oCZlUSyPG",
+          "client_id": "rkOlV2QvZsIRlNAPSZbbJB",
+          "share_url": "https://dev.analytics.gov.bc.ca/x/rkOlV2QvZsIRlNAPSZbbJB",
           "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
           "url": "/explore/google_api/google_search?fields=google_search.theme,google_search.total_clicks,google_search.total_impressions&f[google_search.theme_id]=-EMPTY&sorts=google_search.total_clicks+desc&limit=10&vis=%7B%22stacking%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22d754397b-2c05-4470-bbbb-05eb4c2b15cd%22%2C%22palette_id%22%3A%22b0768e0d-03b8-4c12-9e30-9ada6affc357%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%2C%22collection_default%22%3Afalse%2C%22collection_label%22%3A%22Dalton%22%2C%22palette_label%22%3A%22Mixed+categorical%22%2C%22palette_type%22%3A%22Categorical%22%2C%22palette_colors%22%3A%5B%22%23215AC8%22%2C%22%23FA7850%22%2C%22%238214A0%22%2C%22%232CA0FA%22%2C%22%230BB45B%22%2C%22%23DCCAA6%22%2C%22%2326D2DC%22%2C%22%23126E82%22%2C%22%239FFA82%22%2C%22%23AA0A3C%22%2C%22%23F0F031%22%2C%22%23FA78F9%22%5D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%7D%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22limit_displayed_rows_values%22%3A%7B%22show_hide%22%3A%22hide%22%2C%22first_last%22%3A%22first%22%2C%22num_rows%22%3A0%7D%2C%22hidden_series%22%3A%5B%22Minimum+Wage+-+google_search.total_clicks%22%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_clicks%22%2C%22name%22%3A%22Total+Clicks%22%2C%22axisId%22%3A%22google_search.total_clicks%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22google_search.total_impressions%22%2C%22name%22%3A%22Total+Impressions%22%2C%22axisId%22%3A%22google_search.total_impressions%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22tickDensityCustom%22%3A5%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Afalse%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22swap_axes%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_column%22%2C%22hidden_fields%22%3A%5B%5D%7D&filter_config=%7B%22google_search.theme_id%22%3A%5B%7B%22type%22%3A%22%21empty%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22%22%7D%2C%7B%7D%5D%2C%22id%22%3A127%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
           "has_table_calculations": false,
@@ -2340,7 +2340,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "267",
+      "id": "277",
       "look": {
         "content_metadata_id": "84",
         "id": "22",
@@ -2356,7 +2356,7 @@
         "last_updater_id": "36",
         "query_id": "3952",
         "short_url": "/looks/22",
-        "updated_at": "2024-02-14 00:29:08 UTC",
+        "updated_at": "2024-02-15 18:19:03 UTC",
         "view_count": 0,
         "query": {
           "id": "3952",
@@ -2913,7 +2913,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "268",
+      "id": "278",
       "look": {
         "content_metadata_id": "85",
         "id": "23",
@@ -2929,7 +2929,7 @@
         "last_updater_id": "36",
         "query_id": "4073",
         "short_url": "/looks/23",
-        "updated_at": "2024-02-14 00:29:09 UTC",
+        "updated_at": "2024-02-15 18:19:03 UTC",
         "view_count": 2,
         "query": {
           "id": "4073",
@@ -3564,7 +3564,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "269",
+      "id": "279",
       "look": {
         "content_metadata_id": "86",
         "id": "24",
@@ -3580,7 +3580,7 @@
         "last_updater_id": "36",
         "query_id": "4074",
         "short_url": "/looks/24",
-        "updated_at": "2024-02-14 00:29:10 UTC",
+        "updated_at": "2024-02-15 18:19:04 UTC",
         "view_count": 0,
         "query": {
           "id": "4074",
@@ -4190,7 +4190,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "270",
+      "id": "280",
       "look": null,
       "look_id": null,
       "lookml_link_id": "",
@@ -4679,7 +4679,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "271",
+      "id": "281",
       "look": null,
       "look_id": null,
       "lookml_link_id": "",
@@ -5134,7 +5134,7 @@
       "body_text_as_html": "<p style=\"background-color:#d9eaf7;border:1px solid transparent;border-radius:4px;color:#313132;font-size:16px;padding:15px;\">\n<b>Help Resources</b>:\n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Office Hours</b></a><b> | \n<a href=\"https://learningcentre.gww.gov.bc.ca/learninghub/course/intro-to-web-analytics-dashboards-training-by-gdx-analytics/\"> <b>Intro Training Webinar</b></a>  |  \n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Viva Engage Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\"><b>Web Analytics Guide &amp; Glossary</b></a>\n</b></b></p>\n",
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "272",
+      "id": "282",
       "look": null,
       "look_id": null,
       "lookml_link_id": "",
@@ -5178,7 +5178,7 @@
   ],
   "dashboard_filters": [
     {
-      "id": "235",
+      "id": "246",
       "dashboard_id": "20",
       "name": "Date Range",
       "title": "Date Range",
@@ -5206,7 +5206,7 @@
         "enumerations": null,
         "field_group_label": "Page View Start Date",
         "fill_style": "range",
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -5272,7 +5272,7 @@
       }
     },
     {
-      "id": "236",
+      "id": "247",
       "dashboard_id": "20",
       "name": "City",
       "title": "City",
@@ -5300,7 +5300,7 @@
         "enumerations": null,
         "field_group_label": null,
         "fill_style": null,
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -5363,7 +5363,7 @@
       }
     },
     {
-      "id": "237",
+      "id": "248",
       "dashboard_id": "20",
       "name": "Internal Gov Traffic",
       "title": "Internal Gov Traffic",
@@ -5400,7 +5400,7 @@
         ],
         "field_group_label": null,
         "fill_style": "enumeration",
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -5463,7 +5463,7 @@
       }
     },
     {
-      "id": "238",
+      "id": "249",
       "dashboard_id": "20",
       "name": "ISP",
       "title": "ISP",
@@ -5491,7 +5491,7 @@
         "enumerations": null,
         "field_group_label": "IP",
         "fill_style": null,
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -5554,7 +5554,7 @@
       }
     },
     {
-      "id": "239",
+      "id": "250",
       "dashboard_id": "20",
       "name": "Is Mobile",
       "title": "Is Mobile",
@@ -5591,7 +5591,7 @@
         ],
         "field_group_label": "Device",
         "fill_style": "enumeration",
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -5654,7 +5654,7 @@
       }
     },
     {
-      "id": "240",
+      "id": "251",
       "dashboard_id": "20",
       "name": "Theme",
       "title": "Theme",
@@ -5682,7 +5682,7 @@
         "enumerations": null,
         "field_group_label": null,
         "fill_style": null,
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -5745,7 +5745,7 @@
       }
     },
     {
-      "id": "241",
+      "id": "252",
       "dashboard_id": "20",
       "name": "Sub Theme",
       "title": "Sub Theme",
@@ -5773,7 +5773,7 @@
         "enumerations": null,
         "field_group_label": null,
         "fill_style": null,
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -5836,7 +5836,7 @@
       }
     },
     {
-      "id": "242",
+      "id": "253",
       "dashboard_id": "20",
       "name": "Title",
       "title": "Title",
@@ -5864,7 +5864,7 @@
         "enumerations": null,
         "field_group_label": "Page",
         "fill_style": null,
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -5927,7 +5927,7 @@
       }
     },
     {
-      "id": "243",
+      "id": "254",
       "dashboard_id": "20",
       "name": "URL",
       "title": "URL",
@@ -5955,7 +5955,7 @@
         "enumerations": null,
         "field_group_label": "Page",
         "fill_style": null,
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -6018,7 +6018,7 @@
       }
     },
     {
-      "id": "244",
+      "id": "255",
       "dashboard_id": "20",
       "name": "Site",
       "title": "Site",
@@ -6046,7 +6046,7 @@
         "enumerations": null,
         "field_group_label": null,
         "fill_style": null,
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -6109,7 +6109,7 @@
       }
     },
     {
-      "id": "245",
+      "id": "256",
       "dashboard_id": "20",
       "name": "Topic",
       "title": "Topic",
@@ -6137,7 +6137,7 @@
         "enumerations": null,
         "field_group_label": null,
         "fill_style": null,
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
@@ -6212,9 +6212,9 @@
       "dashboard_title": "BC Gov Analytics - Content",
       "dashboard_layout_components": [
         {
-          "id": "263",
+          "id": "273",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "263",
+          "dashboard_element_id": "273",
           "row": 23,
           "column": 12,
           "width": 12,
@@ -6232,9 +6232,9 @@
           }
         },
         {
-          "id": "264",
+          "id": "274",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "264",
+          "dashboard_element_id": "274",
           "row": 35,
           "column": 12,
           "width": 12,
@@ -6252,9 +6252,9 @@
           }
         },
         {
-          "id": "265",
+          "id": "275",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "265",
+          "dashboard_element_id": "275",
           "row": 2,
           "column": 0,
           "width": 12,
@@ -6272,9 +6272,9 @@
           }
         },
         {
-          "id": "266",
+          "id": "276",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "266",
+          "dashboard_element_id": "276",
           "row": 2,
           "column": 12,
           "width": 12,
@@ -6292,9 +6292,9 @@
           }
         },
         {
-          "id": "267",
+          "id": "277",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "267",
+          "dashboard_element_id": "277",
           "row": 35,
           "column": 0,
           "width": 12,
@@ -6312,9 +6312,9 @@
           }
         },
         {
-          "id": "268",
+          "id": "278",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "268",
+          "dashboard_element_id": "278",
           "row": 12,
           "column": 12,
           "width": 12,
@@ -6332,9 +6332,9 @@
           }
         },
         {
-          "id": "269",
+          "id": "279",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "269",
+          "dashboard_element_id": "279",
           "row": 46,
           "column": 12,
           "width": 12,
@@ -6352,9 +6352,9 @@
           }
         },
         {
-          "id": "270",
+          "id": "280",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "270",
+          "dashboard_element_id": "280",
           "row": 23,
           "column": 0,
           "width": 12,
@@ -6372,9 +6372,9 @@
           }
         },
         {
-          "id": "271",
+          "id": "281",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "271",
+          "dashboard_element_id": "281",
           "row": 12,
           "column": 0,
           "width": 12,
@@ -6392,9 +6392,9 @@
           }
         },
         {
-          "id": "272",
+          "id": "282",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "272",
+          "dashboard_element_id": "282",
           "row": 0,
           "column": 0,
           "width": 24,
@@ -6428,8 +6428,8 @@
   "favorite_count": 0,
   "filters_bar_collapsed": false,
   "filters_location_top": true,
-  "last_accessed_at": "2024-02-14 00:29:49 UTC",
-  "updated_at": "2024-02-14 00:28:58 UTC",
+  "last_accessed_at": "2024-02-15 19:16:14 UTC",
+  "updated_at": "2024-02-15 18:18:54 UTC",
   "last_updater_id": "36",
   "last_updater_name": "Looker Tile Performance",
   "user_name": "Veenu Veenu",
@@ -6441,7 +6441,7 @@
   "tile_background_color": null,
   "tile_text_color": null,
   "title_color": null,
-  "view_count": 154,
+  "view_count": 161,
   "url": "/dashboards/20",
   "folder": {
     "name": "production dashboards",

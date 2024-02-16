@@ -601,7 +601,7 @@
         "enumerations": null,
         "field_group_label": "Page View Start Date",
         "fill_style": "range",
-        "fiscal_month_offset": 0,
+        "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
