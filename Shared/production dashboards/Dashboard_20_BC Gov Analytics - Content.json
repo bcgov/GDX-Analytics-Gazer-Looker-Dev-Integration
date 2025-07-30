@@ -20,7 +20,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "273",
+      "id": "293",
       "look": {
         "content_metadata_id": "80",
         "id": "18",
@@ -36,7 +36,7 @@
         "last_updater_id": "36",
         "query_id": "3948",
         "short_url": "/looks/18",
-        "updated_at": "2024-02-15 18:19:00 UTC",
+        "updated_at": "2025-07-17 15:24:17 UTC",
         "view_count": 3,
         "query": {
           "id": "3948",
@@ -316,12 +316,12 @@
                 "field": "clicks.page_title"
               },
               {
-                "dashboard_filter_name": "URL",
-                "field": "clicks.page_display_url"
-              },
-              {
                 "dashboard_filter_name": "Site",
                 "field": "clicks.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "clicks.page_display_url"
               },
               {
                 "dashboard_filter_name": "Topic",
@@ -587,590 +587,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "274",
-      "look": {
-        "content_metadata_id": "81",
-        "id": "19",
-        "title": "Top Offsite Links",
-        "user_id": "8",
-        "created_at": "2022-06-08 20:13:00 UTC",
-        "deleted_at": null,
-        "deleter_id": null,
-        "description": "A table of Offsite Link, and count of clicks ordered by clicks descending.",
-        "favorite_count": 0,
-        "is_run_on_load": true,
-        "last_accessed_at": null,
-        "last_updater_id": "36",
-        "query_id": "3949",
-        "short_url": "/looks/19",
-        "updated_at": "2024-02-15 18:19:00 UTC",
-        "view_count": 0,
-        "query": {
-          "id": "3949",
-          "view": "clicks",
-          "fields": [
-            "clicks.target_url",
-            "clicks.row_count"
-          ],
-          "pivots": null,
-          "fill_fields": null,
-          "filters": {
-            "clicks.click_type": "\"link_click\"",
-            "clicks.offsite_click": "Yes"
-          },
-          "filter_expression": null,
-          "sorts": [
-            "clicks.row_count desc"
-          ],
-          "limit": "20",
-          "column_limit": "50",
-          "total": true,
-          "row_total": null,
-          "subtotals": null,
-          "vis_config": {
-            "show_view_names": true,
-            "show_row_numbers": true,
-            "transpose": false,
-            "truncate_text": false,
-            "hide_totals": false,
-            "hide_row_totals": false,
-            "size_to_fit": true,
-            "table_theme": "editable",
-            "limit_displayed_rows": false,
-            "enable_conditional_formatting": false,
-            "header_text_alignment": "left",
-            "header_font_size": "11",
-            "rows_font_size": "11",
-            "conditional_formatting_include_totals": false,
-            "conditional_formatting_include_nulls": false,
-            "show_sql_query_menu_options": false,
-            "show_totals": true,
-            "show_row_totals": true,
-            "series_labels": {
-              "clicks.target_url": "Offsite Links",
-              "clicks.click_count": "Offsite Click Count",
-              "clicks.target_url_nopar": "Offsite Link",
-              "clicks.session_count": "Session Count",
-              "clicks.row_count": "Offsite Click Count"
-            },
-            "series_column_widths": {
-              "clicks.row_count": 155,
-              "of_offsite_clicks": 138
-            },
-            "series_cell_visualizations": {
-              "clicks.row_count": {
-                "is_active": false
-              }
-            },
-            "series_text_format": {
-              "of_offsite_clicks": {
-                "align": "right"
-              }
-            },
-            "conditional_formatting": [
-              {
-                "type": "low to high",
-                "value": null,
-                "background_color": null,
-                "font_color": null,
-                "palette": {
-                  "name": "Red to Yellow to Green",
-                  "colors": [
-                    "#F36254",
-                    "#FCF758",
-                    "#4FBC89"
-                  ]
-                },
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "fields": null
-              }
-            ],
-            "truncate_column_names": false,
-            "subtotals_at_bottom": false,
-            "type": "looker_grid",
-            "hidden_fields": [
-
-            ],
-            "y_axes": [
-
-            ],
-            "defaults_version": 1,
-            "series_types": {
-            }
-          },
-          "filter_config": {
-            "clicks.click_type": [
-              {
-                "type": "=",
-                "values": [
-                  {
-                    "constant": "link_click"
-                  },
-                  {
-                  }
-                ],
-                "id": 0,
-                "error": false
-              }
-            ],
-            "clicks.offsite_click": [
-              {
-                "type": "is",
-                "values": [
-                  {
-                    "constant": "Yes"
-                  },
-                  {
-                  }
-                ],
-                "id": 44
-              }
-            ]
-          },
-          "visible_ui_sections": null,
-          "slug": "fyYPbG5",
-          "client_id": "v5OKocoH2y6NgODyaVmYwH",
-          "share_url": "https://dev.analytics.gov.bc.ca/x/v5OKocoH2y6NgODyaVmYwH",
-          "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
-          "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "has_table_calculations": true,
-          "model": "snowplow_web_block",
-          "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
-          "query_timezone": null,
-          "quick_calcs": [
-
-          ],
-          "analysis_config": null,
-          "can": {
-            "run": true,
-            "see_results": true,
-            "explore": true,
-            "create": true,
-            "show": true,
-            "cost_estimate": true,
-            "index": true,
-            "see_lookml": true,
-            "see_aggregate_table_lookml": true,
-            "see_derived_table_lookml": true,
-            "see_sql": true,
-            "save": true,
-            "generate_drill_links": true,
-            "download": true,
-            "download_unlimited": true,
-            "use_custom_fields": true,
-            "edit_custom_fields": true,
-            "edit_table_calculations": true,
-            "schedule": true,
-            "render": true
-          }
-        },
-        "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=Top+Offsite+Links&look_id=19",
-        "folder": {
-          "name": "production dashboards",
-          "parent_id": "1",
-          "id": "32",
-          "content_metadata_id": "62",
-          "created_at": "2022-06-08 17:53:45 UTC",
-          "creator_id": "24",
-          "external_id": "",
-          "is_embed": false,
-          "is_embed_shared_root": false,
-          "is_embed_users_root": false,
-          "is_personal": false,
-          "is_personal_descendant": false,
-          "is_shared_root": false,
-          "is_users_root": false,
-          "child_count": 0,
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "see_admin_spaces": true,
-            "save_shared_space_as_embed_user": true,
-            "destroy": true,
-            "update": true,
-            "move_content": true,
-            "edit_content": true
-          }
-        },
-        "folder_id": "32",
-        "content_favorite_id": null,
-        "deleted": false,
-        "embed_url": "",
-        "excel_file_url": "",
-        "google_spreadsheet_formula": "",
-        "image_embed_url": "https://dev.analytics.gov.bc.ca/looks/f7nBSv9zq7WwZ3HJ4PPD6nWNCKMnsK2Q.png",
-        "last_viewed_at": null,
-        "model": {
-          "id": "snowplow_web_block",
-          "label": "Snowplow Web Block"
-        },
-        "public": false,
-        "public_slug": null,
-        "public_url": null,
-        "can": {
-          "download": true,
-          "download_unlimited": true,
-          "index": true,
-          "show": true,
-          "copy": true,
-          "run": true,
-          "create": true,
-          "explore": true,
-          "move": true,
-          "update": true,
-          "destroy": true,
-          "recover": true,
-          "show_errors": true,
-          "find_and_replace": true,
-          "schedule": true,
-          "render": true
-        }
-      },
-      "look_id": "19",
-      "lookml_link_id": "",
-      "merge_result_id": null,
-      "note_display": "hover",
-      "note_state": "collapsed",
-      "note_text": "An Offsite link click on your page is a click on a URL link that does not contain the domain \"www2.gov.bc.ca\".",
-      "note_text_as_html": "An Offsite link click on your page is a click on a URL link that does not contain the domain &quot;www2.gov.bc.ca&quot;.",
-      "query": null,
-      "query_id": null,
-      "refresh_interval": null,
-      "refresh_interval_to_i": null,
-      "result_maker_id": "825",
-      "subtitle_text": null,
-      "title": null,
-      "title_hidden": false,
-      "title_text": null,
-      "type": "vis",
-      "alert_count": 0,
-      "rich_content_json": null,
-      "title_text_as_html": null,
-      "subtitle_text_as_html": null,
-      "extension_id": null,
-      "result_maker": {
-        "id": "825",
-        "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
-        "filterables": [
-          {
-            "model": "snowplow_web_block",
-            "view": "clicks",
-            "name": "",
-            "listen": [
-              {
-                "dashboard_filter_name": "Date Range",
-                "field": "clicks.click_time_date"
-              },
-              {
-                "dashboard_filter_name": "City",
-                "field": "clicks.geo_city_and_region"
-              },
-              {
-                "dashboard_filter_name": "Internal Gov Traffic",
-                "field": "clicks.is_government"
-              },
-              {
-                "dashboard_filter_name": "ISP",
-                "field": "clicks.ip_isp"
-              },
-              {
-                "dashboard_filter_name": "Is Mobile",
-                "field": "clicks.device_is_mobile"
-              },
-              {
-                "dashboard_filter_name": "Theme",
-                "field": "cmslite_themes.theme"
-              },
-              {
-                "dashboard_filter_name": "Sub Theme",
-                "field": "cmslite_themes.subtheme"
-              },
-              {
-                "dashboard_filter_name": "Title",
-                "field": "clicks.page_title"
-              },
-              {
-                "dashboard_filter_name": "URL",
-                "field": "clicks.page_display_url"
-              },
-              {
-                "dashboard_filter_name": "Site",
-                "field": "clicks.page_urlhost"
-              },
-              {
-                "dashboard_filter_name": "Topic",
-                "field": "cmslite_themes.topic"
-              }
-            ]
-          }
-        ],
-        "sorts": [
-          "clicks.row_count desc"
-        ],
-        "merge_result_id": null,
-        "total": true,
-        "query_id": "3949",
-        "sql_query_id": "",
-        "query": {
-          "id": "3949",
-          "view": "clicks",
-          "fields": [
-            "clicks.target_url",
-            "clicks.row_count"
-          ],
-          "pivots": null,
-          "fill_fields": null,
-          "filters": {
-            "clicks.click_type": "\"link_click\"",
-            "clicks.offsite_click": "Yes"
-          },
-          "filter_expression": null,
-          "sorts": [
-            "clicks.row_count desc"
-          ],
-          "limit": "20",
-          "column_limit": "50",
-          "total": true,
-          "row_total": null,
-          "subtotals": null,
-          "vis_config": {
-            "show_view_names": true,
-            "show_row_numbers": true,
-            "transpose": false,
-            "truncate_text": false,
-            "hide_totals": false,
-            "hide_row_totals": false,
-            "size_to_fit": true,
-            "table_theme": "editable",
-            "limit_displayed_rows": false,
-            "enable_conditional_formatting": false,
-            "header_text_alignment": "left",
-            "header_font_size": "11",
-            "rows_font_size": "11",
-            "conditional_formatting_include_totals": false,
-            "conditional_formatting_include_nulls": false,
-            "show_sql_query_menu_options": false,
-            "show_totals": true,
-            "show_row_totals": true,
-            "series_labels": {
-              "clicks.target_url": "Offsite Links",
-              "clicks.click_count": "Offsite Click Count",
-              "clicks.target_url_nopar": "Offsite Link",
-              "clicks.session_count": "Session Count",
-              "clicks.row_count": "Offsite Click Count"
-            },
-            "series_column_widths": {
-              "clicks.row_count": 155,
-              "of_offsite_clicks": 138
-            },
-            "series_cell_visualizations": {
-              "clicks.row_count": {
-                "is_active": false
-              }
-            },
-            "series_text_format": {
-              "of_offsite_clicks": {
-                "align": "right"
-              }
-            },
-            "conditional_formatting": [
-              {
-                "type": "low to high",
-                "value": null,
-                "background_color": null,
-                "font_color": null,
-                "palette": {
-                  "name": "Red to Yellow to Green",
-                  "colors": [
-                    "#F36254",
-                    "#FCF758",
-                    "#4FBC89"
-                  ]
-                },
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "fields": null
-              }
-            ],
-            "truncate_column_names": false,
-            "subtotals_at_bottom": false,
-            "type": "looker_grid",
-            "hidden_fields": [
-
-            ],
-            "y_axes": [
-
-            ],
-            "defaults_version": 1,
-            "series_types": {
-            }
-          },
-          "filter_config": {
-            "clicks.click_type": [
-              {
-                "type": "=",
-                "values": [
-                  {
-                    "constant": "link_click"
-                  },
-                  {
-                  }
-                ],
-                "id": 0,
-                "error": false
-              }
-            ],
-            "clicks.offsite_click": [
-              {
-                "type": "is",
-                "values": [
-                  {
-                    "constant": "Yes"
-                  },
-                  {
-                  }
-                ],
-                "id": 44
-              }
-            ]
-          },
-          "visible_ui_sections": null,
-          "slug": "fyYPbG5",
-          "client_id": "v5OKocoH2y6NgODyaVmYwH",
-          "share_url": "https://dev.analytics.gov.bc.ca/x/v5OKocoH2y6NgODyaVmYwH",
-          "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
-          "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A44%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
-          "has_table_calculations": true,
-          "model": "snowplow_web_block",
-          "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
-          "query_timezone": null,
-          "quick_calcs": [
-
-          ],
-          "analysis_config": null,
-          "can": {
-            "run": true,
-            "see_results": true,
-            "explore": true,
-            "create": true,
-            "show": true,
-            "cost_estimate": true,
-            "index": true,
-            "see_lookml": true,
-            "see_aggregate_table_lookml": true,
-            "see_derived_table_lookml": true,
-            "see_sql": true,
-            "save": true,
-            "generate_drill_links": true,
-            "download": true,
-            "download_unlimited": true,
-            "use_custom_fields": true,
-            "edit_custom_fields": true,
-            "edit_table_calculations": true,
-            "schedule": true,
-            "render": true
-          }
-        },
-        "vis_config": {
-          "show_view_names": true,
-          "show_row_numbers": true,
-          "transpose": false,
-          "truncate_text": false,
-          "hide_totals": false,
-          "hide_row_totals": false,
-          "size_to_fit": true,
-          "table_theme": "editable",
-          "limit_displayed_rows": false,
-          "enable_conditional_formatting": false,
-          "header_text_alignment": "left",
-          "header_font_size": "11",
-          "rows_font_size": "11",
-          "conditional_formatting_include_totals": false,
-          "conditional_formatting_include_nulls": false,
-          "show_sql_query_menu_options": false,
-          "show_totals": true,
-          "show_row_totals": true,
-          "series_labels": {
-            "clicks.target_url": "Offsite Links",
-            "clicks.click_count": "Offsite Click Count",
-            "clicks.target_url_nopar": "Offsite Link",
-            "clicks.session_count": "Session Count",
-            "clicks.row_count": "Offsite Click Count"
-          },
-          "series_column_widths": {
-            "clicks.row_count": 155,
-            "of_offsite_clicks": 138
-          },
-          "series_cell_visualizations": {
-            "clicks.row_count": {
-              "is_active": false
-            }
-          },
-          "series_text_format": {
-            "of_offsite_clicks": {
-              "align": "right"
-            }
-          },
-          "conditional_formatting": [
-            {
-              "type": "low to high",
-              "value": null,
-              "background_color": null,
-              "font_color": null,
-              "palette": {
-                "name": "Red to Yellow to Green",
-                "colors": [
-                  "#F36254",
-                  "#FCF758",
-                  "#4FBC89"
-                ]
-              },
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "fields": null
-            }
-          ],
-          "truncate_column_names": false,
-          "subtotals_at_bottom": false,
-          "type": "looker_grid",
-          "hidden_fields": [
-
-          ],
-          "y_axes": [
-
-          ],
-          "defaults_version": 1,
-          "series_types": {
-          }
-        }
-      },
-      "can": {
-        "create": true,
-        "update": true,
-        "destroy": true,
-        "see_aggregate_table_lookml": true,
-        "index": true,
-        "show": true,
-        "explore": true,
-        "run": true,
-        "show_errors": true,
-        "find_and_replace": true
-      },
-      "alerts": [
-
-      ]
-    },
-    {
-      "body_text": null,
-      "body_text_as_html": null,
-      "dashboard_id": "20",
-      "edit_uri": null,
-      "id": "275",
+      "id": "294",
       "look": {
         "content_metadata_id": "82",
         "id": "20",
@@ -1186,7 +603,7 @@
         "last_updater_id": "36",
         "query_id": "4056",
         "short_url": "/looks/20",
-        "updated_at": "2024-02-15 18:19:01 UTC",
+        "updated_at": "2025-07-17 15:24:18 UTC",
         "view_count": 1,
         "query": {
           "id": "4056",
@@ -1451,12 +868,12 @@
                 "field": "page_views.page_title"
               },
               {
-                "dashboard_filter_name": "URL",
-                "field": "page_views.page_display_url"
-              },
-              {
                 "dashboard_filter_name": "Site",
                 "field": "page_views.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "page_views.page_display_url"
               },
               {
                 "dashboard_filter_name": "Topic",
@@ -1694,7 +1111,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "276",
+      "id": "295",
       "look": {
         "content_metadata_id": "83",
         "id": "21",
@@ -1710,7 +1127,7 @@
         "last_updater_id": "36",
         "query_id": "4057",
         "short_url": "/looks/21",
-        "updated_at": "2024-02-15 18:19:02 UTC",
+        "updated_at": "2025-07-17 15:24:19 UTC",
         "view_count": 4,
         "query": {
           "id": "4057",
@@ -2006,12 +1423,12 @@
                 "field": "google_search.title"
               },
               {
-                "dashboard_filter_name": "URL",
-                "field": "google_search.page"
-              },
-              {
                 "dashboard_filter_name": "Site",
                 "field": "google_search.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "google_search.page"
               },
               {
                 "dashboard_filter_name": "Topic",
@@ -2340,7 +1757,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "277",
+      "id": "296",
       "look": {
         "content_metadata_id": "84",
         "id": "22",
@@ -2356,7 +1773,7 @@
         "last_updater_id": "36",
         "query_id": "3952",
         "short_url": "/looks/22",
-        "updated_at": "2024-02-15 18:19:03 UTC",
+        "updated_at": "2025-07-17 15:24:20 UTC",
         "view_count": 0,
         "query": {
           "id": "3952",
@@ -2638,12 +2055,12 @@
                 "field": "searches.page_title"
               },
               {
-                "dashboard_filter_name": "URL",
-                "field": "searches.page_display_url"
-              },
-              {
                 "dashboard_filter_name": "Site",
                 "field": "searches.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "searches.page_display_url"
               },
               {
                 "dashboard_filter_name": "Topic",
@@ -2913,7 +2330,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "278",
+      "id": "297",
       "look": {
         "content_metadata_id": "85",
         "id": "23",
@@ -2929,7 +2346,7 @@
         "last_updater_id": "36",
         "query_id": "4073",
         "short_url": "/looks/23",
-        "updated_at": "2024-02-15 18:19:03 UTC",
+        "updated_at": "2025-07-17 15:24:21 UTC",
         "view_count": 2,
         "query": {
           "id": "4073",
@@ -3233,12 +2650,12 @@
                 "field": "page_views.page_title"
               },
               {
-                "dashboard_filter_name": "URL",
-                "field": "page_views.page_display_url"
-              },
-              {
                 "dashboard_filter_name": "Site",
                 "field": "page_views.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "page_views.page_display_url"
               },
               {
                 "dashboard_filter_name": "Topic",
@@ -3564,7 +2981,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "279",
+      "id": "298",
       "look": {
         "content_metadata_id": "86",
         "id": "24",
@@ -3580,7 +2997,7 @@
         "last_updater_id": "36",
         "query_id": "4074",
         "short_url": "/looks/24",
-        "updated_at": "2024-02-15 18:19:04 UTC",
+        "updated_at": "2025-07-17 15:24:22 UTC",
         "view_count": 0,
         "query": {
           "id": "4074",
@@ -3874,12 +3291,12 @@
                 "field": "page_views.page_title"
               },
               {
-                "dashboard_filter_name": "URL",
-                "field": "page_views.page_display_url"
-              },
-              {
                 "dashboard_filter_name": "Site",
                 "field": "page_views.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "page_views.page_display_url"
               },
               {
                 "dashboard_filter_name": "Topic",
@@ -4190,7 +3607,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "280",
+      "id": "299",
       "look": null,
       "look_id": null,
       "lookml_link_id": "",
@@ -4407,12 +3824,12 @@
                 "field": "page_views.page_title"
               },
               {
-                "dashboard_filter_name": "URL",
-                "field": "page_views.page_display_url"
-              },
-              {
                 "dashboard_filter_name": "Site",
                 "field": "page_views.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "page_views.page_display_url"
               },
               {
                 "dashboard_filter_name": "Topic",
@@ -4679,7 +4096,7 @@
       "body_text_as_html": null,
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "281",
+      "id": "300",
       "look": null,
       "look_id": null,
       "lookml_link_id": "",
@@ -4879,12 +4296,12 @@
                 "field": "page_views.page_title"
               },
               {
-                "dashboard_filter_name": "URL",
-                "field": "page_views.page_display_url"
-              },
-              {
                 "dashboard_filter_name": "Site",
                 "field": "page_views.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "page_views.page_display_url"
               },
               {
                 "dashboard_filter_name": "Topic",
@@ -5130,11 +4547,11 @@
       ]
     },
     {
-      "body_text": "<p style=\"background-color:#d9eaf7; border: 1px solid transparent; border-radius: 4px; color:#313132; font-size: 16px; padding: 15px;\">\n<b>Help Resources</b>:\n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Office Hours</b></a><b> | \n<a href=\"https://learningcentre.gww.gov.bc.ca/learninghub/course/intro-to-web-analytics-dashboards-training-by-gdx-analytics/\"> <b>Intro Training Webinar</b></a>  |  \n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Viva Engage Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\"><b>Web Analytics Guide & Glossary</b></a>\n",
-      "body_text_as_html": "<p style=\"background-color:#d9eaf7;border:1px solid transparent;border-radius:4px;color:#313132;font-size:16px;padding:15px;\">\n<b>Help Resources</b>:\n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Office Hours</b></a><b> | \n<a href=\"https://learningcentre.gww.gov.bc.ca/learninghub/course/intro-to-web-analytics-dashboards-training-by-gdx-analytics/\"> <b>Intro Training Webinar</b></a>  |  \n<a href=\"https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\"><b>Viva Engage Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\"><b>Web Analytics Guide &amp; Glossary</b></a>\n</b></b></p>\n",
+      "body_text": "<p style=\"background-color:#d9eaf7; border: 1px solid transparent; border-radius: 4px; color:#313132; font-size: 16px; padding: 15px;\">\n<b>Help Resources</b>:\n<a href=\"https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\" target=\"_blank\"><b>Office Hours & Intro Training Webinar</b></a><b>  |  \n<a href=\"https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\" target=\"_blank\"><b>Viva Engage Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\" target=\"_blank\"><b>Web Analytics Guide & Glossary</b></a>\n",
+      "body_text_as_html": "<p style=\"background-color:#d9eaf7;border:1px solid transparent;border-radius:4px;color:#313132;font-size:16px;padding:15px;\">\n<b>Help Resources</b>:\n<a href=\"https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Office Hours &amp; Intro Training Webinar</b></a><b>  |  \n<a href=\"https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NTkxMjA2NDAifQ/all\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Viva Engage Analytics Community</b></a><b> |\n<a href=\"https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/analytics\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Web Analytics Guide &amp; Glossary</b></a>\n</b></b></p>\n",
       "dashboard_id": "20",
       "edit_uri": null,
-      "id": "282",
+      "id": "301",
       "look": null,
       "look_id": null,
       "lookml_link_id": "",
@@ -5174,11 +4591,514 @@
       "alerts": [
 
       ]
+    },
+    {
+      "body_text": null,
+      "body_text_as_html": null,
+      "dashboard_id": "20",
+      "edit_uri": null,
+      "id": "302",
+      "look": null,
+      "look_id": null,
+      "lookml_link_id": "",
+      "merge_result_id": null,
+      "note_display": null,
+      "note_state": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "query": {
+        "id": "4857",
+        "view": "clicks",
+        "fields": [
+          "clicks.target_url",
+          "clicks.row_count"
+        ],
+        "pivots": null,
+        "fill_fields": null,
+        "filters": {
+          "clicks.click_type": "\"link_click\"",
+          "clicks.offsite_click_gov": "Yes"
+        },
+        "filter_expression": null,
+        "sorts": [
+          "clicks.row_count desc"
+        ],
+        "limit": "20",
+        "column_limit": "50",
+        "total": true,
+        "row_total": null,
+        "subtotals": null,
+        "vis_config": {
+          "show_view_names": true,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": false,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "editable",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "11",
+          "rows_font_size": "11",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "series_labels": {
+            "clicks.target_url": "Offsite Links",
+            "clicks.click_count": "Offsite Click Count",
+            "clicks.target_url_nopar": "Offsite Link",
+            "clicks.session_count": "Session Count",
+            "clicks.row_count": "Offsite Click Count"
+          },
+          "series_column_widths": {
+            "clicks.row_count": 155,
+            "of_offsite_clicks": 138
+          },
+          "series_cell_visualizations": {
+            "clicks.row_count": {
+              "is_active": false
+            }
+          },
+          "series_text_format": {
+            "of_offsite_clicks": {
+              "align": "right"
+            }
+          },
+          "conditional_formatting": [
+            {
+              "type": "low to high",
+              "value": null,
+              "background_color": null,
+              "font_color": null,
+              "palette": {
+                "name": "Red to Yellow to Green",
+                "colors": [
+                  "#F36254",
+                  "#FCF758",
+                  "#4FBC89"
+                ]
+              },
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "fields": null
+            }
+          ],
+          "truncate_column_names": false,
+          "subtotals_at_bottom": false,
+          "type": "looker_grid",
+          "hidden_fields": [
+
+          ],
+          "y_axes": [
+
+          ],
+          "defaults_version": 1,
+          "series_types": {
+          }
+        },
+        "filter_config": {
+          "clicks.click_type": [
+            {
+              "type": "=",
+              "values": [
+                {
+                  "constant": "link_click"
+                },
+                {
+                }
+              ],
+              "id": 0,
+              "error": false
+            }
+          ],
+          "clicks.offsite_click_gov": [
+            {
+              "type": "is",
+              "values": [
+                {
+                  "constant": "Yes"
+                },
+                {
+                }
+              ],
+              "id": 0
+            }
+          ]
+        },
+        "visible_ui_sections": null,
+        "slug": "kNPSwWb",
+        "client_id": "K7Fes8wi5T5d8XIbyphci8",
+        "share_url": "https://dev.analytics.gov.bc.ca/x/K7Fes8wi5T5d8XIbyphci8",
+        "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click_gov]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click_gov%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+        "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click_gov]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click_gov%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+        "has_table_calculations": true,
+        "model": "snowplow_web_block",
+        "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+        "query_timezone": null,
+        "quick_calcs": [
+
+        ],
+        "analysis_config": null,
+        "can": {
+          "run": true,
+          "see_results": true,
+          "explore": true,
+          "create": true,
+          "show": true,
+          "cost_estimate": true,
+          "index": true,
+          "see_lookml": true,
+          "see_aggregate_table_lookml": true,
+          "see_derived_table_lookml": true,
+          "see_sql": true,
+          "save": true,
+          "generate_drill_links": true,
+          "download": true,
+          "download_unlimited": true,
+          "use_custom_fields": true,
+          "edit_custom_fields": true,
+          "edit_table_calculations": true,
+          "schedule": true,
+          "render": true
+        }
+      },
+      "query_id": "4857",
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "result_maker_id": "1002",
+      "subtitle_text": null,
+      "title": "Top Offsite Links",
+      "title_hidden": false,
+      "title_text": null,
+      "type": "vis",
+      "alert_count": 0,
+      "rich_content_json": null,
+      "title_text_as_html": null,
+      "subtitle_text_as_html": null,
+      "extension_id": null,
+      "result_maker": {
+        "id": "1002",
+        "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+        "filterables": [
+          {
+            "model": "snowplow_web_block",
+            "view": "clicks",
+            "name": "",
+            "listen": [
+              {
+                "dashboard_filter_name": "Date Range",
+                "field": "clicks.click_time_date"
+              },
+              {
+                "dashboard_filter_name": "City",
+                "field": "clicks.geo_city_and_region"
+              },
+              {
+                "dashboard_filter_name": "Internal Gov Traffic",
+                "field": "clicks.is_government"
+              },
+              {
+                "dashboard_filter_name": "ISP",
+                "field": "clicks.ip_isp"
+              },
+              {
+                "dashboard_filter_name": "Is Mobile",
+                "field": "clicks.device_is_mobile"
+              },
+              {
+                "dashboard_filter_name": "Theme",
+                "field": "cmslite_themes.theme"
+              },
+              {
+                "dashboard_filter_name": "Sub Theme",
+                "field": "cmslite_themes.subtheme"
+              },
+              {
+                "dashboard_filter_name": "Title",
+                "field": "clicks.page_title"
+              },
+              {
+                "dashboard_filter_name": "Site",
+                "field": "clicks.page_urlhost"
+              },
+              {
+                "dashboard_filter_name": "URL",
+                "field": "clicks.page_display_url"
+              },
+              {
+                "dashboard_filter_name": "Topic",
+                "field": "cmslite_themes.topic"
+              }
+            ]
+          }
+        ],
+        "sorts": [
+          "clicks.row_count desc"
+        ],
+        "merge_result_id": null,
+        "total": true,
+        "query_id": "4857",
+        "sql_query_id": "",
+        "query": {
+          "id": "4857",
+          "view": "clicks",
+          "fields": [
+            "clicks.target_url",
+            "clicks.row_count"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "clicks.click_type": "\"link_click\"",
+            "clicks.offsite_click_gov": "Yes"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "clicks.row_count desc"
+          ],
+          "limit": "20",
+          "column_limit": "50",
+          "total": true,
+          "row_total": null,
+          "subtotals": null,
+          "vis_config": {
+            "show_view_names": true,
+            "show_row_numbers": true,
+            "transpose": false,
+            "truncate_text": false,
+            "hide_totals": false,
+            "hide_row_totals": false,
+            "size_to_fit": true,
+            "table_theme": "editable",
+            "limit_displayed_rows": false,
+            "enable_conditional_formatting": false,
+            "header_text_alignment": "left",
+            "header_font_size": "11",
+            "rows_font_size": "11",
+            "conditional_formatting_include_totals": false,
+            "conditional_formatting_include_nulls": false,
+            "show_sql_query_menu_options": false,
+            "show_totals": true,
+            "show_row_totals": true,
+            "series_labels": {
+              "clicks.target_url": "Offsite Links",
+              "clicks.click_count": "Offsite Click Count",
+              "clicks.target_url_nopar": "Offsite Link",
+              "clicks.session_count": "Session Count",
+              "clicks.row_count": "Offsite Click Count"
+            },
+            "series_column_widths": {
+              "clicks.row_count": 155,
+              "of_offsite_clicks": 138
+            },
+            "series_cell_visualizations": {
+              "clicks.row_count": {
+                "is_active": false
+              }
+            },
+            "series_text_format": {
+              "of_offsite_clicks": {
+                "align": "right"
+              }
+            },
+            "conditional_formatting": [
+              {
+                "type": "low to high",
+                "value": null,
+                "background_color": null,
+                "font_color": null,
+                "palette": {
+                  "name": "Red to Yellow to Green",
+                  "colors": [
+                    "#F36254",
+                    "#FCF758",
+                    "#4FBC89"
+                  ]
+                },
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "fields": null
+              }
+            ],
+            "truncate_column_names": false,
+            "subtotals_at_bottom": false,
+            "type": "looker_grid",
+            "hidden_fields": [
+
+            ],
+            "y_axes": [
+
+            ],
+            "defaults_version": 1,
+            "series_types": {
+            }
+          },
+          "filter_config": {
+            "clicks.click_type": [
+              {
+                "type": "=",
+                "values": [
+                  {
+                    "constant": "link_click"
+                  },
+                  {
+                  }
+                ],
+                "id": 0,
+                "error": false
+              }
+            ],
+            "clicks.offsite_click_gov": [
+              {
+                "type": "is",
+                "values": [
+                  {
+                    "constant": "Yes"
+                  },
+                  {
+                  }
+                ],
+                "id": 0
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "kNPSwWb",
+          "client_id": "K7Fes8wi5T5d8XIbyphci8",
+          "share_url": "https://dev.analytics.gov.bc.ca/x/K7Fes8wi5T5d8XIbyphci8",
+          "expanded_share_url": "https://dev.analytics.gov.bc.ca/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click_gov]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click_gov%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+          "url": "/explore/snowplow_web_block/clicks?fields=clicks.target_url,clicks.row_count&f[clicks.click_type]=%22link_click%22&f[clicks.offsite_click_gov]=Yes&sorts=clicks.row_count+desc&limit=20&column_limit=50&total=on&vis=%7B%22show_view_names%22%3Atrue%2C%22show_row_numbers%22%3Atrue%2C%22transpose%22%3Afalse%2C%22truncate_text%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22size_to_fit%22%3Atrue%2C%22table_theme%22%3A%22editable%22%2C%22limit_displayed_rows%22%3Afalse%2C%22enable_conditional_formatting%22%3Afalse%2C%22header_text_alignment%22%3A%22left%22%2C%22header_font_size%22%3A%2211%22%2C%22rows_font_size%22%3A%2211%22%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22show_sql_query_menu_options%22%3Afalse%2C%22show_totals%22%3Atrue%2C%22show_row_totals%22%3Atrue%2C%22series_labels%22%3A%7B%22clicks.target_url%22%3A%22Offsite+Links%22%2C%22clicks.click_count%22%3A%22Offsite+Click+Count%22%2C%22clicks.target_url_nopar%22%3A%22Offsite+Link%22%2C%22clicks.session_count%22%3A%22Session+Count%22%2C%22clicks.row_count%22%3A%22Offsite+Click+Count%22%7D%2C%22series_column_widths%22%3A%7B%22clicks.row_count%22%3A155%2C%22of_offsite_clicks%22%3A138%7D%2C%22series_cell_visualizations%22%3A%7B%22clicks.row_count%22%3A%7B%22is_active%22%3Afalse%7D%7D%2C%22series_text_format%22%3A%7B%22of_offsite_clicks%22%3A%7B%22align%22%3A%22right%22%7D%7D%2C%22conditional_formatting%22%3A%5B%7B%22type%22%3A%22low+to+high%22%2C%22value%22%3Anull%2C%22background_color%22%3Anull%2C%22font_color%22%3Anull%2C%22palette%22%3A%7B%22name%22%3A%22Red+to+Yellow+to+Green%22%2C%22colors%22%3A%5B%22%23F36254%22%2C%22%23FCF758%22%2C%22%234FBC89%22%5D%7D%2C%22bold%22%3Afalse%2C%22italic%22%3Afalse%2C%22strikethrough%22%3Afalse%2C%22fields%22%3Anull%7D%5D%2C%22truncate_column_names%22%3Afalse%2C%22subtotals_at_bottom%22%3Afalse%2C%22type%22%3A%22looker_grid%22%2C%22hidden_fields%22%3A%5B%5D%2C%22y_axes%22%3A%5B%5D%2C%22defaults_version%22%3A1%2C%22series_types%22%3A%7B%7D%7D&filter_config=%7B%22clicks.click_type%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22link_click%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22clicks.offsite_click_gov%22%3A%5B%7B%22type%22%3A%22is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Yes%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22of_offsite_clicks%22%2C%22label%22%3A%22%25+of+Offsite+Clicks%22%2C%22expression%22%3A%22%24%7Bclicks.row_count%7D%2F%24%7Bclicks.row_count%3Atotal%7D%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_2%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+          "has_table_calculations": true,
+          "model": "snowplow_web_block",
+          "dynamic_fields": "[{\"table_calculation\":\"of_offsite_clicks\",\"label\":\"% of Offsite Clicks\",\"expression\":\"${clicks.row_count}/${clicks.row_count:total}\",\"value_format\":null,\"value_format_name\":\"percent_2\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+          "query_timezone": null,
+          "quick_calcs": [
+
+          ],
+          "analysis_config": null,
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_aggregate_table_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "save": true,
+            "generate_drill_links": true,
+            "download": true,
+            "download_unlimited": true,
+            "use_custom_fields": true,
+            "edit_custom_fields": true,
+            "edit_table_calculations": true,
+            "schedule": true,
+            "render": true
+          }
+        },
+        "vis_config": {
+          "show_view_names": true,
+          "show_row_numbers": true,
+          "transpose": false,
+          "truncate_text": false,
+          "hide_totals": false,
+          "hide_row_totals": false,
+          "size_to_fit": true,
+          "table_theme": "editable",
+          "limit_displayed_rows": false,
+          "enable_conditional_formatting": false,
+          "header_text_alignment": "left",
+          "header_font_size": "11",
+          "rows_font_size": "11",
+          "conditional_formatting_include_totals": false,
+          "conditional_formatting_include_nulls": false,
+          "show_sql_query_menu_options": false,
+          "show_totals": true,
+          "show_row_totals": true,
+          "series_labels": {
+            "clicks.target_url": "Offsite Links",
+            "clicks.click_count": "Offsite Click Count",
+            "clicks.target_url_nopar": "Offsite Link",
+            "clicks.session_count": "Session Count",
+            "clicks.row_count": "Offsite Click Count"
+          },
+          "series_column_widths": {
+            "clicks.row_count": 155,
+            "of_offsite_clicks": 138
+          },
+          "series_cell_visualizations": {
+            "clicks.row_count": {
+              "is_active": false
+            }
+          },
+          "series_text_format": {
+            "of_offsite_clicks": {
+              "align": "right"
+            }
+          },
+          "conditional_formatting": [
+            {
+              "type": "low to high",
+              "value": null,
+              "background_color": null,
+              "font_color": null,
+              "palette": {
+                "name": "Red to Yellow to Green",
+                "colors": [
+                  "#F36254",
+                  "#FCF758",
+                  "#4FBC89"
+                ]
+              },
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "fields": null
+            }
+          ],
+          "truncate_column_names": false,
+          "subtotals_at_bottom": false,
+          "type": "looker_grid",
+          "hidden_fields": [
+
+          ],
+          "y_axes": [
+
+          ],
+          "defaults_version": 1,
+          "series_types": {
+          }
+        }
+      },
+      "can": {
+        "create": true,
+        "update": true,
+        "destroy": true,
+        "see_aggregate_table_lookml": true,
+        "index": true,
+        "show": true,
+        "explore": true,
+        "run": false,
+        "show_errors": true,
+        "find_and_replace": true
+      },
+      "alerts": [
+
+      ]
     }
   ],
   "dashboard_filters": [
     {
-      "id": "246",
+      "id": "268",
       "dashboard_id": "20",
       "name": "Date Range",
       "title": "Date Range",
@@ -5190,7 +5110,10 @@
       "required": true,
       "ui_config": {
         "type": "advanced",
-        "display": "popover"
+        "display": "popover",
+        "options": [
+
+        ]
       },
       "model": "snowplow_web_block",
       "listens_to_filters": [
@@ -5252,11 +5175,11 @@
           "name": "day",
           "count": 1
         },
-        "lookml_link": "/projects/snowplow_web_block/files/Views%2Fpage_views.view.lkml?line=97",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/page_views.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/page_views.view.lkml",
-        "sql": "${TABLE}.page_view_start_time ",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -5272,7 +5195,7 @@
       }
     },
     {
-      "id": "247",
+      "id": "269",
       "dashboard_id": "20",
       "name": "City",
       "title": "City",
@@ -5343,11 +5266,11 @@
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/Views%2Fgeo_cache.view.lkml?line=35",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/geo_cache.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/geo_cache.view.lkml",
-        "sql": "CASE\n       WHEN (${TABLE}.geo_city = '' OR ${TABLE}.geo_city IS NULL) THEN ${TABLE}.geo_country_name\n       WHEN (${TABLE}.geo_country = 'CA' OR ${TABLE}.geo_country = 'US') THEN ${TABLE}.geo_city || ' - ' || ${TABLE}.geo_region_name\n       ELSE ${TABLE}.geo_city || ' - ' || ${TABLE}.geo_country_name\n      END",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -5363,7 +5286,7 @@
       }
     },
     {
-      "id": "248",
+      "id": "270",
       "dashboard_id": "20",
       "name": "Internal Gov Traffic",
       "title": "Internal Gov Traffic",
@@ -5443,11 +5366,11 @@
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/Includes%2Fshared_fields_common.view.lkml?line=545",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/page_views.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/page_views.view.lkml",
-        "sql": "${TABLE}.is_government",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -5463,7 +5386,7 @@
       }
     },
     {
-      "id": "249",
+      "id": "271",
       "dashboard_id": "20",
       "name": "ISP",
       "title": "ISP",
@@ -5475,7 +5398,10 @@
       "required": false,
       "ui_config": {
         "type": "advanced",
-        "display": "popover"
+        "display": "popover",
+        "options": [
+
+        ]
       },
       "model": "snowplow_web_block",
       "listens_to_filters": [
@@ -5534,11 +5460,11 @@
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/Includes%2Fshared_fields_common.view.lkml?line=552",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/page_views.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/page_views.view.lkml",
-        "sql": "${TABLE}.ip_isp ",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -5554,7 +5480,7 @@
       }
     },
     {
-      "id": "250",
+      "id": "272",
       "dashboard_id": "20",
       "name": "Is Mobile",
       "title": "Is Mobile",
@@ -5634,11 +5560,11 @@
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/Includes%2Fshared_fields_common.view.lkml?line=700",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/page_views.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/page_views.view.lkml",
-        "sql": "${TABLE}.dvce_ismobile ",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -5654,7 +5580,7 @@
       }
     },
     {
-      "id": "251",
+      "id": "273",
       "dashboard_id": "20",
       "name": "Theme",
       "title": "Theme",
@@ -5666,7 +5592,10 @@
       "required": false,
       "ui_config": {
         "type": "advanced",
-        "display": "popover"
+        "display": "popover",
+        "options": [
+
+        ]
       },
       "model": "snowplow_web_block",
       "listens_to_filters": [
@@ -5725,11 +5654,11 @@
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/imported_projects%2Fcmslite_metadata%2FViews%2Fthemes.view.lkml?line=45",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/cmslite_themes.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/cmslite_themes.view.lkml",
-        "sql": "COALESCE(${TABLE}.theme, '(no theme)') ",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -5745,7 +5674,7 @@
       }
     },
     {
-      "id": "252",
+      "id": "274",
       "dashboard_id": "20",
       "name": "Sub Theme",
       "title": "Sub Theme",
@@ -5757,7 +5686,10 @@
       "required": false,
       "ui_config": {
         "type": "advanced",
-        "display": "popover"
+        "display": "popover",
+        "options": [
+
+        ]
       },
       "model": "snowplow_web_block",
       "listens_to_filters": [
@@ -5816,11 +5748,11 @@
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/imported_projects%2Fcmslite_metadata%2FViews%2Fthemes.view.lkml?line=36",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/cmslite_themes.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/cmslite_themes.view.lkml",
-        "sql": "COALESCE(${TABLE}.subtheme, '(no subtheme)') ",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -5836,19 +5768,22 @@
       }
     },
     {
-      "id": "253",
+      "id": "275",
       "dashboard_id": "20",
-      "name": "Title",
-      "title": "Title",
+      "name": "Topic",
+      "title": "Topic",
       "type": "field_filter",
-      "explore": "page_views",
-      "dimension": "page_views.page_title",
+      "explore": "cmslite_metadata",
+      "dimension": "cmslite_themes.topic",
       "row": 7,
       "allow_multiple_values": true,
       "required": false,
       "ui_config": {
         "type": "advanced",
-        "display": "popover"
+        "display": "popover",
+        "options": [
+
+        ]
       },
       "model": "snowplow_web_block",
       "listens_to_filters": [
@@ -5860,20 +5795,20 @@
         "can_filter": true,
         "category": "dimension",
         "default_filter_value": null,
-        "description": "The web page title.",
+        "description": "The CMS Lite topic.",
         "enumerations": null,
-        "field_group_label": "Page",
+        "field_group_label": null,
         "fill_style": null,
         "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
         "is_numeric": false,
-        "label": "Page Views Page Title",
+        "label": "Cmslite Themes Topic",
         "label_from_parameter": null,
-        "label_short": "Page Title",
+        "label_short": "Topic",
         "map_layer": null,
-        "name": "page_views.page_title",
+        "name": "cmslite_themes.topic",
         "strict_value_format": false,
         "requires_refresh_on_sort": false,
         "sortable": true,
@@ -5887,31 +5822,31 @@
           "advanced_filter_string"
         ],
         "value_format": null,
-        "view": "page_views",
-        "view_label": "Page Views",
+        "view": "cmslite_themes",
+        "view_label": "Cmslite Themes",
         "dynamic": false,
         "week_start_day": "sunday",
-        "original_view": "page_views",
+        "original_view": "cmslite_themes",
         "dimension_group": null,
         "error": null,
-        "field_group_variant": "Page Title",
+        "field_group_variant": "Topic",
         "measure": false,
         "parameter": false,
         "primary_key": false,
         "project_name": "snowplow_web_block",
-        "scope": "page_views",
-        "suggest_dimension": "page_views.page_title",
-        "suggest_explore": "page_views",
+        "scope": "cmslite_themes",
+        "suggest_dimension": "themes_cache.topic",
+        "suggest_explore": "themes_cache",
         "suggestable": true,
         "is_fiscal": false,
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/Includes%2Fshared_fields_no_session.view.lkml?line=50",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/page_views.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/page_views.view.lkml",
-        "sql": "${TABLE}.page_title ",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -5927,7 +5862,7 @@
       }
     },
     {
-      "id": "254",
+      "id": "276",
       "dashboard_id": "20",
       "name": "URL",
       "title": "URL",
@@ -5939,7 +5874,10 @@
       "required": false,
       "ui_config": {
         "type": "advanced",
-        "display": "popover"
+        "display": "popover",
+        "options": [
+
+        ]
       },
       "model": "snowplow_web_block",
       "listens_to_filters": [
@@ -5998,11 +5936,11 @@
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/Includes%2Fshared_fields_no_session.view.lkml?line=145",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/page_views.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/page_views.view.lkml",
-        "sql": "${TABLE}.page_display_url ",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -6018,7 +5956,7 @@
       }
     },
     {
-      "id": "255",
+      "id": "277",
       "dashboard_id": "20",
       "name": "Site",
       "title": "Site",
@@ -6089,11 +6027,11 @@
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/Views%2Fsite_cache.view.lkml?line=19",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/site_cache.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/site_cache.view.lkml",
-        "sql": "site_cache.page_urlhost",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -6109,19 +6047,22 @@
       }
     },
     {
-      "id": "256",
+      "id": "278",
       "dashboard_id": "20",
-      "name": "Topic",
-      "title": "Topic",
+      "name": "Title",
+      "title": "Title",
       "type": "field_filter",
-      "explore": "cmslite_metadata",
-      "dimension": "cmslite_themes.topic",
+      "explore": "page_views",
+      "dimension": "page_views.page_title",
       "row": 10,
       "allow_multiple_values": true,
       "required": false,
       "ui_config": {
         "type": "advanced",
-        "display": "popover"
+        "display": "popover",
+        "options": [
+
+        ]
       },
       "model": "snowplow_web_block",
       "listens_to_filters": [
@@ -6133,20 +6074,20 @@
         "can_filter": true,
         "category": "dimension",
         "default_filter_value": null,
-        "description": "The CMS Lite topic.",
+        "description": "The web page title.",
         "enumerations": null,
-        "field_group_label": null,
+        "field_group_label": "Page",
         "fill_style": null,
         "fiscal_month_offset": 3,
         "has_allowed_values": false,
         "hidden": false,
         "is_filter": false,
         "is_numeric": false,
-        "label": "Cmslite Themes Topic",
+        "label": "Page Views Page Title",
         "label_from_parameter": null,
-        "label_short": "Topic",
+        "label_short": "Page Title",
         "map_layer": null,
-        "name": "cmslite_themes.topic",
+        "name": "page_views.page_title",
         "strict_value_format": false,
         "requires_refresh_on_sort": false,
         "sortable": true,
@@ -6160,31 +6101,31 @@
           "advanced_filter_string"
         ],
         "value_format": null,
-        "view": "cmslite_themes",
-        "view_label": "Cmslite Themes",
+        "view": "page_views",
+        "view_label": "Page Views",
         "dynamic": false,
         "week_start_day": "sunday",
-        "original_view": "cmslite_themes",
+        "original_view": "page_views",
         "dimension_group": null,
         "error": null,
-        "field_group_variant": "Topic",
+        "field_group_variant": "Page Title",
         "measure": false,
         "parameter": false,
         "primary_key": false,
         "project_name": "snowplow_web_block",
-        "scope": "cmslite_themes",
-        "suggest_dimension": "themes_cache.topic",
-        "suggest_explore": "themes_cache",
+        "scope": "page_views",
+        "suggest_dimension": "page_views.page_title",
+        "suggest_explore": "page_views",
         "suggestable": true,
         "is_fiscal": false,
         "is_timeframe": false,
         "can_time_filter": false,
         "time_interval": null,
-        "lookml_link": "/projects/snowplow_web_block/files/imported_projects%2Fcmslite_metadata%2FViews%2Fthemes.view.lkml?line=71",
+        "lookml_link": null,
         "permanent": null,
-        "source_file": "Views/cmslite_themes.view.lkml",
-        "source_file_path": "snowplow_web_block/Views/cmslite_themes.view.lkml",
-        "sql": "COALESCE(${TABLE}.topic, '(no topic)') ",
+        "source_file": "",
+        "source_file_path": "",
+        "sql": null,
         "sql_case": null,
         "filters": null,
         "times_used": 0
@@ -6212,9 +6153,9 @@
       "dashboard_title": "BC Gov Analytics - Content",
       "dashboard_layout_components": [
         {
-          "id": "273",
+          "id": "293",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "273",
+          "dashboard_element_id": "293",
           "row": 23,
           "column": 12,
           "width": 12,
@@ -6232,29 +6173,9 @@
           }
         },
         {
-          "id": "274",
+          "id": "294",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "274",
-          "row": 35,
-          "column": 12,
-          "width": 12,
-          "height": 11,
-          "deleted": false,
-          "element_title": "",
-          "element_title_hidden": false,
-          "vis_type": "looker_grid",
-          "can": {
-            "index": true,
-            "show": true,
-            "create": true,
-            "update": true,
-            "destroy": true
-          }
-        },
-        {
-          "id": "275",
-          "dashboard_layout_id": "20",
-          "dashboard_element_id": "275",
+          "dashboard_element_id": "294",
           "row": 2,
           "column": 0,
           "width": 12,
@@ -6272,9 +6193,9 @@
           }
         },
         {
-          "id": "276",
+          "id": "295",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "276",
+          "dashboard_element_id": "295",
           "row": 2,
           "column": 12,
           "width": 12,
@@ -6292,9 +6213,9 @@
           }
         },
         {
-          "id": "277",
+          "id": "296",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "277",
+          "dashboard_element_id": "296",
           "row": 35,
           "column": 0,
           "width": 12,
@@ -6312,9 +6233,9 @@
           }
         },
         {
-          "id": "278",
+          "id": "297",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "278",
+          "dashboard_element_id": "297",
           "row": 12,
           "column": 12,
           "width": 12,
@@ -6332,10 +6253,10 @@
           }
         },
         {
-          "id": "279",
+          "id": "298",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "279",
-          "row": 46,
+          "dashboard_element_id": "298",
+          "row": 47,
           "column": 12,
           "width": 12,
           "height": 9,
@@ -6352,9 +6273,9 @@
           }
         },
         {
-          "id": "280",
+          "id": "299",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "280",
+          "dashboard_element_id": "299",
           "row": 23,
           "column": 0,
           "width": 12,
@@ -6372,9 +6293,9 @@
           }
         },
         {
-          "id": "281",
+          "id": "300",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "281",
+          "dashboard_element_id": "300",
           "row": 12,
           "column": 0,
           "width": 12,
@@ -6392,9 +6313,9 @@
           }
         },
         {
-          "id": "282",
+          "id": "301",
           "dashboard_layout_id": "20",
-          "dashboard_element_id": "282",
+          "dashboard_element_id": "301",
           "row": 0,
           "column": 0,
           "width": 24,
@@ -6403,6 +6324,26 @@
           "element_title": "",
           "element_title_hidden": false,
           "vis_type": "text",
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "update": true,
+            "destroy": true
+          }
+        },
+        {
+          "id": "302",
+          "dashboard_layout_id": "20",
+          "dashboard_element_id": "302",
+          "row": 35,
+          "column": 12,
+          "width": 12,
+          "height": 12,
+          "deleted": false,
+          "element_title": "Top Offsite Links",
+          "element_title_hidden": false,
+          "vis_type": "looker_grid",
           "can": {
             "index": true,
             "show": true,
@@ -6428,8 +6369,8 @@
   "favorite_count": 0,
   "filters_bar_collapsed": false,
   "filters_location_top": true,
-  "last_accessed_at": "2024-02-22 01:25:04 UTC",
-  "updated_at": "2024-02-15 18:18:54 UTC",
+  "last_accessed_at": "2025-07-17 16:21:38 UTC",
+  "updated_at": "2025-07-17 15:24:09 UTC",
   "last_updater_id": "36",
   "last_updater_name": "Looker Tile Performance",
   "user_name": "Veenu Veenu",
@@ -6441,7 +6382,7 @@
   "tile_background_color": null,
   "tile_text_color": null,
   "title_color": null,
-  "view_count": 162,
+  "view_count": 166,
   "url": "/dashboards/20",
   "folder": {
     "name": "production dashboards",
